@@ -1,0 +1,13 @@
+﻿  Building Custom Rule G:/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt
+  parser.cxx
+  qname.cxx
+  serializer.cxx
+  value-traits.cxx
+  正在生成代码...
+  char-props.c
+  genx.c
+  xmlparse.c
+  xmlrole.c
+  xmltok.c
+  正在生成代码...
+  libstudxml.vcxproj -> G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\Debug\libstudxml.lib

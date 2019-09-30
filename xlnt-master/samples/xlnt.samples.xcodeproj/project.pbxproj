@@ -1,0 +1,2821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1BF977B402474BD88F408BF9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07F0723AA7BE4F8F8FA9FCC4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				55DC4CEED5604D1886EE8E36 /* CMake Rules */,
+			);
+			dependencies = (
+				57DF42F3B3D24866A32826E3 /* PBXTargetDependency */,
+				BA55DE48EF4A41A58389F047 /* PBXTargetDependency */,
+				AB78BACF60054389BD4994A8 /* PBXTargetDependency */,
+				9280F8B2F6DC421FB7E03F42 /* PBXTargetDependency */,
+				D8E398327168468D8367ECA7 /* PBXTargetDependency */,
+				C40F1F2F1AD34CED99CE9F83 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4159C6A102C54C7D82008D52 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D9E611970534627A79BA51A /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				0FBA0D0466A2464E9011EA5B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		5EBD18E1233E4703B97C449B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 667FC205BEED4F50B9E28515 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6A4A7532DFFE43AC942ACD12 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		945FD071E24E4FB7BA674FDF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7226F5FEB4494449AB791744 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				7B3F6E67A03643BEAFFDB583 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				14A11C1CA8334E56AF3BC75E /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0246FB68CFF84C87B969EAD6 /* exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5DDB2656F49B3A61AF3D7 /* exceptions.cpp */; };
+		047BF599D3164EC9B726A024 /* custom_value_traits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3594A2F104454F0FBCA9EA0D /* custom_value_traits.cpp */; };
+		05216AD3441547B4B5D5294B /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29A2589B4D084DF7AA913DF6 /* font.cpp */; };
+		05ABE1D6E62E4B97847F408C /* style.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7858EE1658744BBBE912BBC /* style.cpp */; };
+		09168897103049DF8DA38033 /* decrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73782677B20D4504BFC8CE7B /* decrypt.cpp */; };
+		0B61CB5F593E4DADB6657B8E /* rich_text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18AAF6657E0C4F6792561999 /* rich_text.cpp */; };
+		0D5E4983A5BD441082C20A66 /* constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6708666F8B474DE6A5E414B9 /* constants.cpp */; };
+		0DCF684577D24E3493264A9E /* date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B13BAD786934C23B6C96739 /* date.cpp */; };
+		0FDE6D30BEA74AA1AB40A82C /* xlsx_crypto_consumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB47ADB72CB24D3096FC08DE /* xlsx_crypto_consumer.cpp */; };
+		100CD056F73F46B689E8E96B /* value-traits.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 3CC9E0839FDE4E9D8C331F00 /* value-traits.cxx */; };
+		116FEE58CBD747CC884F6A46 /* qname.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 17ABCAFAF8224C4C90A9A14A /* qname.cxx */; };
+		135F44718E654EB58C28711A /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86F263C21F374D85A78B7607 /* path.cpp */; };
+		13B0941800C7477B940525E3 /* header_footer_code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60073D8BAC734DBEB92C4AF5 /* header_footer_code.cpp */; };
+		140849A3CB864030A78D0416 /* uri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FB16BEF268E40A9918A2D6B /* uri.cpp */; };
+		1BD0B46648334E8EB6DD28E1 /* phonetic_pr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B61C529F81484100B5C8D63E /* phonetic_pr.cpp */; };
+		1C447B60E46A439C94B514B5 /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8C65770462843929CC92208 /* sha.cpp */; };
+		1CB9959E2E26499CBA708FCF /* sheet_protection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3763E62CE1C94C25A651FA1B /* sheet_protection.cpp */; };
+		1DF8B651550D47E38ADEF5ED /* xlsx_crypto_producer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 619375AF39C444F7B13DAAF4 /* xlsx_crypto_producer.cpp */; };
+		253FCB30389940AE80835DA2 /* zstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD1ECB76B18D4EAD92741253 /* zstream.cpp */; settings = {COMPILER_FLAGS = "-Wno-undef -Wno-shorten-64-to-32"; }; };
+		26590409AFA54CA48F7FDDDC /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6733F449575C443CAE8BF3C4 /* time.cpp */; };
+		26D28E8E926C400C9AE5848B /* hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCEDFDE9D4D140429F47ED03 /* hash.cpp */; };
+		299A1539D55B4A21A97624FD /* number_formatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F98694FC904744F387EA2019 /* number_formatter.cpp */; };
+		32D40797123A49C8B9AFCAD2 /* relationship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE120C5BE847ADACD091C1 /* relationship.cpp */; };
+		35C3052414E041F8883BF5C8 /* datetime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EDC8CF7C1A054D14B4F4EFC0 /* datetime.cpp */; };
+		3CCA2C2E4DC04387885575E2 /* miniz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A9222A169AE42019245C3D3 /* miniz.cpp */; settings = {COMPILER_FLAGS = "-Wno-undef"; }; };
+		458F3084876B43D08789FF84 /* parser.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 91781F3E4E5745E8A2D42A0B /* parser.cxx */; };
+		460467188FEE4CD88C780A07 /* char-props.c in Sources */ = {isa = PBXBuildFile; fileRef = 715663D0708145A2BCFBF5BF /* char-props.c */; };
+		496B6A7275C842ADA5563B53 /* serializer.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 58485DAA42134630A20B6DD6 /* serializer.cxx */; };
+		4DDB5FCF4E4A42139CEE073D /* aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1168FA06B67546BC9E1C7DB9 /* aes.cpp */; };
+		4EA84C7743734030B21DC49B /* page_setup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B45BB071D1474E4ABDABE233 /* page_setup.cpp */; };
+		4EDEF436840B447BAE50D786 /* unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E89D36872D644AE99B22D3F /* unicode.cpp */; };
+		57E8026E7C4B491B96AF9010 /* compound_document.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B901B220C344E31A793FCE0 /* compound_document.cpp */; };
+		59B9B01E31B645EB8D05D036 /* genx.c in Sources */ = {isa = PBXBuildFile; fileRef = 5257CDBD130E4861B2C4C5B6 /* genx.c */; };
+		612058AC947342639A7A6A68 /* img2xlsx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055467989D3E4E01994B2143 /* img2xlsx.cpp */; };
+		62CF9CF5E29D4661960FF451 /* hyperlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C11A357CF1BB49BC9AF979B7 /* hyperlink.cpp */; };
+		6678BBA9ECE74584BA3E2C79 /* header_footer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBC896F302ED460FA4A69E7C /* header_footer.cpp */; };
+		6868471F0BD54FA8AB1E90B0 /* range_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B71BF299052045AEB5082532 /* range_iterator.cpp */; };
+		7518126C25E946B3B907F4FE /* protection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2257DA650CB74571B1802407 /* protection.cpp */; };
+		7B565467B8684DD0891BBB8B /* cell_impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFB772DE8D384017B788F526 /* cell_impl.cpp */; };
+		7BB2E154046A41D99E8BAA9D /* range_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E21651BD9AE4765947AAC0B /* range_reference.cpp */; };
+		7F1AD37ADC094FB187693AC7 /* encryption_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD7E8784EE74487A4DC88E8 /* encryption_info.cpp */; };
+		7F31FD3288204D8681310E50 /* cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36DF4CDC4AD64760A2A973CB /* cell.cpp */; };
+		7FDDB863457D487383EB2116 /* sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD72A2629A4A42C28E285173 /* sample.cpp */; };
+		81E9E1E54A784771B378AE4C /* manifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D21DAB7D92A4CA8AE48C0B2 /* manifest.cpp */; };
+		84EDAAEDE93F490C9469D748 /* format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD705CC1584866BC086B9A /* format.cpp */; };
+		8900BBD324B348C781FAE679 /* vector_streambuf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7C9C20E8DDEA41CB810C7239 /* vector_streambuf.cpp */; };
+		89F11F010E5D47159402FAF8 /* comment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E92D5C4F244F88A928D3F6 /* comment.cpp */; };
+		9009053CF991409888A3EB93 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = D1A54CF27D7544AAAB71F108 /* sha1.c */; };
+		966E64318D7848A0ACC28057 /* alignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84B02677CD45434B99015A29 /* alignment.cpp */; };
+		AE413367A2324802BE0CC924 /* xmltok.c in Sources */ = {isa = PBXBuildFile; fileRef = 874E3B01A91C4ABD958FF922 /* xmltok.c */; };
+		B114C8C9B68942E598DC25AA /* workbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5959CBBBBB4B435CAF66896B /* workbook.cpp */; };
+		B3D01972531A4FF291CB91A9 /* streaming_workbook_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C386A90CE24905ACBFE57E /* streaming_workbook_writer.cpp */; };
+		B4F425A5BB0A4E2F8B8384D3 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE30ECC7153548308CD0BAAC /* base64.cpp */; };
+		B7AB0856F92E4692967DF7E0 /* cell_reference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 277411E68091444E82BF03C9 /* cell_reference.cpp */; };
+		B99982BE6B34441CB0876DA4 /* range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA00C6A4D44EFFAE3F196B /* range.cpp */; };
+		BB995F1D2D1E488387F9CACD /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65A88E9D9C8643ADA01103E3 /* color.cpp */; };
+		BB9BEDF8FD724FE0A398D8EF /* timedelta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFBC8560368C42B88D3D398B /* timedelta.cpp */; };
+		C114AFD69FD84405B5F115AF /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = C4B94E6E8E564E36BD74323D /* sha512.c */; };
+		C88DF0C125204F8F9CA7BE6E /* ext_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 666B036E4F644549B8E877F5 /* ext_list.cpp */; };
+		CA90F2C186894253898419E1 /* rich_text_run.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71307AEB82824C0594674629 /* rich_text_run.cpp */; };
+		CF44372FC3BC46CAB65ED703 /* index_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AEDBC7B56554F8995D18BA4 /* index_types.cpp */; };
+		CFDEC53BACFA402EBDFC52C4 /* cell_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25327CFC967A494691DA2527 /* cell_iterator.cpp */; };
+		D11D5A7A006D4FE7B9B8252B /* border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95B9A1D13C174CD2A6C2D0A3 /* border.cpp */; };
+		D2C2DE2FAC1C451188C6884C /* variant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE1A32583AAF4B08A5608FBA /* variant.cpp */; };
+		D92402500C9E41029DF7E83C /* conditional_format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0718CCB720964F298DBEBB51 /* conditional_format.cpp */; };
+		DC13A723355E47899C75730A /* worksheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA108B530E924A6FB86BA552 /* worksheet.cpp */; };
+		DC91ADA6E2D14174810A772D /* xlsx_producer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 611CF2BEDB7349CBBCB55073 /* xlsx_producer.cpp */; };
+		E0E94D5668CE4E83831C85D4 /* xmlparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 449A72B896804D32882323E5 /* xmlparse.c */; };
+		E4144BAECE8C4609B9728373 /* streaming_workbook_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E2944FC381B42D3B0E2E4C0 /* streaming_workbook_reader.cpp */; };
+		E926A548589945ECA697B3F7 /* named_range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 526FB0ED83774E29A4F08D8B /* named_range.cpp */; };
+		E9B2641EAD1E4F7C9382AB1E /* xlsx_consumer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0E9C6B09146B3AB71A405 /* xlsx_consumer.cpp */; };
+		E9CA9008D7FD41A5ADD24D3F /* number_format.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D957A342D0954731B4E1ECB2 /* number_format.cpp */; };
+		EB9C5C080145461C9C4AC80D /* worksheet_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E35654AADB7438A9F487FFB /* worksheet_iterator.cpp */; };
+		ED0E68EFE5674C959EF317FA /* fill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B243D5F306A44FC9BC167F6 /* fill.cpp */; };
+		EE990B4870B14BB9BEF70B27 /* open_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384ACD8CDD8B44C18804D092 /* open_stream.cpp */; };
+		F47748C0B6004CB18DDBD327 /* xmlrole.c in Sources */ = {isa = PBXBuildFile; fileRef = A56334CDBAB943C1AC5FD2AD /* xmlrole.c */; };
+		F558E49A5E0D4251B9A39A37 /* cell_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E738C543627549B9B13DC97F /* cell_vector.cpp */; };
+		FD552318A96A42FB94C3212C /* page_margins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 730E6A5DDE3749CCAC428D18 /* page_margins.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29B4C05665884449B662AC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5965E0DB8AA400F9A9E4FE9;
+			remoteInfo = "sample-decrypt";
+		};
+		49AF28EA743D4FC3A0C007B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
+			remoteInfo = ZERO_CHECK;
+		};
+		4A730F1EE57045849CCDD761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB594D7AF864187B6598087;
+			remoteInfo = "sample-sample";
+		};
+		51849A7AC8F64336956B03C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF977B402474BD88F408BF9;
+			remoteInfo = ALL_BUILD;
+		};
+		7C56FA3EB9C84859BEDDF410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
+			remoteInfo = xlnt;
+		};
+		90D6AAE52E954B93BA52364D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
+			remoteInfo = xlnt;
+		};
+		A9651C43AC7B49F6985DE661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
+			remoteInfo = ZERO_CHECK;
+		};
+		B2C8C7078EE34DBEBC8300E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FA949897644AE2B52B0E92;
+			remoteInfo = libstudxml;
+		};
+		C561BE9B208F494299E74CD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
+			remoteInfo = ZERO_CHECK;
+		};
+		D8F2ED4C9A874441A6D5B9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
+			remoteInfo = xlnt;
+		};
+		D9E215D12E3C42AF99C0A2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
+			remoteInfo = xlnt;
+		};
+		E81C5E02FEEE44A39DDF00E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
+			remoteInfo = ZERO_CHECK;
+		};
+		F23EA2D5B40942CDAB42D344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FA949897644AE2B52B0E92;
+			remoteInfo = libstudxml;
+		};
+		F3EA8638BF8349809E1C32CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364138E86D7F41AEA3C8E4C2;
+			remoteInfo = "sample-img2xlsx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F9A9679610428BB210B31B /* constants.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constants.hpp; path = ../source/detail/constants.hpp; sourceTree = SOURCE_ROOT; };
+		055467989D3E4E01994B2143 /* img2xlsx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = img2xlsx.cpp; sourceTree = SOURCE_ROOT; };
+		056E11C0E98644A286352870 /* exceptions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exceptions.hpp; path = ../include/xlnt/utils/exceptions.hpp; sourceTree = SOURCE_ROOT; };
+		068FC5FC4D9C4E53B1FB1F76 /* calculation_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calculation_properties.hpp; path = ../include/xlnt/workbook/calculation_properties.hpp; sourceTree = SOURCE_ROOT; };
+		06D9D526CC484CC9AA2A2C65 /* excel_thumbnail.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = excel_thumbnail.hpp; path = ../source/detail/serialization/excel_thumbnail.hpp; sourceTree = SOURCE_ROOT; };
+		0718CCB720964F298DBEBB51 /* conditional_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conditional_format.cpp; path = ../source/styles/conditional_format.cpp; sourceTree = SOURCE_ROOT; };
+		09E1D208BC6742C1A1A6E88F /* uri.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = uri.hpp; path = ../include/xlnt/packaging/uri.hpp; sourceTree = SOURCE_ROOT; };
+		0AB0E9C6B09146B3AB71A405 /* xlsx_consumer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_consumer.cpp; path = ../source/detail/serialization/xlsx_consumer.cpp; sourceTree = SOURCE_ROOT; };
+		0B71342E17A14B4E87DB0008 /* path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = path.hpp; path = ../include/xlnt/utils/path.hpp; sourceTree = SOURCE_ROOT; };
+		0B901B220C344E31A793FCE0 /* compound_document.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compound_document.cpp; path = ../source/detail/cryptography/compound_document.cpp; sourceTree = SOURCE_ROOT; };
+		0CBAB17811174A0D8A7BBB74 /* header_footer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = header_footer.hpp; path = ../include/xlnt/worksheet/header_footer.hpp; sourceTree = SOURCE_ROOT; };
+		10C6AB97D73E417A907EBD4D /* selection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = selection.hpp; path = ../include/xlnt/worksheet/selection.hpp; sourceTree = SOURCE_ROOT; };
+		110DB5EA7F7348059E07B534 /* row_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = row_properties.hpp; path = ../include/xlnt/worksheet/row_properties.hpp; sourceTree = SOURCE_ROOT; };
+		1168FA06B67546BC9E1C7DB9 /* aes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aes.cpp; path = ../source/detail/cryptography/aes.cpp; sourceTree = SOURCE_ROOT; };
+		117066D43956494D865CE891 /* formatting_record.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = formatting_record.hpp; path = ../source/detail/implementations/formatting_record.hpp; sourceTree = SOURCE_ROOT; };
+		12A5A38C891F4536B9CB9A89 /* range_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range_iterator.hpp; path = ../include/xlnt/worksheet/range_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		1309C65FB4074DB7ADA6CBDB /* expat_external.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_external.h; path = "../third-party/libstudxml/xml/details/expat/expat_external.h"; sourceTree = SOURCE_ROOT; };
+		13D725C6E6074F55822CC495 /* xlnt_config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlnt_config.hpp; path = ../include/xlnt/xlnt_config.hpp; sourceTree = SOURCE_ROOT; };
+		15C58CCA1BE04C8BB27633D2 /* iasciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iasciitab.h; path = "../third-party/libstudxml/xml/details/expat/iasciitab.h"; sourceTree = SOURCE_ROOT; };
+		178784108F01427C9A9BCD2D /* number_format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = number_format.hpp; path = ../include/xlnt/styles/number_format.hpp; sourceTree = SOURCE_ROOT; };
+		17ABCAFAF8224C4C90A9A14A /* qname.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qname.cxx; path = "../third-party/libstudxml/xml/qname.cxx"; sourceTree = SOURCE_ROOT; };
+		18AAF6657E0C4F6792561999 /* rich_text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rich_text.cpp; path = ../source/cell/rich_text.cpp; sourceTree = SOURCE_ROOT; };
+		1ACAACCBA3B04D08B3830329 /* range_reference.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range_reference.hpp; path = ../include/xlnt/worksheet/range_reference.hpp; sourceTree = SOURCE_ROOT; };
+		1AEDBC7B56554F8995D18BA4 /* index_types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = index_types.cpp; path = ../source/cell/index_types.cpp; sourceTree = SOURCE_ROOT; };
+		1E961ECA6207438EABE4A432 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1FEE120C5BE847ADACD091C1 /* relationship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = relationship.cpp; path = ../source/packaging/relationship.cpp; sourceTree = SOURCE_ROOT; };
+		2257DA650CB74571B1802407 /* protection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protection.cpp; path = ../source/styles/protection.cpp; sourceTree = SOURCE_ROOT; };
+		22778086089642CFA5F8147F /* vector_streambuf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vector_streambuf.hpp; path = ../source/detail/serialization/vector_streambuf.hpp; sourceTree = SOURCE_ROOT; };
+		25327CFC967A494691DA2527 /* cell_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_iterator.cpp; path = ../source/worksheet/cell_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		26D44DBF0943405481188221 /* sheet_pr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_pr.hpp; path = ../include/xlnt/worksheet/sheet_pr.hpp; sourceTree = SOURCE_ROOT; };
+		277411E68091444E82BF03C9 /* cell_reference.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_reference.cpp; path = ../source/cell/cell_reference.cpp; sourceTree = SOURCE_ROOT; };
+		29A2589B4D084DF7AA913DF6 /* font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = font.cpp; path = ../source/styles/font.cpp; sourceTree = SOURCE_ROOT; };
+		2A1970EF7F4248458F84CEE8 /* include_windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = include_windows.hpp; path = ../source/detail/external/include_windows.hpp; sourceTree = SOURCE_ROOT; };
+		2BEA83F39C7D470BBE616F86 /* date.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = date.hpp; path = ../include/xlnt/utils/date.hpp; sourceTree = SOURCE_ROOT; };
+		2CA8458F419F4E838EC4B5FF /* cell_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_impl.hpp; path = ../source/detail/implementations/cell_impl.hpp; sourceTree = SOURCE_ROOT; };
+		2E8873ABE78945BF9924B39F /* ascii.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ascii.h; path = "../third-party/libstudxml/xml/details/expat/ascii.h"; sourceTree = SOURCE_ROOT; };
+		2FB16BEF268E40A9918A2D6B /* uri.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uri.cpp; path = ../source/packaging/uri.cpp; sourceTree = SOURCE_ROOT; };
+		3271D7CA4E45423D8A60B4AE /* sample-sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "sample-sample"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CD2BF7C18649919ED56F34 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "../third-party/libstudxml/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		32D4B1A01C14453A9DF1172F /* hyperlink.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hyperlink.hpp; path = ../include/xlnt/cell/hyperlink.hpp; sourceTree = SOURCE_ROOT; };
+		32E698148E544A44ACC813EA /* sample-decrypt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "sample-decrypt"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33790911C8B7484CBCF4B640 /* optional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = optional.hpp; path = ../include/xlnt/utils/optional.hpp; sourceTree = SOURCE_ROOT; };
+		3594A2F104454F0FBCA9EA0D /* custom_value_traits.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = custom_value_traits.cpp; path = ../source/detail/serialization/custom_value_traits.cpp; sourceTree = SOURCE_ROOT; };
+		36DF4CDC4AD64760A2A973CB /* cell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell.cpp; path = ../source/cell/cell.cpp; sourceTree = SOURCE_ROOT; };
+		3763E62CE1C94C25A651FA1B /* sheet_protection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sheet_protection.cpp; path = ../source/worksheet/sheet_protection.cpp; sourceTree = SOURCE_ROOT; };
+		3835CD1F3701455D946612FC /* page_margins.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_margins.hpp; path = ../include/xlnt/worksheet/page_margins.hpp; sourceTree = SOURCE_ROOT; };
+		384ACD8CDD8B44C18804D092 /* open_stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = open_stream.cpp; path = ../source/detail/serialization/open_stream.cpp; sourceTree = SOURCE_ROOT; };
+		38C386A90CE24905ACBFE57E /* streaming_workbook_writer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = streaming_workbook_writer.cpp; path = ../source/workbook/streaming_workbook_writer.cpp; sourceTree = SOURCE_ROOT; };
+		3C2E9C76E2804682AE5F2370 /* range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range.hpp; path = ../include/xlnt/worksheet/range.hpp; sourceTree = SOURCE_ROOT; };
+		3CB5DDB2656F49B3A61AF3D7 /* exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exceptions.cpp; path = ../source/utils/exceptions.cpp; sourceTree = SOURCE_ROOT; };
+		3CC9E0839FDE4E9D8C331F00 /* value-traits.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "value-traits.cxx"; path = "../third-party/libstudxml/xml/value-traits.cxx"; sourceTree = SOURCE_ROOT; };
+		3EEA00C6A4D44EFFAE3F196B /* range.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range.cpp; path = ../source/worksheet/range.cpp; sourceTree = SOURCE_ROOT; };
+		3FE3F2B8CB6D44EC8F89996E /* default_case.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = default_case.hpp; path = ../source/detail/default_case.hpp; sourceTree = SOURCE_ROOT; };
+		4155B858C024419DB8270CD4 /* sha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sha.hpp; path = ../source/detail/cryptography/sha.hpp; sourceTree = SOURCE_ROOT; };
+		426DD4AD4B32487BAB3F5396 /* custom_value_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = custom_value_traits.hpp; path = ../source/detail/serialization/custom_value_traits.hpp; sourceTree = SOURCE_ROOT; };
+		433726C4FAE1480BA7E0AAB2 /* libxlntd.1.2.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libxlntd.1.2.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A72B896804D32882323E5 /* xmlparse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlparse.c; path = "../third-party/libstudxml/xml/details/expat/xmlparse.c"; sourceTree = SOURCE_ROOT; };
+		47793BA3B187428584A03E16 /* workbook_view.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook_view.hpp; path = ../include/xlnt/workbook/workbook_view.hpp; sourceTree = SOURCE_ROOT; };
+		47BAB3B538D547BFA86C90C4 /* content */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = content; path = "../third-party/libstudxml/xml/content"; sourceTree = SOURCE_ROOT; };
+		47F24DCC6D2C474FB91B3A55 /* print_options.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = print_options.hpp; path = ../include/xlnt/worksheet/print_options.hpp; sourceTree = SOURCE_ROOT; };
+		4808E2E6B0EF42E2BB7DFE61 /* xlnt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlnt.hpp; path = ../include/xlnt/xlnt.hpp; sourceTree = SOURCE_ROOT; };
+		4906E5BF52EF467D99C2EAA5 /* scoped_enum_hash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scoped_enum_hash.hpp; path = ../include/xlnt/utils/scoped_enum_hash.hpp; sourceTree = SOURCE_ROOT; };
+		4AAB14F82A3A4B9695CDCE2A /* base64.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = base64.hpp; path = ../source/detail/cryptography/base64.hpp; sourceTree = SOURCE_ROOT; };
+		4DB62520DA594DDB9F4A6566 /* include_libstudxml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = include_libstudxml.hpp; path = ../source/detail/external/include_libstudxml.hpp; sourceTree = SOURCE_ROOT; };
+		5076856F74E846289EB489DC /* metadata_property.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = metadata_property.hpp; path = ../include/xlnt/workbook/metadata_property.hpp; sourceTree = SOURCE_ROOT; };
+		5257CDBD130E4861B2C4C5B6 /* genx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = genx.c; path = "../third-party/libstudxml/xml/details/genx/genx.c"; sourceTree = SOURCE_ROOT; };
+		526FB0ED83774E29A4F08D8B /* named_range.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = named_range.cpp; path = ../source/workbook/named_range.cpp; sourceTree = SOURCE_ROOT; };
+		5329E0A471064CCBB1404715 /* serializer */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = serializer; path = "../third-party/libstudxml/xml/serializer"; sourceTree = SOURCE_ROOT; };
+		535117E366134CD6A7F6C160 /* phonetic_pr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = phonetic_pr.hpp; path = ../include/xlnt/worksheet/phonetic_pr.hpp; sourceTree = SOURCE_ROOT; };
+		54824722C86642D5BBFBE856 /* rich_text.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rich_text.hpp; path = ../include/xlnt/cell/rich_text.hpp; sourceTree = SOURCE_ROOT; };
+		55E5454768F04591BD8835DF /* liblibstudxml.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibstudxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58485DAA42134630A20B6DD6 /* serializer.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cxx; path = "../third-party/libstudxml/xml/serializer.cxx"; sourceTree = SOURCE_ROOT; };
+		58936EEF8EC94A8E9F8F8A13 /* streaming_workbook_writer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = streaming_workbook_writer.hpp; path = ../include/xlnt/workbook/streaming_workbook_writer.hpp; sourceTree = SOURCE_ROOT; };
+		5959CBBBBB4B435CAF66896B /* workbook.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = workbook.cpp; path = ../source/workbook/workbook.cpp; sourceTree = SOURCE_ROOT; };
+		5960D9A319DC476AB01D1C0B /* forward */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = forward; path = "../third-party/libstudxml/xml/forward"; sourceTree = SOURCE_ROOT; };
+		5D21DAB7D92A4CA8AE48C0B2 /* manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = manifest.cpp; path = ../source/packaging/manifest.cpp; sourceTree = SOURCE_ROOT; };
+		5E21651BD9AE4765947AAC0B /* range_reference.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range_reference.cpp; path = ../source/worksheet/range_reference.cpp; sourceTree = SOURCE_ROOT; };
+		5E35654AADB7438A9F487FFB /* worksheet_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = worksheet_iterator.cpp; path = ../source/workbook/worksheet_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		5ECD705CC1584866BC086B9A /* format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = format.cpp; path = ../source/styles/format.cpp; sourceTree = SOURCE_ROOT; };
+		60073D8BAC734DBEB92C4AF5 /* header_footer_code.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = header_footer_code.cpp; path = ../source/detail/header_footer/header_footer_code.cpp; sourceTree = SOURCE_ROOT; };
+		611CF2BEDB7349CBBCB55073 /* xlsx_producer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_producer.cpp; path = ../source/detail/serialization/xlsx_producer.cpp; sourceTree = SOURCE_ROOT; };
+		619375AF39C444F7B13DAAF4 /* xlsx_crypto_producer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_crypto_producer.cpp; path = ../source/detail/cryptography/xlsx_crypto_producer.cpp; sourceTree = SOURCE_ROOT; };
+		61A4C3A660D44CD3BB2D499A /* hyperlink_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hyperlink_impl.hpp; path = ../source/detail/implementations/hyperlink_impl.hpp; sourceTree = SOURCE_ROOT; };
+		65A88E9D9C8643ADA01103E3 /* color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = ../source/styles/color.cpp; sourceTree = SOURCE_ROOT; };
+		65FF49D90D1D4301811B3373 /* datetime.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = datetime.hpp; path = ../include/xlnt/utils/datetime.hpp; sourceTree = SOURCE_ROOT; };
+		666B036E4F644549B8E877F5 /* ext_list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ext_list.cpp; path = ../source/packaging/ext_list.cpp; sourceTree = SOURCE_ROOT; };
+		6708666F8B474DE6A5E414B9 /* constants.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = constants.cpp; path = ../source/detail/constants.cpp; sourceTree = SOURCE_ROOT; };
+		6733F449575C443CAE8BF3C4 /* time.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cpp; path = ../source/utils/time.cpp; sourceTree = SOURCE_ROOT; };
+		679A4929C2844EF28780F909 /* color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.hpp; path = ../include/xlnt/styles/color.hpp; sourceTree = SOURCE_ROOT; };
+		6A0A842C4C384AF59F34E7F9 /* serialisation_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = serialisation_utils.hpp; path = ../include/xlnt/utils/serialisation_utils.hpp; sourceTree = SOURCE_ROOT; };
+		6A9222A169AE42019245C3D3 /* miniz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniz.cpp; path = ../source/detail/serialization/miniz.cpp; sourceTree = SOURCE_ROOT; };
+		6B631423B3C140E28B2EFCCB /* style.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = style.hpp; path = ../include/xlnt/styles/style.hpp; sourceTree = SOURCE_ROOT; };
+		6BA4EDFFA2AB4AFB92952443 /* conditional_format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = conditional_format.hpp; path = ../include/xlnt/styles/conditional_format.hpp; sourceTree = SOURCE_ROOT; };
+		6E03F8D03B6F495EB4F4B44E /* cell_reference.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_reference.hpp; path = ../include/xlnt/cell/cell_reference.hpp; sourceTree = SOURCE_ROOT; };
+		6E2944FC381B42D3B0E2E4C0 /* streaming_workbook_reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = streaming_workbook_reader.cpp; path = ../source/workbook/streaming_workbook_reader.cpp; sourceTree = SOURCE_ROOT; };
+		6E430300E662461592043415 /* unicode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unicode.hpp; path = ../source/detail/unicode.hpp; sourceTree = SOURCE_ROOT; };
+		6E89D36872D644AE99B22D3F /* unicode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unicode.cpp; path = ../source/detail/unicode.cpp; sourceTree = SOURCE_ROOT; };
+		6FDF70CE76084F36BD6C2B34 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "../third-party/libstudxml/xml/details/expat/internal.h"; sourceTree = SOURCE_ROOT; };
+		709D06AF04C4415AB3F753CF /* fill.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fill.hpp; path = ../include/xlnt/styles/fill.hpp; sourceTree = SOURCE_ROOT; };
+		71307AEB82824C0594674629 /* rich_text_run.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rich_text_run.cpp; path = ../source/cell/rich_text_run.cpp; sourceTree = SOURCE_ROOT; };
+		715663D0708145A2BCFBF5BF /* char-props.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "char-props.c"; path = "../third-party/libstudxml/xml/details/genx/char-props.c"; sourceTree = SOURCE_ROOT; };
+		722CD7638B7C4F4999AC1697 /* named_range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = named_range.hpp; path = ../include/xlnt/workbook/named_range.hpp; sourceTree = SOURCE_ROOT; };
+		730E6A5DDE3749CCAC428D18 /* page_margins.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_margins.cpp; path = ../source/worksheet/page_margins.cpp; sourceTree = SOURCE_ROOT; };
+		7360FB5409C64B7EB8F446A1 /* xmlrole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlrole.h; path = "../third-party/libstudxml/xml/details/expat/xmlrole.h"; sourceTree = SOURCE_ROOT; };
+		73782677B20D4504BFC8CE7B /* decrypt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = decrypt.cpp; sourceTree = SOURCE_ROOT; };
+		7614AF705B874453968DDB1D /* asciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asciitab.h; path = "../third-party/libstudxml/xml/details/expat/asciitab.h"; sourceTree = SOURCE_ROOT; };
+		76787E5FB16B4C809853036F /* workbook.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook.hpp; path = ../include/xlnt/workbook/workbook.hpp; sourceTree = SOURCE_ROOT; };
+		79C2305C66454458BAAE696B /* page_setup.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_setup.hpp; path = ../include/xlnt/worksheet/page_setup.hpp; sourceTree = SOURCE_ROOT; };
+		7AE28658F356444DB1B30BE1 /* xlsx_consumer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_consumer.hpp; path = ../source/detail/serialization/xlsx_consumer.hpp; sourceTree = SOURCE_ROOT; };
+		7B1A6B8C67204AC5A040ECEE /* manifest.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = manifest.hpp; path = ../include/xlnt/packaging/manifest.hpp; sourceTree = SOURCE_ROOT; };
+		7BB8F971CA9343E9BA944493 /* cell_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_iterator.hpp; path = ../include/xlnt/worksheet/cell_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		7C9C20E8DDEA41CB810C7239 /* vector_streambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector_streambuf.cpp; path = ../source/detail/serialization/vector_streambuf.cpp; sourceTree = SOURCE_ROOT; };
+		7DBE691125C241EA9200A475 /* major_order.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = major_order.hpp; path = ../include/xlnt/worksheet/major_order.hpp; sourceTree = SOURCE_ROOT; };
+		7E809FD85B884AB2A2501105 /* hash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hash.hpp; path = ../source/detail/cryptography/hash.hpp; sourceTree = SOURCE_ROOT; };
+		7FB5A99DCD2545B0A9E014BB /* encryption_info.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = encryption_info.hpp; path = ../source/detail/cryptography/encryption_info.hpp; sourceTree = SOURCE_ROOT; };
+		80E0BB72EFBC42858FB39877 /* aes.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = aes.hpp; path = ../source/detail/cryptography/aes.hpp; sourceTree = SOURCE_ROOT; };
+		829414B65A594368B27DE257 /* format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = format.hpp; path = ../include/xlnt/styles/format.hpp; sourceTree = SOURCE_ROOT; };
+		84B02677CD45434B99015A29 /* alignment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = alignment.cpp; path = ../source/styles/alignment.cpp; sourceTree = SOURCE_ROOT; };
+		85C656D089A44462BDBE522B /* workbook_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook_impl.hpp; path = ../source/detail/implementations/workbook_impl.hpp; sourceTree = SOURCE_ROOT; };
+		86F263C21F374D85A78B7607 /* path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = ../source/utils/path.cpp; sourceTree = SOURCE_ROOT; };
+		874E3B01A91C4ABD958FF922 /* xmltok.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmltok.c; path = "../third-party/libstudxml/xml/details/expat/xmltok.c"; sourceTree = SOURCE_ROOT; };
+		87E05048D3B2455FB9DE9D6A /* zstream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = zstream.hpp; path = ../source/detail/serialization/zstream.hpp; sourceTree = SOURCE_ROOT; };
+		88A8F5CD65434E109BB88697 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../source/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8B243D5F306A44FC9BC167F6 /* fill.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fill.cpp; path = ../source/styles/fill.cpp; sourceTree = SOURCE_ROOT; };
+		8B49008B83714AC293196ABC /* compound_document.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = compound_document.hpp; path = ../source/detail/cryptography/compound_document.hpp; sourceTree = SOURCE_ROOT; };
+		8BC40B06341E40D3A25A648D /* external_book.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = external_book.hpp; path = ../include/xlnt/workbook/external_book.hpp; sourceTree = SOURCE_ROOT; };
+		8F308CB21ABE4DE7B544CE7E /* header_footer_code.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = header_footer_code.hpp; path = ../source/detail/header_footer/header_footer_code.hpp; sourceTree = SOURCE_ROOT; };
+		91028AAA14254C80B145A928 /* protection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = protection.hpp; path = ../include/xlnt/styles/protection.hpp; sourceTree = SOURCE_ROOT; };
+		91781F3E4E5745E8A2D42A0B /* parser.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cxx; path = "../third-party/libstudxml/xml/parser.cxx"; sourceTree = SOURCE_ROOT; };
+		933138E988E04559B20AB770 /* miniz.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniz.hpp; path = ../source/detail/serialization/miniz.hpp; sourceTree = SOURCE_ROOT; };
+		93DA6B3A39454C61B6DB0540 /* xmltok_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok_impl.h; path = "../third-party/libstudxml/xml/details/expat/xmltok_impl.h"; sourceTree = SOURCE_ROOT; };
+		95B9A1D13C174CD2A6C2D0A3 /* border.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = border.cpp; path = ../source/styles/border.cpp; sourceTree = SOURCE_ROOT; };
+		97F97F1160B0463684E2D91D /* pane.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pane.hpp; path = ../include/xlnt/worksheet/pane.hpp; sourceTree = SOURCE_ROOT; };
+		988B248DC06B49809B34BCB8 /* timedelta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timedelta.hpp; path = ../include/xlnt/utils/timedelta.hpp; sourceTree = SOURCE_ROOT; };
+		98F1AEFADA7043B0A7E3992A /* exception */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = exception; path = "../third-party/libstudxml/xml/exception"; sourceTree = SOURCE_ROOT; };
+		9A335ED6A8E9456E987EDB73 /* cell_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_vector.hpp; path = ../include/xlnt/worksheet/cell_vector.hpp; sourceTree = SOURCE_ROOT; };
+		9B13BAD786934C23B6C96739 /* date.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = date.cpp; path = ../source/utils/date.cpp; sourceTree = SOURCE_ROOT; };
+		9D693D1FB51E41A6A39FB477 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A0718024779241C78786C2EF /* worksheet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet.hpp; path = ../include/xlnt/worksheet/worksheet.hpp; sourceTree = SOURCE_ROOT; };
+		A1FA1A557D4B4402A089884E /* nametab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nametab.h; path = "../third-party/libstudxml/xml/details/expat/nametab.h"; sourceTree = SOURCE_ROOT; };
+		A3229D584AC5415EB72A868E /* value_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = value_traits.hpp; path = ../source/detail/cryptography/value_traits.hpp; sourceTree = SOURCE_ROOT; };
+		A55C06BF19B94F9B8170F715 /* utf8tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf8tab.h; path = "../third-party/libstudxml/xml/details/expat/utf8tab.h"; sourceTree = SOURCE_ROOT; };
+		A5601503FD914EC3AD4823C0 /* latin1tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = latin1tab.h; path = "../third-party/libstudxml/xml/details/expat/latin1tab.h"; sourceTree = SOURCE_ROOT; };
+		A56334CDBAB943C1AC5FD2AD /* xmlrole.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlrole.c; path = "../third-party/libstudxml/xml/details/expat/xmlrole.c"; sourceTree = SOURCE_ROOT; };
+		A59F937FDB9F4F1681E67451 /* xlsx_crypto_producer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_crypto_producer.hpp; path = ../source/detail/cryptography/xlsx_crypto_producer.hpp; sourceTree = SOURCE_ROOT; };
+		A698EA2718C54C09928509E3 /* rich_text_run.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rich_text_run.hpp; path = ../include/xlnt/cell/rich_text_run.hpp; sourceTree = SOURCE_ROOT; };
+		A7858EE1658744BBBE912BBC /* style.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = style.cpp; path = ../source/styles/style.cpp; sourceTree = SOURCE_ROOT; };
+		A7B9848C2D2F4F3BB8B82471 /* theme.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = theme.hpp; path = ../include/xlnt/workbook/theme.hpp; sourceTree = SOURCE_ROOT; };
+		A7BB32009DFB4CBD828D2DA7 /* document_security.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = document_security.hpp; path = ../include/xlnt/workbook/document_security.hpp; sourceTree = SOURCE_ROOT; };
+		A8DBA5260A5648EB81E42715 /* number_formatter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = number_formatter.hpp; path = ../source/detail/number_format/number_formatter.hpp; sourceTree = SOURCE_ROOT; };
+		A94D2798896447429A3F3525 /* sheet_view.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_view.hpp; path = ../include/xlnt/worksheet/sheet_view.hpp; sourceTree = SOURCE_ROOT; };
+		AD37E8C0BDCC41E195400BD5 /* ext_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ext_list.hpp; path = ../include/xlnt/packaging/ext_list.hpp; sourceTree = SOURCE_ROOT; };
+		AE1A32583AAF4B08A5608FBA /* variant.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = variant.cpp; path = ../source/utils/variant.cpp; sourceTree = SOURCE_ROOT; };
+		AE7FD52C53064A9F884A2D5D /* worksheet_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet_iterator.hpp; path = ../include/xlnt/workbook/worksheet_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		AEED6B4FF20F41739F33DB38 /* stylesheet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stylesheet.hpp; path = ../source/detail/implementations/stylesheet.hpp; sourceTree = SOURCE_ROOT; };
+		AFBC8560368C42B88D3D398B /* timedelta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timedelta.cpp; path = ../source/utils/timedelta.cpp; sourceTree = SOURCE_ROOT; };
+		B45BB071D1474E4ABDABE233 /* page_setup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_setup.cpp; path = ../source/worksheet/page_setup.cpp; sourceTree = SOURCE_ROOT; };
+		B61C529F81484100B5C8D63E /* phonetic_pr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = phonetic_pr.cpp; path = ../source/worksheet/phonetic_pr.cpp; sourceTree = SOURCE_ROOT; };
+		B71BF299052045AEB5082532 /* range_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range_iterator.cpp; path = ../source/worksheet/range_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		B7222715235C406C8BBB3445 /* variant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = variant.hpp; path = ../include/xlnt/utils/variant.hpp; sourceTree = SOURCE_ROOT; };
+		B9324A6944314265A484F42F /* sheet_protection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_protection.hpp; path = ../include/xlnt/worksheet/sheet_protection.hpp; sourceTree = SOURCE_ROOT; };
+		BA385946D26E4D2496DF3EA0 /* index_types.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = index_types.hpp; path = ../include/xlnt/cell/index_types.hpp; sourceTree = SOURCE_ROOT; };
+		BC1F31986CAF4E3CB0E9B1CD /* cipher.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cipher.hpp; path = ../source/detail/cryptography/cipher.hpp; sourceTree = SOURCE_ROOT; };
+		BD59EBB5DA8540718C050424 /* format_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = format_impl.hpp; path = ../source/detail/implementations/format_impl.hpp; sourceTree = SOURCE_ROOT; };
+		C11A357CF1BB49BC9AF979B7 /* hyperlink.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hyperlink.cpp; path = ../source/cell/hyperlink.cpp; sourceTree = SOURCE_ROOT; };
+		C3265A4260854322AE7F48BD /* border.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = border.hpp; path = ../include/xlnt/styles/border.hpp; sourceTree = SOURCE_ROOT; };
+		C4B94E6E8E564E36BD74323D /* sha512.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sha512.c; path = ../source/detail/cryptography/sha512.c; sourceTree = SOURCE_ROOT; };
+		C7AEA1AE06DC467B92906437 /* font.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = font.hpp; path = ../include/xlnt/styles/font.hpp; sourceTree = SOURCE_ROOT; };
+		C9D67BB13C0243309AE20202 /* binary.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary.hpp; path = ../source/detail/binary.hpp; sourceTree = SOURCE_ROOT; };
+		CBC896F302ED460FA4A69E7C /* header_footer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = header_footer.cpp; path = ../source/worksheet/header_footer.cpp; sourceTree = SOURCE_ROOT; };
+		CCEDFDE9D4D140429F47ED03 /* hash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hash.cpp; path = ../source/detail/cryptography/hash.cpp; sourceTree = SOURCE_ROOT; };
+		CD1ECB76B18D4EAD92741253 /* zstream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zstream.cpp; path = ../source/detail/serialization/zstream.cpp; sourceTree = SOURCE_ROOT; };
+		CDD7E8784EE74487A4DC88E8 /* encryption_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = encryption_info.cpp; path = ../source/detail/cryptography/encryption_info.cpp; sourceTree = SOURCE_ROOT; };
+		CFB772DE8D384017B788F526 /* cell_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_impl.cpp; path = ../source/detail/implementations/cell_impl.cpp; sourceTree = SOURCE_ROOT; };
+		D1A54CF27D7544AAAB71F108 /* sha1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sha1.c; path = ../source/detail/cryptography/sha1.c; sourceTree = SOURCE_ROOT; };
+		D283B4826FAD4384BD46521F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3636218F90D473E8782CF2E /* cell.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell.hpp; path = ../include/xlnt/cell/cell.hpp; sourceTree = SOURCE_ROOT; };
+		D4068821C3B84D1EA0AE68C9 /* relationship.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = relationship.hpp; path = ../include/xlnt/packaging/relationship.hpp; sourceTree = SOURCE_ROOT; };
+		D5A9AA6BD3E24AC3BB05CC94 /* xlsx_producer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_producer.hpp; path = ../source/detail/serialization/xlsx_producer.hpp; sourceTree = SOURCE_ROOT; };
+		D957A342D0954731B4E1ECB2 /* number_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = number_format.cpp; path = ../source/styles/number_format.cpp; sourceTree = SOURCE_ROOT; };
+		D9E92D5C4F244F88A928D3F6 /* comment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = comment.cpp; path = ../source/cell/comment.cpp; sourceTree = SOURCE_ROOT; };
+		DA803CC51FE54348A80FCD27 /* parser */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = parser; path = "../third-party/libstudxml/xml/parser"; sourceTree = SOURCE_ROOT; };
+		DA9AA06A2C5C4766A90C4866 /* xlsx_crypto_consumer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_crypto_consumer.hpp; path = ../source/detail/cryptography/xlsx_crypto_consumer.hpp; sourceTree = SOURCE_ROOT; };
+		DCCBB753EE7144B68B16A217 /* open_stream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = open_stream.hpp; path = ../source/detail/serialization/open_stream.hpp; sourceTree = SOURCE_ROOT; };
+		DE234BB35C7B4B928A9FF33C /* alignment.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = alignment.hpp; path = ../include/xlnt/styles/alignment.hpp; sourceTree = SOURCE_ROOT; };
+		DE30ECC7153548308CD0BAAC /* base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = ../source/detail/cryptography/base64.cpp; sourceTree = SOURCE_ROOT; };
+		DF309AB1C2864FC39192CA4D /* sheet_format_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_format_properties.hpp; path = ../include/xlnt/worksheet/sheet_format_properties.hpp; sourceTree = SOURCE_ROOT; };
+		E03CBC1826264048B518CD02 /* expat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat.h; path = "../third-party/libstudxml/xml/details/expat/expat.h"; sourceTree = SOURCE_ROOT; };
+		E04998F504124B8F90826236 /* calendar.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calendar.hpp; path = ../include/xlnt/utils/calendar.hpp; sourceTree = SOURCE_ROOT; };
+		E35D9EC53C1940A6AB58295B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ../source/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E738C543627549B9B13DC97F /* cell_vector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_vector.cpp; path = ../source/worksheet/cell_vector.cpp; sourceTree = SOURCE_ROOT; };
+		E7BEE00C0C1B446FBA77CAC6 /* column_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = column_properties.hpp; path = ../include/xlnt/worksheet/column_properties.hpp; sourceTree = SOURCE_ROOT; };
+		E8F5C8CCAEE54DCDB502438E /* worksheet_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet_impl.hpp; path = ../source/detail/implementations/worksheet_impl.hpp; sourceTree = SOURCE_ROOT; };
+		E9F6C440E6AE444282A0CCCA /* cell_type.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_type.hpp; path = ../include/xlnt/cell/cell_type.hpp; sourceTree = SOURCE_ROOT; };
+		EB47ADB72CB24D3096FC08DE /* xlsx_crypto_consumer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_crypto_consumer.cpp; path = ../source/detail/cryptography/xlsx_crypto_consumer.cpp; sourceTree = SOURCE_ROOT; };
+		ECD3C0FBA8BB462FA5D05FB7 /* style_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = style_impl.hpp; path = ../source/detail/implementations/style_impl.hpp; sourceTree = SOURCE_ROOT; };
+		ED1C340B25AE4BA7AEBBC2FC /* streaming_workbook_reader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = streaming_workbook_reader.hpp; path = ../include/xlnt/workbook/streaming_workbook_reader.hpp; sourceTree = SOURCE_ROOT; };
+		ED4A2ED789FE48349DB21A86 /* time.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = time.hpp; path = ../include/xlnt/utils/time.hpp; sourceTree = SOURCE_ROOT; };
+		EDC8CF7C1A054D14B4F4EFC0 /* datetime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datetime.cpp; path = ../source/utils/datetime.cpp; sourceTree = SOURCE_ROOT; };
+		EE24B45FC4804DCA85C25F1C /* conditional_format_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = conditional_format_impl.hpp; path = ../source/detail/implementations/conditional_format_impl.hpp; sourceTree = SOURCE_ROOT; };
+		F13B411B65AB4F3B9DFF8FE3 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = "../third-party/libstudxml/xml/details/expat/config.h"; sourceTree = SOURCE_ROOT; };
+		F20D7A9C353C4B948C99E50A /* comment.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = comment.hpp; path = ../include/xlnt/cell/comment.hpp; sourceTree = SOURCE_ROOT; };
+		F35B6412DBF34611B01D50FA /* qname */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = qname; path = "../third-party/libstudxml/xml/qname"; sourceTree = SOURCE_ROOT; };
+		F49DACE3168E45528CA0306F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F6F9E1D48EFC47FDBA3F41A9 /* value-traits */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "value-traits"; path = "../third-party/libstudxml/xml/value-traits"; sourceTree = SOURCE_ROOT; };
+		F8C65770462843929CC92208 /* sha.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sha.cpp; path = ../source/detail/cryptography/sha.cpp; sourceTree = SOURCE_ROOT; };
+		F98694FC904744F387EA2019 /* number_formatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = number_formatter.cpp; path = ../source/detail/number_format/number_formatter.cpp; sourceTree = SOURCE_ROOT; };
+		FA108B530E924A6FB86BA552 /* worksheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = worksheet.cpp; path = ../source/worksheet/worksheet.cpp; sourceTree = SOURCE_ROOT; };
+		FB63B4BB63DA4BFF98152C90 /* xmltok.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok.h; path = "../third-party/libstudxml/xml/details/expat/xmltok.h"; sourceTree = SOURCE_ROOT; };
+		FC55F2F4AF8344839F35BB60 /* genx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = genx.h; path = "../third-party/libstudxml/xml/details/genx/genx.h"; sourceTree = SOURCE_ROOT; };
+		FD72A2629A4A42C28E285173 /* sample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = sample.cpp; sourceTree = SOURCE_ROOT; };
+		FE91CA81250A42F5972CD3C6 /* sample-img2xlsx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "sample-img2xlsx"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		227440CC3157489BAFC3B2EB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		241A5353F6E849CCABA388B4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				227440CC3157489BAFC3B2EB /* CMake Rules */,
+				9D693D1FB51E41A6A39FB477 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2B080D25382448DC99890894 /* libstudxml */ = {
+			isa = PBXGroup;
+			children = (
+				5149AB84BFDE4E6988BA56BA /* Source Files */,
+				A6F4E4CDDE704487AF8E2BB7 /* Header Files */,
+				32CD2BF7C18649919ED56F34 /* CMakeLists.txt */,
+				47BAB3B538D547BFA86C90C4 /* content */,
+				98F1AEFADA7043B0A7E3992A /* exception */,
+				5960D9A319DC476AB01D1C0B /* forward */,
+				DA803CC51FE54348A80FCD27 /* parser */,
+				F35B6412DBF34611B01D50FA /* qname */,
+				5329E0A471064CCBB1404715 /* serializer */,
+				F6F9E1D48EFC47FDBA3F41A9 /* value-traits */,
+			);
+			name = libstudxml;
+			sourceTree = "<group>";
+		};
+		3886B459CB264377A10A6F7C /* sample-decrypt */ = {
+			isa = PBXGroup;
+			children = (
+				80133444837743C0BB13B502 /* Source Files */,
+				D283B4826FAD4384BD46521F /* CMakeLists.txt */,
+			);
+			name = "sample-decrypt";
+			sourceTree = "<group>";
+		};
+		43C47CF765364CD89F7006E6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		46A91E3764EB4E97A3DD7390 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				055467989D3E4E01994B2143 /* img2xlsx.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4B00A105A73A4C1FBE994EC6 /* implementations */ = {
+			isa = PBXGroup;
+			children = (
+				CFB772DE8D384017B788F526 /* cell_impl.cpp */,
+				2CA8458F419F4E838EC4B5FF /* cell_impl.hpp */,
+				EE24B45FC4804DCA85C25F1C /* conditional_format_impl.hpp */,
+				BD59EBB5DA8540718C050424 /* format_impl.hpp */,
+				117066D43956494D865CE891 /* formatting_record.hpp */,
+				61A4C3A660D44CD3BB2D499A /* hyperlink_impl.hpp */,
+				ECD3C0FBA8BB462FA5D05FB7 /* style_impl.hpp */,
+				AEED6B4FF20F41739F33DB38 /* stylesheet.hpp */,
+				85C656D089A44462BDBE522B /* workbook_impl.hpp */,
+				E8F5C8CCAEE54DCDB502438E /* worksheet_impl.hpp */,
+			);
+			name = implementations;
+			sourceTree = "<group>";
+		};
+		4D0AD7D56DE94DB6ACBB4911 /* cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				1168FA06B67546BC9E1C7DB9 /* aes.cpp */,
+				80E0BB72EFBC42858FB39877 /* aes.hpp */,
+				DE30ECC7153548308CD0BAAC /* base64.cpp */,
+				4AAB14F82A3A4B9695CDCE2A /* base64.hpp */,
+				BC1F31986CAF4E3CB0E9B1CD /* cipher.hpp */,
+				0B901B220C344E31A793FCE0 /* compound_document.cpp */,
+				8B49008B83714AC293196ABC /* compound_document.hpp */,
+				CDD7E8784EE74487A4DC88E8 /* encryption_info.cpp */,
+				7FB5A99DCD2545B0A9E014BB /* encryption_info.hpp */,
+				CCEDFDE9D4D140429F47ED03 /* hash.cpp */,
+				7E809FD85B884AB2A2501105 /* hash.hpp */,
+				F8C65770462843929CC92208 /* sha.cpp */,
+				4155B858C024419DB8270CD4 /* sha.hpp */,
+				D1A54CF27D7544AAAB71F108 /* sha1.c */,
+				C4B94E6E8E564E36BD74323D /* sha512.c */,
+				A3229D584AC5415EB72A868E /* value_traits.hpp */,
+				EB47ADB72CB24D3096FC08DE /* xlsx_crypto_consumer.cpp */,
+				DA9AA06A2C5C4766A90C4866 /* xlsx_crypto_consumer.hpp */,
+				619375AF39C444F7B13DAAF4 /* xlsx_crypto_producer.cpp */,
+				A59F937FDB9F4F1681E67451 /* xlsx_crypto_producer.hpp */,
+			);
+			name = cryptography;
+			sourceTree = "<group>";
+		};
+		4E010E9AB2D54C6D8CB52DB4 /* xlnt */ = {
+			isa = PBXGroup;
+			children = (
+				4808E2E6B0EF42E2BB7DFE61 /* xlnt.hpp */,
+				13D725C6E6074F55822CC495 /* xlnt_config.hpp */,
+			);
+			name = xlnt;
+			sourceTree = "<group>";
+		};
+		5149AB84BFDE4E6988BA56BA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				449A72B896804D32882323E5 /* xmlparse.c */,
+				A56334CDBAB943C1AC5FD2AD /* xmlrole.c */,
+				874E3B01A91C4ABD958FF922 /* xmltok.c */,
+				715663D0708145A2BCFBF5BF /* char-props.c */,
+				5257CDBD130E4861B2C4C5B6 /* genx.c */,
+				91781F3E4E5745E8A2D42A0B /* parser.cxx */,
+				17ABCAFAF8224C4C90A9A14A /* qname.cxx */,
+				58485DAA42134630A20B6DD6 /* serializer.cxx */,
+				3CC9E0839FDE4E9D8C331F00 /* value-traits.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		52B84BC575A64E09955A62A6 /* number_format */ = {
+			isa = PBXGroup;
+			children = (
+				F98694FC904744F387EA2019 /* number_formatter.cpp */,
+				A8DBA5260A5648EB81E42715 /* number_formatter.hpp */,
+			);
+			name = number_format;
+			sourceTree = "<group>";
+		};
+		551647E7168141079FE4F8A4 /* packaging */ = {
+			isa = PBXGroup;
+			children = (
+				AD37E8C0BDCC41E195400BD5 /* ext_list.hpp */,
+				7B1A6B8C67204AC5A040ECEE /* manifest.hpp */,
+				D4068821C3B84D1EA0AE68C9 /* relationship.hpp */,
+				09E1D208BC6742C1A1A6E88F /* uri.hpp */,
+				666B036E4F644549B8E877F5 /* ext_list.cpp */,
+				5D21DAB7D92A4CA8AE48C0B2 /* manifest.cpp */,
+				1FEE120C5BE847ADACD091C1 /* relationship.cpp */,
+				2FB16BEF268E40A9918A2D6B /* uri.cpp */,
+			);
+			name = packaging;
+			sourceTree = "<group>";
+		};
+		56FF9D5BD8414C53A5D5111F /* sample-img2xlsx */ = {
+			isa = PBXGroup;
+			children = (
+				46A91E3764EB4E97A3DD7390 /* Source Files */,
+				F49DACE3168E45528CA0306F /* CMakeLists.txt */,
+			);
+			name = "sample-img2xlsx";
+			sourceTree = "<group>";
+		};
+		62951A6CE8344D3B9206F43B = {
+			isa = PBXGroup;
+			children = (
+				84CEAF46E0BE42AD827694C4 /* sample-sample */,
+				56FF9D5BD8414C53A5D5111F /* sample-img2xlsx */,
+				3886B459CB264377A10A6F7C /* sample-decrypt */,
+				241A5353F6E849CCABA388B4 /* ALL_BUILD */,
+				CB661AE4A5C24E4DA229371C /* uninstall */,
+				A6778E3827384A04BC30F094 /* xlnt */,
+				2B080D25382448DC99890894 /* libstudxml */,
+				BA426BD71EA14A61B8116301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73CD223186064DD9ACBA7F63 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				DE234BB35C7B4B928A9FF33C /* alignment.hpp */,
+				C3265A4260854322AE7F48BD /* border.hpp */,
+				679A4929C2844EF28780F909 /* color.hpp */,
+				6BA4EDFFA2AB4AFB92952443 /* conditional_format.hpp */,
+				709D06AF04C4415AB3F753CF /* fill.hpp */,
+				C7AEA1AE06DC467B92906437 /* font.hpp */,
+				829414B65A594368B27DE257 /* format.hpp */,
+				178784108F01427C9A9BCD2D /* number_format.hpp */,
+				91028AAA14254C80B145A928 /* protection.hpp */,
+				6B631423B3C140E28B2EFCCB /* style.hpp */,
+				84B02677CD45434B99015A29 /* alignment.cpp */,
+				95B9A1D13C174CD2A6C2D0A3 /* border.cpp */,
+				65A88E9D9C8643ADA01103E3 /* color.cpp */,
+				0718CCB720964F298DBEBB51 /* conditional_format.cpp */,
+				8B243D5F306A44FC9BC167F6 /* fill.cpp */,
+				29A2589B4D084DF7AA913DF6 /* font.cpp */,
+				5ECD705CC1584866BC086B9A /* format.cpp */,
+				D957A342D0954731B4E1ECB2 /* number_format.cpp */,
+				2257DA650CB74571B1802407 /* protection.cpp */,
+				A7858EE1658744BBBE912BBC /* style.cpp */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		7427CDEA87694DEDB07FA0B5 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				D3636218F90D473E8782CF2E /* cell.hpp */,
+				6E03F8D03B6F495EB4F4B44E /* cell_reference.hpp */,
+				E9F6C440E6AE444282A0CCCA /* cell_type.hpp */,
+				F20D7A9C353C4B948C99E50A /* comment.hpp */,
+				32D4B1A01C14453A9DF1172F /* hyperlink.hpp */,
+				BA385946D26E4D2496DF3EA0 /* index_types.hpp */,
+				54824722C86642D5BBFBE856 /* rich_text.hpp */,
+				A698EA2718C54C09928509E3 /* rich_text_run.hpp */,
+				36DF4CDC4AD64760A2A973CB /* cell.cpp */,
+				277411E68091444E82BF03C9 /* cell_reference.cpp */,
+				D9E92D5C4F244F88A928D3F6 /* comment.cpp */,
+				C11A357CF1BB49BC9AF979B7 /* hyperlink.cpp */,
+				1AEDBC7B56554F8995D18BA4 /* index_types.cpp */,
+				18AAF6657E0C4F6792561999 /* rich_text.cpp */,
+				71307AEB82824C0594674629 /* rich_text_run.cpp */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		80133444837743C0BB13B502 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				73782677B20D4504BFC8CE7B /* decrypt.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		84CEAF46E0BE42AD827694C4 /* sample-sample */ = {
+			isa = PBXGroup;
+			children = (
+				A30D5101392643CF8149EFD5 /* Source Files */,
+				1E961ECA6207438EABE4A432 /* CMakeLists.txt */,
+			);
+			name = "sample-sample";
+			sourceTree = "<group>";
+		};
+		A30D5101392643CF8149EFD5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD72A2629A4A42C28E285173 /* sample.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A53A78E533334636BAF67167 /* header_footer */ = {
+			isa = PBXGroup;
+			children = (
+				60073D8BAC734DBEB92C4AF5 /* header_footer_code.cpp */,
+				8F308CB21ABE4DE7B544CE7E /* header_footer_code.hpp */,
+			);
+			name = header_footer;
+			sourceTree = "<group>";
+		};
+		A6778E3827384A04BC30F094 /* xlnt */ = {
+			isa = PBXGroup;
+			children = (
+				4E010E9AB2D54C6D8CB52DB4 /* xlnt */,
+				7427CDEA87694DEDB07FA0B5 /* cell */,
+				551647E7168141079FE4F8A4 /* packaging */,
+				73CD223186064DD9ACBA7F63 /* styles */,
+				E4FF9B96D3C94D22840D67F6 /* utils */,
+				E45BB600EEB141B6A79D4652 /* workbook */,
+				D69B0ECBEA2B4F9586E936D5 /* worksheet */,
+				E1D286DB5C0B409683A7E584 /* detail */,
+				88A8F5CD65434E109BB88697 /* CMakeLists.txt */,
+			);
+			name = xlnt;
+			sourceTree = "<group>";
+		};
+		A6F4E4CDDE704487AF8E2BB7 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E8873ABE78945BF9924B39F /* ascii.h */,
+				7614AF705B874453968DDB1D /* asciitab.h */,
+				F13B411B65AB4F3B9DFF8FE3 /* config.h */,
+				E03CBC1826264048B518CD02 /* expat.h */,
+				1309C65FB4074DB7ADA6CBDB /* expat_external.h */,
+				15C58CCA1BE04C8BB27633D2 /* iasciitab.h */,
+				6FDF70CE76084F36BD6C2B34 /* internal.h */,
+				A5601503FD914EC3AD4823C0 /* latin1tab.h */,
+				A1FA1A557D4B4402A089884E /* nametab.h */,
+				A55C06BF19B94F9B8170F715 /* utf8tab.h */,
+				7360FB5409C64B7EB8F446A1 /* xmlrole.h */,
+				FB63B4BB63DA4BFF98152C90 /* xmltok.h */,
+				93DA6B3A39454C61B6DB0540 /* xmltok_impl.h */,
+				FC55F2F4AF8344839F35BB60 /* genx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BA426BD71EA14A61B8116301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E5454768F04591BD8835DF /* liblibstudxml.a */,
+				32E698148E544A44ACC813EA /* sample-decrypt */,
+				FE91CA81250A42F5972CD3C6 /* sample-img2xlsx */,
+				3271D7CA4E45423D8A60B4AE /* sample-sample */,
+				433726C4FAE1480BA7E0AAB2 /* libxlntd.1.2.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB661AE4A5C24E4DA229371C /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				43C47CF765364CD89F7006E6 /* CMake Rules */,
+				E35D9EC53C1940A6AB58295B /* CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		D69B0ECBEA2B4F9586E936D5 /* worksheet */ = {
+			isa = PBXGroup;
+			children = (
+				7BB8F971CA9343E9BA944493 /* cell_iterator.hpp */,
+				9A335ED6A8E9456E987EDB73 /* cell_vector.hpp */,
+				E7BEE00C0C1B446FBA77CAC6 /* column_properties.hpp */,
+				0CBAB17811174A0D8A7BBB74 /* header_footer.hpp */,
+				7DBE691125C241EA9200A475 /* major_order.hpp */,
+				3835CD1F3701455D946612FC /* page_margins.hpp */,
+				79C2305C66454458BAAE696B /* page_setup.hpp */,
+				97F97F1160B0463684E2D91D /* pane.hpp */,
+				535117E366134CD6A7F6C160 /* phonetic_pr.hpp */,
+				47F24DCC6D2C474FB91B3A55 /* print_options.hpp */,
+				3C2E9C76E2804682AE5F2370 /* range.hpp */,
+				12A5A38C891F4536B9CB9A89 /* range_iterator.hpp */,
+				1ACAACCBA3B04D08B3830329 /* range_reference.hpp */,
+				110DB5EA7F7348059E07B534 /* row_properties.hpp */,
+				10C6AB97D73E417A907EBD4D /* selection.hpp */,
+				DF309AB1C2864FC39192CA4D /* sheet_format_properties.hpp */,
+				26D44DBF0943405481188221 /* sheet_pr.hpp */,
+				B9324A6944314265A484F42F /* sheet_protection.hpp */,
+				A94D2798896447429A3F3525 /* sheet_view.hpp */,
+				A0718024779241C78786C2EF /* worksheet.hpp */,
+				25327CFC967A494691DA2527 /* cell_iterator.cpp */,
+				E738C543627549B9B13DC97F /* cell_vector.cpp */,
+				CBC896F302ED460FA4A69E7C /* header_footer.cpp */,
+				730E6A5DDE3749CCAC428D18 /* page_margins.cpp */,
+				B45BB071D1474E4ABDABE233 /* page_setup.cpp */,
+				B61C529F81484100B5C8D63E /* phonetic_pr.cpp */,
+				3EEA00C6A4D44EFFAE3F196B /* range.cpp */,
+				B71BF299052045AEB5082532 /* range_iterator.cpp */,
+				5E21651BD9AE4765947AAC0B /* range_reference.cpp */,
+				3763E62CE1C94C25A651FA1B /* sheet_protection.cpp */,
+				FA108B530E924A6FB86BA552 /* worksheet.cpp */,
+			);
+			name = worksheet;
+			sourceTree = "<group>";
+		};
+		D8D828A928C44C72835A10F4 /* serialization */ = {
+			isa = PBXGroup;
+			children = (
+				3594A2F104454F0FBCA9EA0D /* custom_value_traits.cpp */,
+				426DD4AD4B32487BAB3F5396 /* custom_value_traits.hpp */,
+				06D9D526CC484CC9AA2A2C65 /* excel_thumbnail.hpp */,
+				6A9222A169AE42019245C3D3 /* miniz.cpp */,
+				933138E988E04559B20AB770 /* miniz.hpp */,
+				384ACD8CDD8B44C18804D092 /* open_stream.cpp */,
+				DCCBB753EE7144B68B16A217 /* open_stream.hpp */,
+				7C9C20E8DDEA41CB810C7239 /* vector_streambuf.cpp */,
+				22778086089642CFA5F8147F /* vector_streambuf.hpp */,
+				0AB0E9C6B09146B3AB71A405 /* xlsx_consumer.cpp */,
+				7AE28658F356444DB1B30BE1 /* xlsx_consumer.hpp */,
+				611CF2BEDB7349CBBCB55073 /* xlsx_producer.cpp */,
+				D5A9AA6BD3E24AC3BB05CC94 /* xlsx_producer.hpp */,
+				CD1ECB76B18D4EAD92741253 /* zstream.cpp */,
+				87E05048D3B2455FB9DE9D6A /* zstream.hpp */,
+			);
+			name = serialization;
+			sourceTree = "<group>";
+		};
+		E1D286DB5C0B409683A7E584 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				4D0AD7D56DE94DB6ACBB4911 /* cryptography */,
+				E4F6B2A2803A49CAB776A27C /* external */,
+				A53A78E533334636BAF67167 /* header_footer */,
+				4B00A105A73A4C1FBE994EC6 /* implementations */,
+				52B84BC575A64E09955A62A6 /* number_format */,
+				D8D828A928C44C72835A10F4 /* serialization */,
+				C9D67BB13C0243309AE20202 /* binary.hpp */,
+				6708666F8B474DE6A5E414B9 /* constants.cpp */,
+				02F9A9679610428BB210B31B /* constants.hpp */,
+				3FE3F2B8CB6D44EC8F89996E /* default_case.hpp */,
+				6E89D36872D644AE99B22D3F /* unicode.cpp */,
+				6E430300E662461592043415 /* unicode.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		E45BB600EEB141B6A79D4652 /* workbook */ = {
+			isa = PBXGroup;
+			children = (
+				068FC5FC4D9C4E53B1FB1F76 /* calculation_properties.hpp */,
+				A7BB32009DFB4CBD828D2DA7 /* document_security.hpp */,
+				8BC40B06341E40D3A25A648D /* external_book.hpp */,
+				5076856F74E846289EB489DC /* metadata_property.hpp */,
+				722CD7638B7C4F4999AC1697 /* named_range.hpp */,
+				ED1C340B25AE4BA7AEBBC2FC /* streaming_workbook_reader.hpp */,
+				58936EEF8EC94A8E9F8F8A13 /* streaming_workbook_writer.hpp */,
+				A7B9848C2D2F4F3BB8B82471 /* theme.hpp */,
+				76787E5FB16B4C809853036F /* workbook.hpp */,
+				47793BA3B187428584A03E16 /* workbook_view.hpp */,
+				AE7FD52C53064A9F884A2D5D /* worksheet_iterator.hpp */,
+				526FB0ED83774E29A4F08D8B /* named_range.cpp */,
+				6E2944FC381B42D3B0E2E4C0 /* streaming_workbook_reader.cpp */,
+				38C386A90CE24905ACBFE57E /* streaming_workbook_writer.cpp */,
+				5959CBBBBB4B435CAF66896B /* workbook.cpp */,
+				5E35654AADB7438A9F487FFB /* worksheet_iterator.cpp */,
+			);
+			name = workbook;
+			sourceTree = "<group>";
+		};
+		E4F6B2A2803A49CAB776A27C /* external */ = {
+			isa = PBXGroup;
+			children = (
+				4DB62520DA594DDB9F4A6566 /* include_libstudxml.hpp */,
+				2A1970EF7F4248458F84CEE8 /* include_windows.hpp */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		E4FF9B96D3C94D22840D67F6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E04998F504124B8F90826236 /* calendar.hpp */,
+				2BEA83F39C7D470BBE616F86 /* date.hpp */,
+				65FF49D90D1D4301811B3373 /* datetime.hpp */,
+				056E11C0E98644A286352870 /* exceptions.hpp */,
+				33790911C8B7484CBCF4B640 /* optional.hpp */,
+				0B71342E17A14B4E87DB0008 /* path.hpp */,
+				4906E5BF52EF467D99C2EAA5 /* scoped_enum_hash.hpp */,
+				6A0A842C4C384AF59F34E7F9 /* serialisation_utils.hpp */,
+				ED4A2ED789FE48349DB21A86 /* time.hpp */,
+				988B248DC06B49809B34BCB8 /* timedelta.hpp */,
+				B7222715235C406C8BBB3445 /* variant.hpp */,
+				9B13BAD786934C23B6C96739 /* date.cpp */,
+				EDC8CF7C1A054D14B4F4EFC0 /* datetime.cpp */,
+				3CB5DDB2656F49B3A61AF3D7 /* exceptions.cpp */,
+				86F263C21F374D85A78B7607 /* path.cpp */,
+				6733F449575C443CAE8BF3C4 /* time.cpp */,
+				AFBC8560368C42B88D3D398B /* timedelta.cpp */,
+				AE1A32583AAF4B08A5608FBA /* variant.cpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C3BA624625E4A97AF0B2D61 /* xlnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5A66D8E1DC4681B8C0E11F /* Build configuration list for PBXNativeTarget "xlnt" */;
+			buildPhases = (
+				FC211C2EA89444808810B93F /* Sources */,
+				156CBE18090C4ACC9C08627E /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73FFE4E47C304E0B8444A2CB /* PBXTargetDependency */,
+			);
+			name = xlnt;
+			productName = xlnt;
+			productReference = 433726C4FAE1480BA7E0AAB2 /* libxlntd.1.2.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		364138E86D7F41AEA3C8E4C2 /* sample-img2xlsx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD65BB49CB74096AA5BA696 /* Build configuration list for PBXNativeTarget "sample-img2xlsx" */;
+			buildPhases = (
+				8596FB7D2C8B44F5ADA380A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4311242CAE54A15B24B211B /* PBXTargetDependency */,
+				EF3B70B860DC408A941E2447 /* PBXTargetDependency */,
+			);
+			name = "sample-img2xlsx";
+			productName = "sample-img2xlsx";
+			productReference = FE91CA81250A42F5972CD3C6 /* sample-img2xlsx */;
+			productType = "com.apple.product-type.tool";
+		};
+		A5965E0DB8AA400F9A9E4FE9 /* sample-decrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D5E97E3BF14E8ABC2E34D3 /* Build configuration list for PBXNativeTarget "sample-decrypt" */;
+			buildPhases = (
+				A10AC983917449679026D97F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2895876AB444E28AA1A7B89 /* PBXTargetDependency */,
+				D7D1BE2CA9A949D5AC55BDA1 /* PBXTargetDependency */,
+			);
+			name = "sample-decrypt";
+			productName = "sample-decrypt";
+			productReference = 32E698148E544A44ACC813EA /* sample-decrypt */;
+			productType = "com.apple.product-type.tool";
+		};
+		D8FA949897644AE2B52B0E92 /* libstudxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEB8C98D2044E92AACC42A1 /* Build configuration list for PBXNativeTarget "libstudxml" */;
+			buildPhases = (
+				CA265038DE8F45A1A755FC1A /* Sources */,
+				89186F81ABD04DB19ECEA1DD /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libstudxml;
+			productName = libstudxml;
+			productReference = 55E5454768F04591BD8835DF /* liblibstudxml.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FEB594D7AF864187B6598087 /* sample-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3B97E180D2477D8DB216D3 /* Build configuration list for PBXNativeTarget "sample-sample" */;
+			buildPhases = (
+				8A207DE65DF64B1E9D782F64 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305CAA4E45B447E3A68ABCB3 /* PBXTargetDependency */,
+				32C14C9B64BF435D90AD239A /* PBXTargetDependency */,
+			);
+			name = "sample-sample";
+			productName = "sample-sample";
+			productReference = 3271D7CA4E45423D8A60B4AE /* sample-sample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5FD982A35884726905A7D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 3332886BE35F4B7981BBACA3 /* Build configuration list for PBXProject "xlnt.samples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62951A6CE8344D3B9206F43B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BF977B402474BD88F408BF9 /* ALL_BUILD */,
+				5EBD18E1233E4703B97C449B /* ZERO_CHECK */,
+				945FD071E24E4FB7BA674FDF /* install */,
+				D8FA949897644AE2B52B0E92 /* libstudxml */,
+				A5965E0DB8AA400F9A9E4FE9 /* sample-decrypt */,
+				364138E86D7F41AEA3C8E4C2 /* sample-img2xlsx */,
+				FEB594D7AF864187B6598087 /* sample-sample */,
+				4159C6A102C54C7D82008D52 /* uninstall */,
+				0C3BA624625E4A97AF0B2D61 /* xlnt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FBA0D0466A2464E9011EA5B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source -f /Users/sunjm/Downloads/xlnt-master/samples/source/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		156CBE18090C4ACC9C08627E /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source -f /Users/sunjm/Downloads/xlnt-master/samples/source/CMakeScripts/xlnt_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		55DC4CEED5604D1886EE8E36 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		6A4A7532DFFE43AC942ACD12 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7B3F6E67A03643BEAFFDB583 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		89186F81ABD04DB19ECEA1DD /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/CMakeScripts/libstudxml_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8596FB7D2C8B44F5ADA380A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612058AC947342639A7A6A68 /* img2xlsx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A207DE65DF64B1E9D782F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDDB863457D487383EB2116 /* sample.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AC983917449679026D97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09168897103049DF8DA38033 /* decrypt.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA265038DE8F45A1A755FC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E94D5668CE4E83831C85D4 /* xmlparse.c in Sources */,
+				F47748C0B6004CB18DDBD327 /* xmlrole.c in Sources */,
+				AE413367A2324802BE0CC924 /* xmltok.c in Sources */,
+				460467188FEE4CD88C780A07 /* char-props.c in Sources */,
+				59B9B01E31B645EB8D05D036 /* genx.c in Sources */,
+				458F3084876B43D08789FF84 /* parser.cxx in Sources */,
+				116FEE58CBD747CC884F6A46 /* qname.cxx in Sources */,
+				496B6A7275C842ADA5563B53 /* serializer.cxx in Sources */,
+				100CD056F73F46B689E8E96B /* value-traits.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC211C2EA89444808810B93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F31FD3288204D8681310E50 /* cell.cpp in Sources */,
+				B7AB0856F92E4692967DF7E0 /* cell_reference.cpp in Sources */,
+				89F11F010E5D47159402FAF8 /* comment.cpp in Sources */,
+				62CF9CF5E29D4661960FF451 /* hyperlink.cpp in Sources */,
+				CF44372FC3BC46CAB65ED703 /* index_types.cpp in Sources */,
+				0B61CB5F593E4DADB6657B8E /* rich_text.cpp in Sources */,
+				CA90F2C186894253898419E1 /* rich_text_run.cpp in Sources */,
+				0D5E4983A5BD441082C20A66 /* constants.cpp in Sources */,
+				4DDB5FCF4E4A42139CEE073D /* aes.cpp in Sources */,
+				B4F425A5BB0A4E2F8B8384D3 /* base64.cpp in Sources */,
+				57E8026E7C4B491B96AF9010 /* compound_document.cpp in Sources */,
+				7F1AD37ADC094FB187693AC7 /* encryption_info.cpp in Sources */,
+				26D28E8E926C400C9AE5848B /* hash.cpp in Sources */,
+				1C447B60E46A439C94B514B5 /* sha.cpp in Sources */,
+				9009053CF991409888A3EB93 /* sha1.c in Sources */,
+				C114AFD69FD84405B5F115AF /* sha512.c in Sources */,
+				0FDE6D30BEA74AA1AB40A82C /* xlsx_crypto_consumer.cpp in Sources */,
+				1DF8B651550D47E38ADEF5ED /* xlsx_crypto_producer.cpp in Sources */,
+				13B0941800C7477B940525E3 /* header_footer_code.cpp in Sources */,
+				7B565467B8684DD0891BBB8B /* cell_impl.cpp in Sources */,
+				299A1539D55B4A21A97624FD /* number_formatter.cpp in Sources */,
+				047BF599D3164EC9B726A024 /* custom_value_traits.cpp in Sources */,
+				3CCA2C2E4DC04387885575E2 /* miniz.cpp in Sources */,
+				EE990B4870B14BB9BEF70B27 /* open_stream.cpp in Sources */,
+				8900BBD324B348C781FAE679 /* vector_streambuf.cpp in Sources */,
+				E9B2641EAD1E4F7C9382AB1E /* xlsx_consumer.cpp in Sources */,
+				DC91ADA6E2D14174810A772D /* xlsx_producer.cpp in Sources */,
+				253FCB30389940AE80835DA2 /* zstream.cpp in Sources */,
+				4EDEF436840B447BAE50D786 /* unicode.cpp in Sources */,
+				C88DF0C125204F8F9CA7BE6E /* ext_list.cpp in Sources */,
+				81E9E1E54A784771B378AE4C /* manifest.cpp in Sources */,
+				32D40797123A49C8B9AFCAD2 /* relationship.cpp in Sources */,
+				140849A3CB864030A78D0416 /* uri.cpp in Sources */,
+				966E64318D7848A0ACC28057 /* alignment.cpp in Sources */,
+				D11D5A7A006D4FE7B9B8252B /* border.cpp in Sources */,
+				BB995F1D2D1E488387F9CACD /* color.cpp in Sources */,
+				D92402500C9E41029DF7E83C /* conditional_format.cpp in Sources */,
+				ED0E68EFE5674C959EF317FA /* fill.cpp in Sources */,
+				05216AD3441547B4B5D5294B /* font.cpp in Sources */,
+				84EDAAEDE93F490C9469D748 /* format.cpp in Sources */,
+				E9CA9008D7FD41A5ADD24D3F /* number_format.cpp in Sources */,
+				7518126C25E946B3B907F4FE /* protection.cpp in Sources */,
+				05ABE1D6E62E4B97847F408C /* style.cpp in Sources */,
+				0DCF684577D24E3493264A9E /* date.cpp in Sources */,
+				35C3052414E041F8883BF5C8 /* datetime.cpp in Sources */,
+				0246FB68CFF84C87B969EAD6 /* exceptions.cpp in Sources */,
+				135F44718E654EB58C28711A /* path.cpp in Sources */,
+				26590409AFA54CA48F7FDDDC /* time.cpp in Sources */,
+				BB9BEDF8FD724FE0A398D8EF /* timedelta.cpp in Sources */,
+				D2C2DE2FAC1C451188C6884C /* variant.cpp in Sources */,
+				E926A548589945ECA697B3F7 /* named_range.cpp in Sources */,
+				E4144BAECE8C4609B9728373 /* streaming_workbook_reader.cpp in Sources */,
+				B3D01972531A4FF291CB91A9 /* streaming_workbook_writer.cpp in Sources */,
+				B114C8C9B68942E598DC25AA /* workbook.cpp in Sources */,
+				EB9C5C080145461C9C4AC80D /* worksheet_iterator.cpp in Sources */,
+				CFDEC53BACFA402EBDFC52C4 /* cell_iterator.cpp in Sources */,
+				F558E49A5E0D4251B9A39A37 /* cell_vector.cpp in Sources */,
+				6678BBA9ECE74584BA3E2C79 /* header_footer.cpp in Sources */,
+				FD552318A96A42FB94C3212C /* page_margins.cpp in Sources */,
+				4EA84C7743734030B21DC49B /* page_setup.cpp in Sources */,
+				1BD0B46648334E8EB6DD28E1 /* phonetic_pr.cpp in Sources */,
+				B99982BE6B34441CB0876DA4 /* range.cpp in Sources */,
+				6868471F0BD54FA8AB1E90B0 /* range_iterator.cpp in Sources */,
+				7BB2E154046A41D99E8BAA9D /* range_reference.cpp in Sources */,
+				1CB9959E2E26499CBA708FCF /* sheet_protection.cpp in Sources */,
+				DC13A723355E47899C75730A /* worksheet.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A11C1CA8334E56AF3BC75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF977B402474BD88F408BF9 /* ALL_BUILD */;
+			targetProxy = 51849A7AC8F64336956B03C8 /* PBXContainerItemProxy */;
+		};
+		305CAA4E45B447E3A68ABCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
+			targetProxy = D8F2ED4C9A874441A6D5B9D1 /* PBXContainerItemProxy */;
+		};
+		32C14C9B64BF435D90AD239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
+			targetProxy = C561BE9B208F494299E74CD9 /* PBXContainerItemProxy */;
+		};
+		57DF42F3B3D24866A32826E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB594D7AF864187B6598087 /* sample-sample */;
+			targetProxy = 4A730F1EE57045849CCDD761 /* PBXContainerItemProxy */;
+		};
+		73FFE4E47C304E0B8444A2CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FA949897644AE2B52B0E92 /* libstudxml */;
+			targetProxy = B2C8C7078EE34DBEBC8300E8 /* PBXContainerItemProxy */;
+		};
+		9280F8B2F6DC421FB7E03F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5965E0DB8AA400F9A9E4FE9 /* sample-decrypt */;
+			targetProxy = 29B4C05665884449B662AC92 /* PBXContainerItemProxy */;
+		};
+		AB78BACF60054389BD4994A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
+			targetProxy = D9E215D12E3C42AF99C0A2A4 /* PBXContainerItemProxy */;
+		};
+		BA55DE48EF4A41A58389F047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364138E86D7F41AEA3C8E4C2 /* sample-img2xlsx */;
+			targetProxy = F3EA8638BF8349809E1C32CD /* PBXContainerItemProxy */;
+		};
+		C2895876AB444E28AA1A7B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
+			targetProxy = 7C56FA3EB9C84859BEDDF410 /* PBXContainerItemProxy */;
+		};
+		C40F1F2F1AD34CED99CE9F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8FA949897644AE2B52B0E92 /* libstudxml */;
+			targetProxy = F23EA2D5B40942CDAB42D344 /* PBXContainerItemProxy */;
+		};
+		D4311242CAE54A15B24B211B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
+			targetProxy = 90D6AAE52E954B93BA52364D /* PBXContainerItemProxy */;
+		};
+		D7D1BE2CA9A949D5AC55BDA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
+			targetProxy = 49AF28EA743D4FC3A0C007B8 /* PBXContainerItemProxy */;
+		};
+		D8E398327168468D8367ECA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
+			targetProxy = E81C5E02FEEE44A39DDF00E1 /* PBXContainerItemProxy */;
+		};
+		EF3B70B860DC408A941E2447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
+			targetProxy = A9651C43AC7B49F6985DE661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0234CDCCA5F441D0B2CBD5E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+			};
+			name = RelWithDebInfo;
+		};
+		155564CDF39A48E084067E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/Release/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'LIBSTUDXML_STATIC_LIB=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		19E7A7B05C404EDA9DB4ADB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		1E0CBB417F9644938347D18C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					xlnt_EXPORTS,
+					"'XLNT_SHARED=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Weverything",
+					"-Wno-c++98-compat",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-padded",
+					"-Wno-documentation-unknown-command",
+					"-Wno-unknown-pragmas",
+					"-Wno-unknown-warning-option",
+					"-Wno-float-equal",
+					"-Wno-newline-eof",
+					"-Wno-covered-switch-default",
+					"-Wno-exit-time-destructors",
+					"-Wno-missing-braces",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		1FD473E65F034772981D9969 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		272671A13B3F49F0BF2BFD2E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-decrypt";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		2FE4A0E3C65F43569F7DB9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Release";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Release/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-decrypt";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		32999E14EC2745A5B95B69E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					xlnt_EXPORTS,
+					"'XLNT_SHARED=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Weverything",
+					"-Wno-c++98-compat",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-padded",
+					"-Wno-documentation-unknown-command",
+					"-Wno-unknown-pragmas",
+					"-Wno-unknown-warning-option",
+					"-Wno-float-equal",
+					"-Wno-newline-eof",
+					"-Wno-covered-switch-default",
+					"-Wno-exit-time-destructors",
+					"-Wno-missing-braces",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		38CD7B17830146E9B0B2A82D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-decrypt";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		3E1D8981A7F04DC7A17153CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Debug";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Debug/libxlntd.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-sample";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		4554216C039C4110BA3AB012 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		4AF1535CE59D40A998028B84 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+			};
+			name = MinSizeRel;
+		};
+		524410464A0943189FFF5CD4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-img2xlsx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		57D5F632A7F044E7BA5A23A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					xlnt_EXPORTS,
+					"'XLNT_SHARED=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Weverything",
+					"-Wno-c++98-compat",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-padded",
+					"-Wno-documentation-unknown-command",
+					"-Wno-unknown-pragmas",
+					"-Wno-unknown-warning-option",
+					"-Wno-float-equal",
+					"-Wno-newline-eof",
+					"-Wno-covered-switch-default",
+					"-Wno-exit-time-destructors",
+					"-Wno-missing-braces",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlntd.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		68A1AEA9369B4BCEBCA4D08C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		84EB8C9BC7E84890A0508037 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		861083E0E7CF40A69BA38283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		872B99E1F5FB4C46AFD1D7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/Debug/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'LIBSTUDXML_STATIC_LIB=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		88D8F457AABE46FD829E1CB3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/MinSizeRel/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'LIBSTUDXML_STATIC_LIB=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		88F79D2E17E24E46A5D75B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		8FFBB602D3824EE8B2C8B596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		979F1A75D1864C18B2992327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		97AC34CB058D459993E1748B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A19C8AF927624414B7CABC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Debug";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Debug/libxlntd.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-img2xlsx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		A1BF00B8BC8C42A29A7CF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+			};
+			name = Release;
+		};
+		A87E8AB05FCD401A85338D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		ABB1E481FF28405DB3DF7B9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		AD03ADD759D240FC987C5445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Debug";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Debug/libxlntd.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-decrypt";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B03D257226294C6BB7DB83E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B5C604B565F142349DFC8078 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/RelWithDebInfo/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'LIBSTUDXML_STATIC_LIB=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B9A7E231502E41A1A9CF16C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		BB84C21A25F74F6B91681862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Release";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Release/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-img2xlsx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		BC82DEEFE9D14ECA835EF73F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CF5348BD24BF4246964BCEA7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-sample";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D0B85947A4B7414F8525B26E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-img2xlsx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D9BD5825894543B1AC71CF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+			};
+			name = Debug;
+		};
+		E1EAD9E804244AA6BDB07F59 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E554AED0379C40A0983B1167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					xlnt_EXPORTS,
+					"'XLNT_SHARED=1'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
+					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Weverything",
+					"-Wno-c++98-compat",
+					"-Wno-c++98-compat-pedantic",
+					"-Wno-padded",
+					"-Wno-documentation-unknown-command",
+					"-Wno-unknown-pragmas",
+					"-Wno-unknown-warning-option",
+					"-Wno-float-equal",
+					"-Wno-newline-eof",
+					"-Wno-covered-switch-default",
+					"-Wno-exit-time-destructors",
+					"-Wno-missing-braces",
+					"-DNDEBUG",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		E67E4A4A71114B039B5036AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-sample";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F3505A33DF3349D694395668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'XLNT_SAMPLE_DATA_DIR=/Users/sunjm/Downloads/xlnt-master/samples/data'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
+					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Release";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/sunjm/Downloads/xlnt-master/samples/source/Release/libxlnt.1.2.dylib",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sample-sample";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F0723AA7BE4F8F8FA9FCC4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861083E0E7CF40A69BA38283 /* Debug */,
+				B9A7E231502E41A1A9CF16C6 /* Release */,
+				E1EAD9E804244AA6BDB07F59 /* MinSizeRel */,
+				1FD473E65F034772981D9969 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3332886BE35F4B7981BBACA3 /* Build configuration list for PBXProject "xlnt.samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BD5825894543B1AC71CF2E /* Debug */,
+				A1BF00B8BC8C42A29A7CF7C7 /* Release */,
+				4AF1535CE59D40A998028B84 /* MinSizeRel */,
+				0234CDCCA5F441D0B2CBD5E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4AEB8C98D2044E92AACC42A1 /* Build configuration list for PBXNativeTarget "libstudxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B99E1F5FB4C46AFD1D7D8 /* Debug */,
+				155564CDF39A48E084067E93 /* Release */,
+				88D8F457AABE46FD829E1CB3 /* MinSizeRel */,
+				B5C604B565F142349DFC8078 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		667FC205BEED4F50B9E28515 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F79D2E17E24E46A5D75B83 /* Debug */,
+				97AC34CB058D459993E1748B /* Release */,
+				ABB1E481FF28405DB3DF7B9C /* MinSizeRel */,
+				68A1AEA9369B4BCEBCA4D08C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7226F5FEB4494449AB791744 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E7A7B05C404EDA9DB4ADB2 /* Debug */,
+				A87E8AB05FCD401A85338D8F /* Release */,
+				4554216C039C4110BA3AB012 /* MinSizeRel */,
+				B03D257226294C6BB7DB83E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D9E611970534627A79BA51A /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979F1A75D1864C18B2992327 /* Debug */,
+				8FFBB602D3824EE8B2C8B596 /* Release */,
+				84EB8C9BC7E84890A0508037 /* MinSizeRel */,
+				BC82DEEFE9D14ECA835EF73F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96D5E97E3BF14E8ABC2E34D3 /* Build configuration list for PBXNativeTarget "sample-decrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03ADD759D240FC987C5445 /* Debug */,
+				2FE4A0E3C65F43569F7DB9F6 /* Release */,
+				38CD7B17830146E9B0B2A82D /* MinSizeRel */,
+				272671A13B3F49F0BF2BFD2E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB5A66D8E1DC4681B8C0E11F /* Build configuration list for PBXNativeTarget "xlnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D5F632A7F044E7BA5A23A3 /* Debug */,
+				E554AED0379C40A0983B1167 /* Release */,
+				1E0CBB417F9644938347D18C /* MinSizeRel */,
+				32999E14EC2745A5B95B69E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAD65BB49CB74096AA5BA696 /* Build configuration list for PBXNativeTarget "sample-img2xlsx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19C8AF927624414B7CABC17 /* Debug */,
+				BB84C21A25F74F6B91681862 /* Release */,
+				D0B85947A4B7414F8525B26E /* MinSizeRel */,
+				524410464A0943189FFF5CD4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB3B97E180D2477D8DB216D3 /* Build configuration list for PBXNativeTarget "sample-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1D8981A7F04DC7A17153CA /* Debug */,
+				F3505A33DF3349D694395668 /* Release */,
+				E67E4A4A71114B039B5036AE /* MinSizeRel */,
+				CF5348BD24BF4246964BCEA7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5FD982A35884726905A7D24 /* Project object */;
+}

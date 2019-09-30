@@ -1,0 +1,29 @@
+﻿  Building Custom Rule G:/Downloads/xlnt-master/tests/CMakeLists.txt
+  runner.cpp
+  cell_test_suite.cpp
+  index_types_test_suite.cpp
+  rich_text_test_suite.cpp
+  alignment_test_suite.cpp
+  color_test_suite.cpp
+  conditional_format_test_suite.cpp
+  fill_test_suite.cpp
+  number_format_test_suite.cpp
+  protection_test_suite.cpp
+  style_test_suite.cpp
+  datetime_test_suite.cpp
+  helper_test_suite.cpp
+  optional_tests.cpp
+  path_test_suite.cpp
+  timedelta_test_suite.cpp
+  variant_tests.cpp
+  named_range_test_suite.cpp
+  serialization_test_suite.cpp
+  workbook_test_suite.cpp
+  正在生成代码...
+  正在编译...
+  page_setup_test_suite.cpp
+  range_test_suite.cpp
+  worksheet_test_suite.cpp
+  test_suite.cpp
+  正在生成代码...
+  xlnt.test.vcxproj -> G:\Downloads\xlnt-master\vs\tests\Debug\xlnt.test.exe

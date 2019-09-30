@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\parser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\qname.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\serializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\value-traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\genx\char-props.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\genx\genx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmlparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmlrole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmltok.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\genx\genx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\ascii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\asciitab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\expat_external.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\expat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\iasciitab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\latin1tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\nametab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\utf8tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmlrole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmltok_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\details\expat\xmltok.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Downloads\xlnt-master\third-party\libstudxml\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\content" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\exception" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\forward" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\parser" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\qname" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\serializer" />
+    <None Include="G:\Downloads\xlnt-master\third-party\libstudxml\xml\value-traits" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BC46F764-2626-310B-8083-124E5A4AF1B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FD4F0B60-E609-3370-908E-F62045255D73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

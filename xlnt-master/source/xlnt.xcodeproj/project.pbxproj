@@ -1,0 +1,1932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 97A592DB3ECE49F0B1F8C6C8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				95C80DE8D060411C8C031169 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		53D9598D94AE468C9314000D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24BD8FFCFD4E426392C7A099 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CC22EEA22C2E4CFFB9FBF0BF /* CMake Rules */,
+			);
+			dependencies = (
+				31894016C30048FA8281306D /* PBXTargetDependency */,
+				A155C8C641C74B348C5DDFC4 /* PBXTargetDependency */,
+				2906AB7CF90B46D8AFEA0B5E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		540E4F2C1CF340A4AFF2A002 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 773A38AFEA8A4B2CAD53A715 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				51E1001D64D642B0AEBA91C9 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				39DC802527D648498349F92F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		FA6933F407BA4DB990D81D4A /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B97694DC3FA43B48C2014F2 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				1A5BA89548814E1096F6A15C /* CMake Rules */,
+			);
+			dependencies = (
+				53A17E4D025E49F68BF79D1F /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0008E20F1BA0419F80E031E5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_view.hpp */ = {isa = PBXBuildFile; fileRef = 766E084E96694C3D914EED9D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_view.hpp */; };
+		033BAE3401F642479EC4350B /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/timedelta.hpp */ = {isa = PBXBuildFile; fileRef = 5D567AC9A13C48A29F342584 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/timedelta.hpp */; };
+		041E60B926DC456C9465B5E1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C5D7E014AABE4E25976DA496 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */; };
+		044DD848D18641CBA31045D6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */ = {isa = PBXBuildFile; fileRef = 404698D28C254C4DBC8F53ED /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */; };
+		04794D50A30F448F9B557505 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.cpp */ = {isa = PBXBuildFile; fileRef = C42E0CA6BA364DEFB0E09F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.cpp */; };
+		0531072920064F51AE13C887 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range.hpp */ = {isa = PBXBuildFile; fileRef = 527C684E78944CE0974D1E0A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range.hpp */; };
+		055D934115104051B6C60BFB /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_iterator.hpp */ = {isa = PBXBuildFile; fileRef = 4305A282D90C4A548701C1A9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_iterator.hpp */; };
+		057411BFF74D41D8A615B979 /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_libstudxml.hpp */ = {isa = PBXBuildFile; fileRef = 1C6D6AFE50604CA5AC39A027 /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_libstudxml.hpp */; };
+		06018831FEA84623AD817DF5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_writer.hpp */ = {isa = PBXBuildFile; fileRef = F847E853279F4DBB86AE8896 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_writer.hpp */; };
+		07A6F6C7CC294A8990F69E78 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */ = {isa = PBXBuildFile; fileRef = 1975E3389F3546BAA6C57B8B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */; };
+		07F3CF226D9B44E0B85FABFC /* /Users/sunjm/Downloads/xlnt-master/source/workbook/named_range.cpp */ = {isa = PBXBuildFile; fileRef = F9A8F212C0FF45B7B3E37C50 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/named_range.cpp */; };
+		0881C0638A42400381AF1FD0 /* /Users/sunjm/Downloads/xlnt-master/source/styles/alignment.cpp */ = {isa = PBXBuildFile; fileRef = C7B8AE3739944C2CA73D5E2B /* /Users/sunjm/Downloads/xlnt-master/source/styles/alignment.cpp */; };
+		09C2CEE0AA84406B9458D461 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */ = {isa = PBXBuildFile; fileRef = F0DD15B2FAD847EFA35F560C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */; };
+		0B548776FF454E1B9BA6A141 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.hpp */ = {isa = PBXBuildFile; fileRef = 11181ADDB98D4703BF38B97C /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.hpp */; };
+		0BDD1F44D63844E98EDF6E5F /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_writer.cpp */ = {isa = PBXBuildFile; fileRef = 7099877AD0594BD08E4E0540 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_writer.cpp */; };
+		0BFC7DC3361947978A5EF98E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */ = {isa = PBXBuildFile; fileRef = CBE7539681BB4491BCF9A184 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */; };
+		0F8B4E517E954401B70F2A4D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/number_format.hpp */ = {isa = PBXBuildFile; fileRef = F7A156BA9DCB4781AC9FD33E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/number_format.hpp */; };
+		10248657DB394BEBA70753A5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/named_range.hpp */ = {isa = PBXBuildFile; fileRef = E47FAA119BF849CA8342A201 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/named_range.hpp */; };
+		114C47963B6340D882DF430B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.cpp */ = {isa = PBXBuildFile; fileRef = B99A7AB3239441DFB462332A /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.cpp */; };
+		125323E9864849439947CCA3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/date.hpp */ = {isa = PBXBuildFile; fileRef = 84BC3FD3FDD84095A44A6AA2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/date.hpp */; };
+		12A259BF7DAB413FBF8E4116 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.cpp */ = {isa = PBXBuildFile; fileRef = D9CBF6B890C543539D97677B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.cpp */; };
+		1409250DB99B462EB3A78ECD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text.hpp */ = {isa = PBXBuildFile; fileRef = 5B0D4CA96267451EA8902560 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text.hpp */; };
+		143A4FF328F043B18CEF0E48 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.hpp */ = {isa = PBXBuildFile; fileRef = 5D207DA18AFD4CABBD67AB75 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.hpp */; };
+		1448523A608E4B3A9FF94B12 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.hpp */ = {isa = PBXBuildFile; fileRef = A930CF4C3E6B4FB58A019398 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.hpp */; };
+		14FA000073CE4A1C983AFE99 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_protection.hpp */ = {isa = PBXBuildFile; fileRef = F91F149453F4484483A9C24E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_protection.hpp */; };
+		1688E895145642679890DC1F /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/index_types.hpp */ = {isa = PBXBuildFile; fileRef = 205B15D5A00E47EABD9330B2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/index_types.hpp */; };
+		1A1FA1C1E2A3445EB2D8BFE7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.cpp */ = {isa = PBXBuildFile; fileRef = BB94225CD8A84B2D8F12F836 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.cpp */; settings = {COMPILER_FLAGS = "-Wno-undef -Wno-shorten-64-to-32"; }; };
+		1A2359AF83EC4CBB9BEE0F35 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/color.hpp */ = {isa = PBXBuildFile; fileRef = FBCF63EAE7F4479181430AE7 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/color.hpp */; };
+		1B1E495611FF4DD9AC5948DA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha1.c */ = {isa = PBXBuildFile; fileRef = AF5D4B7C69514106AC6068CD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha1.c */; };
+		1C5AFB0837EE43A5BEFBD0C1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.cpp */ = {isa = PBXBuildFile; fileRef = 771439AC9A844DB197B99BC1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.cpp */; };
+		1C6378601D75413C9AC69A2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_vector.hpp */ = {isa = PBXBuildFile; fileRef = 8557E3DB4DE44C31808542FE /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_vector.hpp */; };
+		1D42CF1595824E98A87B77C6 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt.hpp */ = {isa = PBXBuildFile; fileRef = 368CEA37403E4A35AD0A153A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt.hpp */; };
+		1E039E5B2DDA4F8EA0F78527 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.hpp */ = {isa = PBXBuildFile; fileRef = A066C7D428AE4A4CB4913631 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.hpp */; };
+		1E70F79A87514D9DBF5CB30A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/manifest.hpp */ = {isa = PBXBuildFile; fileRef = C99A09083AFF42F2A834E563 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/manifest.hpp */; };
+		1E989B24958A444C8ACD9127 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_iterator.cpp */ = {isa = PBXBuildFile; fileRef = B835C726362F4439B60CC701 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_iterator.cpp */; };
+		1EE0EDAA845945EFBA3551E0 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */ = {isa = PBXBuildFile; fileRef = D9EDA77FC7BA494EBCACC823 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */; };
+		1FDD450CC0F94EA3B3D4CA95 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.cpp */ = {isa = PBXBuildFile; fileRef = 9C01AA6AB8C74162AF00DF72 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.cpp */; };
+		218FE1444BB744A1BD3E3903 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/relationship.hpp */ = {isa = PBXBuildFile; fileRef = CF814C6F9277469DB2CBB835 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/relationship.hpp */; };
+		22E557CBBCAD4447A1295B23 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell.hpp */ = {isa = PBXBuildFile; fileRef = 1B01FDA3E464448C861B8D1D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell.hpp */; };
+		2344D345EFF74CB88CBC5E52 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/row_properties.hpp */ = {isa = PBXBuildFile; fileRef = D61298641D8D4E33BDE5D130 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/row_properties.hpp */; };
+		24AD2A38AB0F4F9FABF2E7D6 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.hpp */ = {isa = PBXBuildFile; fileRef = 00EFB47BD90648D8BEB9DB7A /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.hpp */; };
+		2632C291F3E84F43B9C8CE7D /* /Users/sunjm/Downloads/xlnt-master/source/styles/conditional_format.cpp */ = {isa = PBXBuildFile; fileRef = 1489440BC96546369535B936 /* /Users/sunjm/Downloads/xlnt-master/source/styles/conditional_format.cpp */; };
+		26DA8D5806734434A5B5BAE9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell_reference.cpp */ = {isa = PBXBuildFile; fileRef = D434BCDB98EE4A0297A82DEA /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell_reference.cpp */; };
+		29BFE73E2749454CA8409EC6 /* /Users/sunjm/Downloads/xlnt-master/source/styles/color.cpp */ = {isa = PBXBuildFile; fileRef = 023A8F77983A4777BAB41E67 /* /Users/sunjm/Downloads/xlnt-master/source/styles/color.cpp */; };
+		29DDC53C4DA7452BA33CDC86 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/metadata_property.hpp */ = {isa = PBXBuildFile; fileRef = 1748EAA103EE4648B76B0800 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/metadata_property.hpp */; };
+		2AE132377E2348EA876E855C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt_config.hpp */ = {isa = PBXBuildFile; fileRef = 41AC78F30AE840A589B098A6 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt_config.hpp */; };
+		2C1BC8FB5E5B42F093AD0CD0 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */ = {isa = PBXBuildFile; fileRef = 19C0C05BD3A54F9490673FA6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */; };
+		2C90EED4050C49F4AA9A090C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/conditional_format.hpp */ = {isa = PBXBuildFile; fileRef = 207169FA83174F69BA4B7AD9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/conditional_format.hpp */; };
+		2D67ACF5DF1947B483281293 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.cpp */ = {isa = PBXBuildFile; fileRef = B3582C4D9A7E4D6C9590EE8D /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.cpp */; };
+		2F0FC2C532CD4A9EA611B19E /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.cpp */ = {isa = PBXBuildFile; fileRef = A7649416A85D4C1E823D8508 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.cpp */; };
+		304E832452924C9DA83A03E7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/worksheet_impl.hpp */ = {isa = PBXBuildFile; fileRef = BCAEB56521614E9EB783BC85 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/worksheet_impl.hpp */; };
+		311A1EC5EF3543AF911CA758 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */ = {isa = PBXBuildFile; fileRef = EF0424DED88F41BFBF8887C9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */; };
+		31D6A9A9FD764CA0AB8D8EE2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/font.hpp */ = {isa = PBXBuildFile; fileRef = E4EB64C4338C46668FA5BB05 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/font.hpp */; };
+		33F68D1A237B45FE930520F6 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.hpp */ = {isa = PBXBuildFile; fileRef = BC3E1AB358EC40F8943362D7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.hpp */; };
+		342C8105FEC843D1BB177554 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text.cpp */ = {isa = PBXBuildFile; fileRef = 9EBAA394A76F4990B8146946 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text.cpp */; };
+		346B5A674CFA4C4BA1936ADE /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.hpp */ = {isa = PBXBuildFile; fileRef = 710FF6F2A2A34EE699FFDDBD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.hpp */; };
+		35D1E0FFD22D4B5BAA4487FA /* /Users/sunjm/Downloads/xlnt-master/source/packaging/uri.cpp */ = {isa = PBXBuildFile; fileRef = 1480B24CC2C549E5A75DA144 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/uri.cpp */; };
+		37CAF272F5884F469C110AF5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/worksheet.hpp */ = {isa = PBXBuildFile; fileRef = 000B483DD5974349BF23C031 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/worksheet.hpp */; };
+		3888C622D6A84D068ED200E6 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/style_impl.hpp */ = {isa = PBXBuildFile; fileRef = 7DF406E38AFE49879B719882 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/style_impl.hpp */; };
+		39829E0265C349509B4019D8 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/relationship.cpp */ = {isa = PBXBuildFile; fileRef = 8017EFC12DC44C7F8A1005EB /* /Users/sunjm/Downloads/xlnt-master/source/packaging/relationship.cpp */; };
+		3A645F02216540F1888374E9 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.hpp */ = {isa = PBXBuildFile; fileRef = 1E0A4128082347CB925DBD05 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.hpp */; };
+		3BDD43B5C09C4029AD29FF86 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/datetime.hpp */ = {isa = PBXBuildFile; fileRef = 2DE17192641F4A1FB8E2A462 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/datetime.hpp */; };
+		3F4B2DEAB5A04361B2416317 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/time.hpp */ = {isa = PBXBuildFile; fileRef = 4731371CBBC04B438F52EB2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/time.hpp */; };
+		4450398BD6DF428C903187CD /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_vector.cpp */ = {isa = PBXBuildFile; fileRef = E56CC110F6D34C5F85A22118 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_vector.cpp */; };
+		445F7C40ACF44591B39FCCA5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/uri.hpp */ = {isa = PBXBuildFile; fileRef = 6446ECFB585F47F6A5051DD8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/uri.hpp */; };
+		4C4B4F3D913244AA9A24914E /* /Users/sunjm/Downloads/xlnt-master/source/styles/protection.cpp */ = {isa = PBXBuildFile; fileRef = A5BD7906A6A542EBBFE27126 /* /Users/sunjm/Downloads/xlnt-master/source/styles/protection.cpp */; };
+		4CBE089D19B4480AB30CBB7D /* /Users/sunjm/Downloads/xlnt-master/source/styles/style.cpp */ = {isa = PBXBuildFile; fileRef = FBCEE513F4A14FC4B96CEAE5 /* /Users/sunjm/Downloads/xlnt-master/source/styles/style.cpp */; };
+		4F02D734E09041A383C632F3 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.hpp */ = {isa = PBXBuildFile; fileRef = 09D7F28F9CA543B6B5AB4A68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.hpp */; };
+		4F8BC0A423F9425D9E94E1D2 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */ = {isa = PBXBuildFile; fileRef = A946D34D3CEA42C2AA3ED177 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */; };
+		5070E66F633C4803B79F7A6F /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.cpp */ = {isa = PBXBuildFile; fileRef = 49371EB3B37A48C4877E9039 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.cpp */; };
+		51673CD8933A4DA89C78A46E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.hpp */ = {isa = PBXBuildFile; fileRef = B322A57BF55546BAA1EAA4D5 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.hpp */; };
+		5202F6B783274564AB7EA3EC /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/scoped_enum_hash.hpp */ = {isa = PBXBuildFile; fileRef = D2666E7980264E1C95306710 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/scoped_enum_hash.hpp */; };
+		528AFF3BD8BA4AD5AE3C3598 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.cpp */ = {isa = PBXBuildFile; fileRef = 5B2461C5D6B64AF2A9B6FB8B /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.cpp */; };
+		561A1F45F4934CC8A2B9A9DA /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/variant.hpp */ = {isa = PBXBuildFile; fileRef = 6E41393479E3420EBAA93934 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/variant.hpp */; };
+		571F04A92B9844458F66D2AF /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.cpp */ = {isa = PBXBuildFile; fileRef = B853153AEDF84BB79102B8DC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.cpp */; };
+		5731E934C9E84268AC2D9CEE /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/alignment.hpp */ = {isa = PBXBuildFile; fileRef = 85AFFA5506264CFBA0EADF8C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/alignment.hpp */; };
+		58184C630D5D4AAC8BEBFD14 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.hpp */ = {isa = PBXBuildFile; fileRef = 68A43DA8E12A47B493BC3AFB /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.hpp */; };
+		589B38A8D6FB46AEAEF9E5CE /* /Users/sunjm/Downloads/xlnt-master/source/utils/date.cpp */ = {isa = PBXBuildFile; fileRef = AFF34581C4344A12B7CB7411 /* /Users/sunjm/Downloads/xlnt-master/source/utils/date.cpp */; };
+		5AA0CA7B253141DE807E70DD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/cipher.hpp */ = {isa = PBXBuildFile; fileRef = 35B7EFAF90564BD687B9227B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/cipher.hpp */; };
+		5AC7E5ED0B9C4833872FDAFA /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/header_footer.hpp */ = {isa = PBXBuildFile; fileRef = 99EA52C57A754E42A30E89DD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/header_footer.hpp */; };
+		5B077A89AA1442C099E17289 /* /Users/sunjm/Downloads/xlnt-master/source/utils/timedelta.cpp */ = {isa = PBXBuildFile; fileRef = 0BB7B1634FC24F99BC5C8C98 /* /Users/sunjm/Downloads/xlnt-master/source/utils/timedelta.cpp */; };
+		5BA6DCB42C36415894861119 /* /Users/sunjm/Downloads/xlnt-master/source/styles/border.cpp */ = {isa = PBXBuildFile; fileRef = 4C90D5E8BA34413B86AA302D /* /Users/sunjm/Downloads/xlnt-master/source/styles/border.cpp */; };
+		5CBF3941BACD49B89875918C /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.cpp */ = {isa = PBXBuildFile; fileRef = 97D95546FB4B45DBBD2B600E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.cpp */; };
+		5CC7DC364F9F4DA4A724E6CE /* /Users/sunjm/Downloads/xlnt-master/source/workbook/workbook.cpp */ = {isa = PBXBuildFile; fileRef = 26CE8DABF492440A9D0BC412 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/workbook.cpp */; };
+		5E51531C688748A293FFC73C /* /Users/sunjm/Downloads/xlnt-master/source/styles/format.cpp */ = {isa = PBXBuildFile; fileRef = EDF1F6844C1244879F0B2316 /* /Users/sunjm/Downloads/xlnt-master/source/styles/format.cpp */; };
+		615976E46B3E48E9B26C9A14 /* /Users/sunjm/Downloads/xlnt-master/source/cell/hyperlink.cpp */ = {isa = PBXBuildFile; fileRef = C9075E2DE2FB4EDE91C0F91C /* /Users/sunjm/Downloads/xlnt-master/source/cell/hyperlink.cpp */; };
+		628216E19B1842B1A2F68719 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_format_properties.hpp */ = {isa = PBXBuildFile; fileRef = 9D671BB50D8F4A258D511265 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_format_properties.hpp */; };
+		6399BF5C272944ECB77917F5 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */ = {isa = PBXBuildFile; fileRef = 75F1C59861AD4572A0CAE79E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */; };
+		641B3633FC2B45FF81FCDB9E /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/hyperlink_impl.hpp */ = {isa = PBXBuildFile; fileRef = 50674A67FD494B34BE301CFF /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/hyperlink_impl.hpp */; };
+		6686922AF7E34EC69BBEF2D9 /* /Users/sunjm/Downloads/xlnt-master/source/utils/time.cpp */ = {isa = PBXBuildFile; fileRef = F13B843783734585947BD506 /* /Users/sunjm/Downloads/xlnt-master/source/utils/time.cpp */; };
+		6723B3B9BF2C46C5AA4F52E2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook_view.hpp */ = {isa = PBXBuildFile; fileRef = 6934B7570A6448699FBE5FA8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook_view.hpp */; };
+		6A3E4289C24D4C4F8AB157CB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */ = {isa = PBXBuildFile; fileRef = 3DD45D7AD78A43628BAE1426 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */; };
+		6C6BC89786CE45B8AD449BA6 /* /Users/sunjm/Downloads/xlnt-master/source/utils/path.cpp */ = {isa = PBXBuildFile; fileRef = FD9C3A2C606E4A4E84221D1F /* /Users/sunjm/Downloads/xlnt-master/source/utils/path.cpp */; };
+		6C898D2251844A6BB2526EE8 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/header_footer.cpp */ = {isa = PBXBuildFile; fileRef = 63AA08A95AA74039AE658056 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/header_footer.cpp */; };
+		6CE9657472F449A6B1BBB74F /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_reference.cpp */ = {isa = PBXBuildFile; fileRef = 9E53C66CC3BB4AA18C72FE88 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_reference.cpp */; };
+		6D01AA1978CC42DEBAD4A803 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_setup.hpp */ = {isa = PBXBuildFile; fileRef = F883671932824008BDAD6017 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_setup.hpp */; };
+		6D48F4BF5188462C89801929 /* /Users/sunjm/Downloads/xlnt-master/source/utils/datetime.cpp */ = {isa = PBXBuildFile; fileRef = 61189C513CFF4A7DAEFAF396 /* /Users/sunjm/Downloads/xlnt-master/source/utils/datetime.cpp */; };
+		6E3F0ED3D14F44DEB4DCB73B /* /Users/sunjm/Downloads/xlnt-master/source/styles/number_format.cpp */ = {isa = PBXBuildFile; fileRef = 9D7996A98D9B470D8A74AC1F /* /Users/sunjm/Downloads/xlnt-master/source/styles/number_format.cpp */; };
+		6E712F850DDB42A6B04C311E /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.hpp */ = {isa = PBXBuildFile; fileRef = AB3C70A5B3C94F6685DC0C39 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.hpp */; };
+		6EAA914598CF4417A0B12782 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */ = {isa = PBXBuildFile; fileRef = DC14F6F4D5804F87884AE883 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */; };
+		7259003E77434912B6A36DEA /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/protection.hpp */ = {isa = PBXBuildFile; fileRef = 1592F030DAFB42D0B0135C90 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/protection.hpp */; };
+		73F463DB4210442C9652DE04 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.cpp */ = {isa = PBXBuildFile; fileRef = 9A5A82CFF0B946EA921DBE26 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.cpp */; settings = {COMPILER_FLAGS = "-Wno-undef"; }; };
+		74319E1DC79B4993BE0A683B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */ = {isa = PBXBuildFile; fileRef = 6E51E9241BF843A98B81000E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */; };
+		755043EBFB7F48E2B32BBA31 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_type.hpp */ = {isa = PBXBuildFile; fileRef = 793E8E2617D24D6E9DE170CC /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_type.hpp */; };
+		78A14DAC27A74A63A1491DDB /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.cpp */ = {isa = PBXBuildFile; fileRef = 802726BD62CC4D55A8D3F86E /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.cpp */; };
+		78E95D50EFDA4635BA843D2B /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/conditional_format_impl.hpp */ = {isa = PBXBuildFile; fileRef = 8D7DF89F48184EEEA13A741F /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/conditional_format_impl.hpp */; };
+		7B6858A4375D4FB199A36555 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/comment.hpp */ = {isa = PBXBuildFile; fileRef = 61C8D4C760974B40A34E3BB5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/comment.hpp */; };
+		7C6837C23EA5457789C41C0F /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/format_impl.hpp */ = {isa = PBXBuildFile; fileRef = 6A6D878033CD47609D141B99 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/format_impl.hpp */; };
+		7C9344896F7F4A948AE40D23 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */ = {isa = PBXBuildFile; fileRef = 13E5CF26854B45CEA400A46D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */; };
+		7D2E83DCC3004FF1933E584D /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/stylesheet.hpp */ = {isa = PBXBuildFile; fileRef = 0A7C8C7547874524B06A577C /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/stylesheet.hpp */; };
+		7FA9F42CB02646CBB2FA4594 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_reader.cpp */ = {isa = PBXBuildFile; fileRef = 4F21761747CF4FAB8F5E3F96 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_reader.cpp */; };
+		8039E6C2D08A4A4399F9C545 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/format.hpp */ = {isa = PBXBuildFile; fileRef = F252BC12B8BD4320A26F212A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/format.hpp */; };
+		80EEB21036C14C75A6EE48E3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/calendar.hpp */ = {isa = PBXBuildFile; fileRef = E96393B514F649E3B2E6A63F /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/calendar.hpp */; };
+		815D2B54CD9F42E6B35DA43C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */ = {isa = PBXBuildFile; fileRef = 9CBF3ABBB2E44D54857A8751 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */; };
+		81968599298B4818986F54BA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.hpp */ = {isa = PBXBuildFile; fileRef = 0BB720BD62CF45EF82188F6E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.hpp */; };
+		821DB6EE8B424C48998CB36C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */ = {isa = PBXBuildFile; fileRef = 05401CA7085442D9B9C03FC6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */; };
+		86964F6392AF44958F2E4841 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/print_options.hpp */ = {isa = PBXBuildFile; fileRef = 940C6A5EA04647179DDBF997 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/print_options.hpp */; };
+		8A62C35E2A04461A9EFC6C60 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_iterator.cpp */ = {isa = PBXBuildFile; fileRef = 1FE1845E72504ED1ADBAECDB /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_iterator.cpp */; };
+		8AE7FA18A670479486816F0F /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.hpp */ = {isa = PBXBuildFile; fileRef = E9B853D4410142368DFB57D4 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.hpp */; };
+		8B5F797DE4CA4271B0DACBA8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_reader.hpp */ = {isa = PBXBuildFile; fileRef = 571E8B1964814423BACB23C0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_reader.hpp */; };
+		8CE750604E5D4E808EB8C47D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */ = {isa = PBXBuildFile; fileRef = 39A7C49919B84EE187E5CBC7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */; };
+		8D5562CF7CF14B67A796AC94 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */ = {isa = PBXBuildFile; fileRef = DF5584B364CA45A3949AAE68 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */; };
+		8FD1A7F698FF48A2A8C0C557 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range.cpp */ = {isa = PBXBuildFile; fileRef = 7056E0AA5CD9488DA8ECB358 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range.cpp */; };
+		905EF34D335B46BFA0BCE4B7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */ = {isa = PBXBuildFile; fileRef = 6D2C5A42682743869D219B6E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */; };
+		92013730C7A645FFAA97FC75 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/worksheet.cpp */ = {isa = PBXBuildFile; fileRef = 60358B4FFE51459E8CDBE6F4 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/worksheet.cpp */; };
+		943AF9A795C1438AB0AA7620 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/pane.hpp */ = {isa = PBXBuildFile; fileRef = 00E5326E044F4A8B8B7582AD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/pane.hpp */; };
+		94C8DE4847324644A7195AC7 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/worksheet_iterator.hpp */ = {isa = PBXBuildFile; fileRef = E78EE8B33B3A4E769CBCB76D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/worksheet_iterator.hpp */; };
+		951DC4B83E294835A459B8D3 /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6CB9BD4BC44C49C0B823A8CC /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */; };
+		995607F220044BF08427650D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_reference.hpp */ = {isa = PBXBuildFile; fileRef = 7B4906ACE6F5476FAAA1CD60 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_reference.hpp */; };
+		9A1EDB698FD74E77A27C84CF /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/workbook_impl.hpp */ = {isa = PBXBuildFile; fileRef = 3934111C682948E8B53478DA /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/workbook_impl.hpp */; };
+		9ED826F2843B49479CE1B82B /* /Users/sunjm/Downloads/xlnt-master/source/utils/variant.cpp */ = {isa = PBXBuildFile; fileRef = 801E495CB12243129728F4A7 /* /Users/sunjm/Downloads/xlnt-master/source/utils/variant.cpp */; };
+		A0F6C22B7BA74EEEA59D23F8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */ = {isa = PBXBuildFile; fileRef = 6A02EB4BC4634F4487088B7A /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */; };
+		A24900D2F9EB437999F001C3 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.hpp */ = {isa = PBXBuildFile; fileRef = BC05D567BED0416E853BF649 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.hpp */; };
+		A411CD9C90BA477B9756E476 /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_windows.hpp */ = {isa = PBXBuildFile; fileRef = C7C938E8F54B43408B3F5DDF /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_windows.hpp */; };
+		A82A95CF634B4872A8451694 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/optional.hpp */ = {isa = PBXBuildFile; fileRef = D74208E187AF4A9980089C4A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/optional.hpp */; };
+		AA378B8EBDE04710A6A962CA /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/border.hpp */ = {isa = PBXBuildFile; fileRef = 856A1EC05A174D54852F5A33 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/border.hpp */; };
+		AAD7F1BE355541ACB49CD0A9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text_run.cpp */ = {isa = PBXBuildFile; fileRef = 74215A8175494368BBCB2BB9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text_run.cpp */; };
+		AC097FB162E040CAB04C3C14 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/value_traits.hpp */ = {isa = PBXBuildFile; fileRef = D7F55798727B4F4AB8CEA7F0 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/value_traits.hpp */; };
+		ACE1CECB6F05466190416861 /* /Users/sunjm/Downloads/xlnt-master/source/utils/exceptions.cpp */ = {isa = PBXBuildFile; fileRef = 1DFC03ED06A947469483AE54 /* /Users/sunjm/Downloads/xlnt-master/source/utils/exceptions.cpp */; };
+		AE57E3FA529440ADA085858A /* /Users/sunjm/Downloads/xlnt-master/source/cell/comment.cpp */ = {isa = PBXBuildFile; fileRef = F7808513EF714203BC0C8653 /* /Users/sunjm/Downloads/xlnt-master/source/cell/comment.cpp */; };
+		AFABABC58CB24722A575C939 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/path.hpp */ = {isa = PBXBuildFile; fileRef = 97CC8F8DE2F6415CA2D8342E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/path.hpp */; };
+		AFFF9DCE3DC147F487B720CA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.cpp */ = {isa = PBXBuildFile; fileRef = 9ED16E97A5D3484AB6BF6AFE /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.cpp */; };
+		B06EEF4471B3493690C2CCE3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_pr.hpp */ = {isa = PBXBuildFile; fileRef = CC1F2DB539054948BD10580C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_pr.hpp */; };
+		B1F7F262506846F5B9695307 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/column_properties.hpp */ = {isa = PBXBuildFile; fileRef = AEDDF2A7D6C04B4A87543D2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/column_properties.hpp */; };
+		B2B8EE50006142E2B3A29C73 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.hpp */ = {isa = PBXBuildFile; fileRef = 47DA734E471949539BDAE103 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.hpp */; };
+		B36F1AAE95184339AB7F91AD /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.cpp */ = {isa = PBXBuildFile; fileRef = 6481CC8475744BA2B79B578F /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.cpp */; };
+		B3C950466E804E67A556959E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */ = {isa = PBXBuildFile; fileRef = 7F38109259A14843BD72C8AA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */; };
+		B40FA00E869E4041BF3F4587 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_margins.cpp */ = {isa = PBXBuildFile; fileRef = F1C3BB64AB0D4E91893B56BD /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_margins.cpp */; };
+		B4F1D0142C884C9AA22EC48D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/selection.hpp */ = {isa = PBXBuildFile; fileRef = 1E45CA698C4446389D7EE170 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/selection.hpp */; };
+		B5C483697298470C9921A4AA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha512.c */ = {isa = PBXBuildFile; fileRef = 0831C06847D849DF94FDDC9B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha512.c */; };
+		B5D54F2B9A2B40608023ACF2 /* /Users/sunjm/Downloads/xlnt-master/source/detail/default_case.hpp */ = {isa = PBXBuildFile; fileRef = 3983326B05D44A98B658D331 /* /Users/sunjm/Downloads/xlnt-master/source/detail/default_case.hpp */; };
+		B5D576E32B6B40E4B967A37A /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell.cpp */ = {isa = PBXBuildFile; fileRef = C7D537E99BD84633B6DC80E1 /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell.cpp */; };
+		B7E0A1255D7A49CA8B2D6242 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/major_order.hpp */ = {isa = PBXBuildFile; fileRef = 139A8BB6971E4AD69FCED92D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/major_order.hpp */; };
+		B8DCADF805124192954B2DE5 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_setup.cpp */ = {isa = PBXBuildFile; fileRef = C622EFC2BEC34D6489C9F143 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_setup.cpp */; };
+		B9F811F008BF473DB4EC6CEC /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_reference.hpp */ = {isa = PBXBuildFile; fileRef = C7968B942B2C494AB77850C2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_reference.hpp */; };
+		BA4DD92ABD7D47FB8B091393 /* /Users/sunjm/Downloads/xlnt-master/source/cell/index_types.cpp */ = {isa = PBXBuildFile; fileRef = 71D82A7BC2DA4C9E908BBACD /* /Users/sunjm/Downloads/xlnt-master/source/cell/index_types.cpp */; };
+		BB61B35280D6433EB5E52A23 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.cpp */ = {isa = PBXBuildFile; fileRef = 70448109A8714511BCE51050 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.cpp */; };
+		BEF3A451D39844CCB6F07C02 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */ = {isa = PBXBuildFile; fileRef = 4BA77413CE21478EAA748D67 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */; };
+		C2FCD57F0AE14A1EA4248243 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/theme.hpp */ = {isa = PBXBuildFile; fileRef = 49480ABC8D3C4A38A7326E39 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/theme.hpp */; };
+		C5116D06D985428F96FB0AD8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/document_security.hpp */ = {isa = PBXBuildFile; fileRef = D117D95F510344D99E13B3F8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/document_security.hpp */; };
+		C5B1A9FFF61A4DCA8DBE375F /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.cpp */ = {isa = PBXBuildFile; fileRef = 9C513709262140A3B1E47742 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.cpp */; };
+		C67A5DBF993745D0BF44C6D1 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/exceptions.hpp */ = {isa = PBXBuildFile; fileRef = 428D0F76DEDE46D2894EFEE3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/exceptions.hpp */; };
+		CF936E35525E4BCAA6A4F2BA /* /Users/sunjm/Downloads/xlnt-master/source/styles/font.cpp */ = {isa = PBXBuildFile; fileRef = AA051B629C35433F8460A420 /* /Users/sunjm/Downloads/xlnt-master/source/styles/font.cpp */; };
+		D0D00DFA5DBF4AC8844AFEF3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/calculation_properties.hpp */ = {isa = PBXBuildFile; fileRef = 9BA8FABFA4814BB9B387945C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/calculation_properties.hpp */; };
+		D1324B86FD164F8A9890F9FF /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/ext_list.hpp */ = {isa = PBXBuildFile; fileRef = C09298031253414B8A79E814 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/ext_list.hpp */; };
+		D1F882F58C41418C95E02A33 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/sheet_protection.cpp */ = {isa = PBXBuildFile; fileRef = 97059940CBDB4F2F886986A8 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/sheet_protection.cpp */; };
+		D41A1129BEEA4FCC830478AD /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */ = {isa = PBXBuildFile; fileRef = C5AA10F0021F47D0A73413B9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */; };
+		D747371BD07C4C91AE5B4F3B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */ = {isa = PBXBuildFile; fileRef = 10EEE78490FA478ABBCF88E8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */; };
+		DB9620B0979A4008A78EC260 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */ = {isa = PBXBuildFile; fileRef = 2ECAF8C071C54DEE98FD2A2E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */; };
+		DEFBCA7AB4A84A5F924DC81D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/hyperlink.hpp */ = {isa = PBXBuildFile; fileRef = D1942086DCCD4DC0B982078E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/hyperlink.hpp */; };
+		DF9D8B3990294873B81AF77A /* /Users/sunjm/Downloads/xlnt-master/source/styles/fill.cpp */ = {isa = PBXBuildFile; fileRef = 4334288477104B6096E23CF8 /* /Users/sunjm/Downloads/xlnt-master/source/styles/fill.cpp */; };
+		E06835376C4042A6ABFDE05E /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.hpp */ = {isa = PBXBuildFile; fileRef = 2C48513AFED24CF9B3B52425 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.hpp */; };
+		E1C7F8CC4227465484F9D812 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/phonetic_pr.hpp */ = {isa = PBXBuildFile; fileRef = 20A48AC6EA4A4F8EBC7B56A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/phonetic_pr.hpp */; };
+		E1F44FB7DACB48A5973C3708 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.hpp */ = {isa = PBXBuildFile; fileRef = 4527D99E9FF941249332EB68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.hpp */; };
+		E33CD9A996F643AEAD970CC8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/serialisation_utils.hpp */ = {isa = PBXBuildFile; fileRef = 4626001665234190979E80B8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/serialisation_utils.hpp */; };
+		E35C117781D6477A8D1ADF33 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.cpp */ = {isa = PBXBuildFile; fileRef = 09AA99C1CFBE4C7D9DF94265 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.cpp */; };
+		E533D216CF9C4C7D93C1CFBC /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/phonetic_pr.cpp */ = {isa = PBXBuildFile; fileRef = CD08BC26AF50426AB15DE898 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/phonetic_pr.cpp */; };
+		E9F55173F0A045B2B8BAC7BF /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */ = {isa = PBXBuildFile; fileRef = BA302F859FFB41AEB685A73F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */; };
+		EB53781ECA7447929570CBDF /* /Users/sunjm/Downloads/xlnt-master/source/packaging/ext_list.cpp */ = {isa = PBXBuildFile; fileRef = 7AD14F0E536E4F2BA8023381 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/ext_list.cpp */; };
+		EC4C7D25D8954ACDA61AD098 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */ = {isa = PBXBuildFile; fileRef = D3E7DC8A8D1A4FDA87041A11 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */; };
+		ED5FB94B15D945F09E967148 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/worksheet_iterator.cpp */ = {isa = PBXBuildFile; fileRef = 727129EC2C8C4F7684DFDCD3 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/worksheet_iterator.cpp */; };
+		EE56D0914E2A4132AE391836 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_margins.hpp */ = {isa = PBXBuildFile; fileRef = 30DA4C5802B7435AAADC5E8A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_margins.hpp */; };
+		EE75E57486C942AB992E59C6 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.cpp */ = {isa = PBXBuildFile; fileRef = 6CCEFD02E7DE49349F8B9A77 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.cpp */; };
+		EFD938F866AA42C48962B37A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_iterator.hpp */ = {isa = PBXBuildFile; fileRef = 95817914B9224086A9763512 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_iterator.hpp */; };
+		F1419C6DD9324696B5912753 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/excel_thumbnail.hpp */ = {isa = PBXBuildFile; fileRef = E181BADE71CA49ECBAD26F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/excel_thumbnail.hpp */; };
+		F340EFD7164746E7BA578A1D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */ = {isa = PBXBuildFile; fileRef = 42CC072F40424C8786EA3EA3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */; };
+		F35D3472397D4B03A7D553C9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */ = {isa = PBXBuildFile; fileRef = 2815F70287A54E9DBB881945 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */; };
+		F3A06258213A41ABB4757F65 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text_run.hpp */ = {isa = PBXBuildFile; fileRef = EE74D25AFD984F53A5C1016A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text_run.hpp */; };
+		F6DECD2FCA70449BB11D2399 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.hpp */ = {isa = PBXBuildFile; fileRef = A9EE0626AF9F46848EB8E1BC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.hpp */; };
+		F8FBA909DF8C4752B6EB9406 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/style.hpp */ = {isa = PBXBuildFile; fileRef = 6FDB741EDB1744A8941B1015 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/style.hpp */; };
+		F978B6A0DC8D48FA9867A515 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/manifest.cpp */ = {isa = PBXBuildFile; fileRef = D680B7C850364DBBB51D830A /* /Users/sunjm/Downloads/xlnt-master/source/packaging/manifest.cpp */; };
+		F9B4DB6EFA344ECABEF737DF /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/formatting_record.hpp */ = {isa = PBXBuildFile; fileRef = 92BC729FB72442CC97B30E74 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/formatting_record.hpp */; };
+		FA331D5F32E04F8E84207A22 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */ = {isa = PBXBuildFile; fileRef = 8933EC0B155D460096B16F60 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */; };
+		FB4A0EB5C1324AFB9C06BE5C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook.hpp */ = {isa = PBXBuildFile; fileRef = CE8DC4B69403468BA1201784 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook.hpp */; };
+		FBA933649E4746B493FDA6A8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/fill.hpp */ = {isa = PBXBuildFile; fileRef = 93B84E14794541419A1B20A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/fill.hpp */; };
+		FD817598ED2F4729B2854C56 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/external_book.hpp */ = {isa = PBXBuildFile; fileRef = 66A5B73F0EF0462EB3C0A45B /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/external_book.hpp */; };
+		FE84E76E34E4483FB539F4E9 /* /Users/sunjm/Downloads/xlnt-master/source/detail/binary.hpp */ = {isa = PBXBuildFile; fileRef = 5F3B4983FDD14FFEB2DC5017 /* /Users/sunjm/Downloads/xlnt-master/source/detail/binary.hpp */; };
+		FEDFFEA6D37C4255B0DEAE26 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */ = {isa = PBXBuildFile; fileRef = 6E4788AD88FE45D4A2AD7D36 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */; };
+		FF508871F34643FF901E2B90 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.hpp */ = {isa = PBXBuildFile; fileRef = 6527FD9253964696A2BA82D1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		50131BCF965842469C74B4DF /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		887A0F36408D4DBA9D9AC82D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A070C987E79F496FAF7A9ABA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A73B7A033B7A4B5C95D15720 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		07ADE918781445F0B12D52EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480582607EB24ECFB5AC8DD3;
+			remoteInfo = libstudxml;
+		};
+		4C2DE9F6046F47BFAF8BCA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAD7BD0DEB84E5984397990;
+			remoteInfo = ZERO_CHECK;
+		};
+		576B024C11104ED18CCAA259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAD7BD0DEB84E5984397990;
+			remoteInfo = ZERO_CHECK;
+		};
+		6541BD85E8564E1F845E7AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480582607EB24ECFB5AC8DD3;
+			remoteInfo = libstudxml;
+		};
+		68E8BCE666BF4493ACAEEF67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095250720946479E8C03FC95;
+			remoteInfo = xlnt;
+		};
+		CA99992743004F6A8489A245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D9598D94AE468C9314000D;
+			remoteInfo = ALL_BUILD;
+		};
+		D67795A4213D4FDEAD6DFC73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784BF95F838F431A8458F2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAD7BD0DEB84E5984397990;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000B483DD5974349BF23C031 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/worksheet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet.hpp; path = ../include/xlnt/worksheet/worksheet.hpp; sourceTree = SOURCE_ROOT; };
+		00E5326E044F4A8B8B7582AD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/pane.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pane.hpp; path = ../include/xlnt/worksheet/pane.hpp; sourceTree = SOURCE_ROOT; };
+		00EFB47BD90648D8BEB9DB7A /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = open_stream.hpp; path = detail/serialization/open_stream.hpp; sourceTree = SOURCE_ROOT; };
+		023A8F77983A4777BAB41E67 /* /Users/sunjm/Downloads/xlnt-master/source/styles/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = styles/color.cpp; sourceTree = SOURCE_ROOT; };
+		05401CA7085442D9B9C03FC6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = parser; path = "../third-party/libstudxml/xml/parser"; sourceTree = SOURCE_ROOT; };
+		0831C06847D849DF94FDDC9B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha512.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sha512.c; path = detail/cryptography/sha512.c; sourceTree = SOURCE_ROOT; };
+		09AA99C1CFBE4C7D9DF94265 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = number_formatter.cpp; path = detail/number_format/number_formatter.cpp; sourceTree = SOURCE_ROOT; };
+		09D7F28F9CA543B6B5AB4A68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vector_streambuf.hpp; path = detail/serialization/vector_streambuf.hpp; sourceTree = SOURCE_ROOT; };
+		0A7C8C7547874524B06A577C /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/stylesheet.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = stylesheet.hpp; path = detail/implementations/stylesheet.hpp; sourceTree = SOURCE_ROOT; };
+		0BB720BD62CF45EF82188F6E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_crypto_consumer.hpp; path = detail/cryptography/xlsx_crypto_consumer.hpp; sourceTree = SOURCE_ROOT; };
+		0BB7B1634FC24F99BC5C8C98 /* /Users/sunjm/Downloads/xlnt-master/source/utils/timedelta.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timedelta.cpp; path = utils/timedelta.cpp; sourceTree = SOURCE_ROOT; };
+		10EEE78490FA478ABBCF88E8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = qname; path = "../third-party/libstudxml/xml/qname"; sourceTree = SOURCE_ROOT; };
+		11181ADDB98D4703BF38B97C /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_crypto_producer.hpp; path = detail/cryptography/xlsx_crypto_producer.hpp; sourceTree = SOURCE_ROOT; };
+		139A8BB6971E4AD69FCED92D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/major_order.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = major_order.hpp; path = ../include/xlnt/worksheet/major_order.hpp; sourceTree = SOURCE_ROOT; };
+		13E5CF26854B45CEA400A46D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qname.cxx; path = "../third-party/libstudxml/xml/qname.cxx"; sourceTree = SOURCE_ROOT; };
+		1480B24CC2C549E5A75DA144 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/uri.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uri.cpp; path = packaging/uri.cpp; sourceTree = SOURCE_ROOT; };
+		1489440BC96546369535B936 /* /Users/sunjm/Downloads/xlnt-master/source/styles/conditional_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = conditional_format.cpp; path = styles/conditional_format.cpp; sourceTree = SOURCE_ROOT; };
+		1592F030DAFB42D0B0135C90 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/protection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = protection.hpp; path = ../include/xlnt/styles/protection.hpp; sourceTree = SOURCE_ROOT; };
+		1748EAA103EE4648B76B0800 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/metadata_property.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = metadata_property.hpp; path = ../include/xlnt/workbook/metadata_property.hpp; sourceTree = SOURCE_ROOT; };
+		1975E3389F3546BAA6C57B8B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmltok.c; path = "../third-party/libstudxml/xml/details/expat/xmltok.c"; sourceTree = SOURCE_ROOT; };
+		19C0C05BD3A54F9490673FA6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok.h; path = "../third-party/libstudxml/xml/details/expat/xmltok.h"; sourceTree = SOURCE_ROOT; };
+		1B01FDA3E464448C861B8D1D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell.hpp; path = ../include/xlnt/cell/cell.hpp; sourceTree = SOURCE_ROOT; };
+		1C6D6AFE50604CA5AC39A027 /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_libstudxml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = include_libstudxml.hpp; path = detail/external/include_libstudxml.hpp; sourceTree = SOURCE_ROOT; };
+		1DFC03ED06A947469483AE54 /* /Users/sunjm/Downloads/xlnt-master/source/utils/exceptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = exceptions.cpp; path = utils/exceptions.cpp; sourceTree = SOURCE_ROOT; };
+		1E0A4128082347CB925DBD05 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = aes.hpp; path = detail/cryptography/aes.hpp; sourceTree = SOURCE_ROOT; };
+		1E45CA698C4446389D7EE170 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/selection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = selection.hpp; path = ../include/xlnt/worksheet/selection.hpp; sourceTree = SOURCE_ROOT; };
+		1FE1845E72504ED1ADBAECDB /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_iterator.cpp; path = worksheet/cell_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		205B15D5A00E47EABD9330B2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/index_types.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = index_types.hpp; path = ../include/xlnt/cell/index_types.hpp; sourceTree = SOURCE_ROOT; };
+		207169FA83174F69BA4B7AD9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/conditional_format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = conditional_format.hpp; path = ../include/xlnt/styles/conditional_format.hpp; sourceTree = SOURCE_ROOT; };
+		20A48AC6EA4A4F8EBC7B56A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/phonetic_pr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = phonetic_pr.hpp; path = ../include/xlnt/worksheet/phonetic_pr.hpp; sourceTree = SOURCE_ROOT; };
+		26CE8DABF492440A9D0BC412 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/workbook.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = workbook.cpp; path = workbook/workbook.cpp; sourceTree = SOURCE_ROOT; };
+		2815F70287A54E9DBB881945 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok_impl.h; path = "../third-party/libstudxml/xml/details/expat/xmltok_impl.h"; sourceTree = SOURCE_ROOT; };
+		297FD549B9BE4A68A019FCE1 /* xlnt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libxlntd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C48513AFED24CF9B3B52425 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_producer.hpp; path = detail/serialization/xlsx_producer.hpp; sourceTree = SOURCE_ROOT; };
+		2DE17192641F4A1FB8E2A462 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/datetime.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = datetime.hpp; path = ../include/xlnt/utils/datetime.hpp; sourceTree = SOURCE_ROOT; };
+		2ECAF8C071C54DEE98FD2A2E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cxx; path = "../third-party/libstudxml/xml/serializer.cxx"; sourceTree = SOURCE_ROOT; };
+		30DA4C5802B7435AAADC5E8A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_margins.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_margins.hpp; path = ../include/xlnt/worksheet/page_margins.hpp; sourceTree = SOURCE_ROOT; };
+		35B7EFAF90564BD687B9227B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/cipher.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cipher.hpp; path = detail/cryptography/cipher.hpp; sourceTree = SOURCE_ROOT; };
+		368CEA37403E4A35AD0A153A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlnt.hpp; path = ../include/xlnt/xlnt.hpp; sourceTree = SOURCE_ROOT; };
+		3934111C682948E8B53478DA /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/workbook_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook_impl.hpp; path = detail/implementations/workbook_impl.hpp; sourceTree = SOURCE_ROOT; };
+		3983326B05D44A98B658D331 /* /Users/sunjm/Downloads/xlnt-master/source/detail/default_case.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = default_case.hpp; path = detail/default_case.hpp; sourceTree = SOURCE_ROOT; };
+		39A7C49919B84EE187E5CBC7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = "../third-party/libstudxml/xml/details/expat/config.h"; sourceTree = SOURCE_ROOT; };
+		3DD45D7AD78A43628BAE1426 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlrole.c; path = "../third-party/libstudxml/xml/details/expat/xmlrole.c"; sourceTree = SOURCE_ROOT; };
+		404698D28C254C4DBC8F53ED /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nametab.h; path = "../third-party/libstudxml/xml/details/expat/nametab.h"; sourceTree = SOURCE_ROOT; };
+		41AC78F30AE840A589B098A6 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt_config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlnt_config.hpp; path = ../include/xlnt/xlnt_config.hpp; sourceTree = SOURCE_ROOT; };
+		428D0F76DEDE46D2894EFEE3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/exceptions.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = exceptions.hpp; path = ../include/xlnt/utils/exceptions.hpp; sourceTree = SOURCE_ROOT; };
+		42CC072F40424C8786EA3EA3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = serializer; path = "../third-party/libstudxml/xml/serializer"; sourceTree = SOURCE_ROOT; };
+		4305A282D90C4A548701C1A9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range_iterator.hpp; path = ../include/xlnt/worksheet/range_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		4334288477104B6096E23CF8 /* /Users/sunjm/Downloads/xlnt-master/source/styles/fill.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fill.cpp; path = styles/fill.cpp; sourceTree = SOURCE_ROOT; };
+		4527D99E9FF941249332EB68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = compound_document.hpp; path = detail/cryptography/compound_document.hpp; sourceTree = SOURCE_ROOT; };
+		4626001665234190979E80B8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/serialisation_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = serialisation_utils.hpp; path = ../include/xlnt/utils/serialisation_utils.hpp; sourceTree = SOURCE_ROOT; };
+		4731371CBBC04B438F52EB2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/time.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = time.hpp; path = ../include/xlnt/utils/time.hpp; sourceTree = SOURCE_ROOT; };
+		47DA734E471949539BDAE103 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = xlsx_consumer.hpp; path = detail/serialization/xlsx_consumer.hpp; sourceTree = SOURCE_ROOT; };
+		49371EB3B37A48C4877E9039 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unicode.cpp; path = detail/unicode.cpp; sourceTree = SOURCE_ROOT; };
+		49480ABC8D3C4A38A7326E39 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/theme.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = theme.hpp; path = ../include/xlnt/workbook/theme.hpp; sourceTree = SOURCE_ROOT; };
+		4BA77413CE21478EAA748D67 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlparse.c; path = "../third-party/libstudxml/xml/details/expat/xmlparse.c"; sourceTree = SOURCE_ROOT; };
+		4C90D5E8BA34413B86AA302D /* /Users/sunjm/Downloads/xlnt-master/source/styles/border.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = border.cpp; path = styles/border.cpp; sourceTree = SOURCE_ROOT; };
+		4F21761747CF4FAB8F5E3F96 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_reader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = streaming_workbook_reader.cpp; path = workbook/streaming_workbook_reader.cpp; sourceTree = SOURCE_ROOT; };
+		50674A67FD494B34BE301CFF /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/hyperlink_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hyperlink_impl.hpp; path = detail/implementations/hyperlink_impl.hpp; sourceTree = SOURCE_ROOT; };
+		527C684E78944CE0974D1E0A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range.hpp; path = ../include/xlnt/worksheet/range.hpp; sourceTree = SOURCE_ROOT; };
+		571E8B1964814423BACB23C0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_reader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = streaming_workbook_reader.hpp; path = ../include/xlnt/workbook/streaming_workbook_reader.hpp; sourceTree = SOURCE_ROOT; };
+		5B0D4CA96267451EA8902560 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rich_text.hpp; path = ../include/xlnt/cell/rich_text.hpp; sourceTree = SOURCE_ROOT; };
+		5B2461C5D6B64AF2A9B6FB8B /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = custom_value_traits.cpp; path = detail/serialization/custom_value_traits.cpp; sourceTree = SOURCE_ROOT; };
+		5C8BA5E69AAB4040970EF9EC /* libstudxml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibstudxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D207DA18AFD4CABBD67AB75 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = unicode.hpp; path = detail/unicode.hpp; sourceTree = SOURCE_ROOT; };
+		5D567AC9A13C48A29F342584 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/timedelta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = timedelta.hpp; path = ../include/xlnt/utils/timedelta.hpp; sourceTree = SOURCE_ROOT; };
+		5F3B4983FDD14FFEB2DC5017 /* /Users/sunjm/Downloads/xlnt-master/source/detail/binary.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = binary.hpp; path = detail/binary.hpp; sourceTree = SOURCE_ROOT; };
+		60358B4FFE51459E8CDBE6F4 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/worksheet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = worksheet.cpp; path = worksheet/worksheet.cpp; sourceTree = SOURCE_ROOT; };
+		61189C513CFF4A7DAEFAF396 /* /Users/sunjm/Downloads/xlnt-master/source/utils/datetime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = datetime.cpp; path = utils/datetime.cpp; sourceTree = SOURCE_ROOT; };
+		61C8D4C760974B40A34E3BB5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/comment.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = comment.hpp; path = ../include/xlnt/cell/comment.hpp; sourceTree = SOURCE_ROOT; };
+		63AA08A95AA74039AE658056 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/header_footer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = header_footer.cpp; path = worksheet/header_footer.cpp; sourceTree = SOURCE_ROOT; };
+		6446ECFB585F47F6A5051DD8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/uri.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = uri.hpp; path = ../include/xlnt/packaging/uri.hpp; sourceTree = SOURCE_ROOT; };
+		6481CC8475744BA2B79B578F /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_producer.cpp; path = detail/serialization/xlsx_producer.cpp; sourceTree = SOURCE_ROOT; };
+		6527FD9253964696A2BA82D1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = header_footer_code.hpp; path = detail/header_footer/header_footer_code.hpp; sourceTree = SOURCE_ROOT; };
+		66A5B73F0EF0462EB3C0A45B /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/external_book.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = external_book.hpp; path = ../include/xlnt/workbook/external_book.hpp; sourceTree = SOURCE_ROOT; };
+		68A43DA8E12A47B493BC3AFB /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_impl.hpp; path = detail/implementations/cell_impl.hpp; sourceTree = SOURCE_ROOT; };
+		6934B7570A6448699FBE5FA8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook_view.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook_view.hpp; path = ../include/xlnt/workbook/workbook_view.hpp; sourceTree = SOURCE_ROOT; };
+		6A02EB4BC4634F4487088B7A /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf8tab.h; path = "../third-party/libstudxml/xml/details/expat/utf8tab.h"; sourceTree = SOURCE_ROOT; };
+		6A6D878033CD47609D141B99 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/format_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = format_impl.hpp; path = detail/implementations/format_impl.hpp; sourceTree = SOURCE_ROOT; };
+		6CB9BD4BC44C49C0B823A8CC /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6CCEFD02E7DE49349F8B9A77 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compound_document.cpp; path = detail/cryptography/compound_document.cpp; sourceTree = SOURCE_ROOT; };
+		6D2C5A42682743869D219B6E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asciitab.h; path = "../third-party/libstudxml/xml/details/expat/asciitab.h"; sourceTree = SOURCE_ROOT; };
+		6E41393479E3420EBAA93934 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/variant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = variant.hpp; path = ../include/xlnt/utils/variant.hpp; sourceTree = SOURCE_ROOT; };
+		6E4788AD88FE45D4A2AD7D36 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = forward; path = "../third-party/libstudxml/xml/forward"; sourceTree = SOURCE_ROOT; };
+		6E51E9241BF843A98B81000E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cxx; path = "../third-party/libstudxml/xml/parser.cxx"; sourceTree = SOURCE_ROOT; };
+		6FDB741EDB1744A8941B1015 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/style.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = style.hpp; path = ../include/xlnt/styles/style.hpp; sourceTree = SOURCE_ROOT; };
+		70448109A8714511BCE51050 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_consumer.cpp; path = detail/serialization/xlsx_consumer.cpp; sourceTree = SOURCE_ROOT; };
+		7056E0AA5CD9488DA8ECB358 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range.cpp; path = worksheet/range.cpp; sourceTree = SOURCE_ROOT; };
+		7099877AD0594BD08E4E0540 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_writer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = streaming_workbook_writer.cpp; path = workbook/streaming_workbook_writer.cpp; sourceTree = SOURCE_ROOT; };
+		710FF6F2A2A34EE699FFDDBD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hash.hpp; path = detail/cryptography/hash.hpp; sourceTree = SOURCE_ROOT; };
+		71D82A7BC2DA4C9E908BBACD /* /Users/sunjm/Downloads/xlnt-master/source/cell/index_types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = index_types.cpp; path = cell/index_types.cpp; sourceTree = SOURCE_ROOT; };
+		727129EC2C8C4F7684DFDCD3 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/worksheet_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = worksheet_iterator.cpp; path = workbook/worksheet_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		74215A8175494368BBCB2BB9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text_run.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rich_text_run.cpp; path = cell/rich_text_run.cpp; sourceTree = SOURCE_ROOT; };
+		75F1C59861AD4572A0CAE79E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "char-props.c"; path = "../third-party/libstudxml/xml/details/genx/char-props.c"; sourceTree = SOURCE_ROOT; };
+		766E084E96694C3D914EED9D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_view.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_view.hpp; path = ../include/xlnt/worksheet/sheet_view.hpp; sourceTree = SOURCE_ROOT; };
+		771439AC9A844DB197B99BC1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = header_footer_code.cpp; path = detail/header_footer/header_footer_code.cpp; sourceTree = SOURCE_ROOT; };
+		793E8E2617D24D6E9DE170CC /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_type.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_type.hpp; path = ../include/xlnt/cell/cell_type.hpp; sourceTree = SOURCE_ROOT; };
+		7AD14F0E536E4F2BA8023381 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/ext_list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ext_list.cpp; path = packaging/ext_list.cpp; sourceTree = SOURCE_ROOT; };
+		7B4906ACE6F5476FAAA1CD60 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_reference.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range_reference.hpp; path = ../include/xlnt/worksheet/range_reference.hpp; sourceTree = SOURCE_ROOT; };
+		7DF406E38AFE49879B719882 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/style_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = style_impl.hpp; path = detail/implementations/style_impl.hpp; sourceTree = SOURCE_ROOT; };
+		7F38109259A14843BD72C8AA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "value-traits.cxx"; path = "../third-party/libstudxml/xml/value-traits.cxx"; sourceTree = SOURCE_ROOT; };
+		8017EFC12DC44C7F8A1005EB /* /Users/sunjm/Downloads/xlnt-master/source/packaging/relationship.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = relationship.cpp; path = packaging/relationship.cpp; sourceTree = SOURCE_ROOT; };
+		801E495CB12243129728F4A7 /* /Users/sunjm/Downloads/xlnt-master/source/utils/variant.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = variant.cpp; path = utils/variant.cpp; sourceTree = SOURCE_ROOT; };
+		802726BD62CC4D55A8D3F86E /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_impl.cpp; path = detail/implementations/cell_impl.cpp; sourceTree = SOURCE_ROOT; };
+		8156E3E751624E0397EBA7F2 /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		84BC3FD3FDD84095A44A6AA2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/date.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = date.hpp; path = ../include/xlnt/utils/date.hpp; sourceTree = SOURCE_ROOT; };
+		8557E3DB4DE44C31808542FE /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_vector.hpp; path = ../include/xlnt/worksheet/cell_vector.hpp; sourceTree = SOURCE_ROOT; };
+		856A1EC05A174D54852F5A33 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/border.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = border.hpp; path = ../include/xlnt/styles/border.hpp; sourceTree = SOURCE_ROOT; };
+		85AFFA5506264CFBA0EADF8C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/alignment.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = alignment.hpp; path = ../include/xlnt/styles/alignment.hpp; sourceTree = SOURCE_ROOT; };
+		8933EC0B155D460096B16F60 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "../third-party/libstudxml/xml/details/expat/internal.h"; sourceTree = SOURCE_ROOT; };
+		8D7DF89F48184EEEA13A741F /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/conditional_format_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = conditional_format_impl.hpp; path = detail/implementations/conditional_format_impl.hpp; sourceTree = SOURCE_ROOT; };
+		92BC729FB72442CC97B30E74 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/formatting_record.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = formatting_record.hpp; path = detail/implementations/formatting_record.hpp; sourceTree = SOURCE_ROOT; };
+		93B84E14794541419A1B20A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/fill.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fill.hpp; path = ../include/xlnt/styles/fill.hpp; sourceTree = SOURCE_ROOT; };
+		940C6A5EA04647179DDBF997 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/print_options.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = print_options.hpp; path = ../include/xlnt/worksheet/print_options.hpp; sourceTree = SOURCE_ROOT; };
+		95817914B9224086A9763512 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_iterator.hpp; path = ../include/xlnt/worksheet/cell_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		97059940CBDB4F2F886986A8 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/sheet_protection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sheet_protection.cpp; path = worksheet/sheet_protection.cpp; sourceTree = SOURCE_ROOT; };
+		97CC8F8DE2F6415CA2D8342E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/path.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = path.hpp; path = ../include/xlnt/utils/path.hpp; sourceTree = SOURCE_ROOT; };
+		97D95546FB4B45DBBD2B600E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = encryption_info.cpp; path = detail/cryptography/encryption_info.cpp; sourceTree = SOURCE_ROOT; };
+		99EA52C57A754E42A30E89DD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/header_footer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = header_footer.hpp; path = ../include/xlnt/worksheet/header_footer.hpp; sourceTree = SOURCE_ROOT; };
+		9A5A82CFF0B946EA921DBE26 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = miniz.cpp; path = detail/serialization/miniz.cpp; sourceTree = SOURCE_ROOT; };
+		9BA8FABFA4814BB9B387945C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/calculation_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calculation_properties.hpp; path = ../include/xlnt/workbook/calculation_properties.hpp; sourceTree = SOURCE_ROOT; };
+		9C01AA6AB8C74162AF00DF72 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = constants.cpp; path = detail/constants.cpp; sourceTree = SOURCE_ROOT; };
+		9C513709262140A3B1E47742 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sha.cpp; path = detail/cryptography/sha.cpp; sourceTree = SOURCE_ROOT; };
+		9CBF3ABBB2E44D54857A8751 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = genx.h; path = "../third-party/libstudxml/xml/details/genx/genx.h"; sourceTree = SOURCE_ROOT; };
+		9D671BB50D8F4A258D511265 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_format_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_format_properties.hpp; path = ../include/xlnt/worksheet/sheet_format_properties.hpp; sourceTree = SOURCE_ROOT; };
+		9D7996A98D9B470D8A74AC1F /* /Users/sunjm/Downloads/xlnt-master/source/styles/number_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = number_format.cpp; path = styles/number_format.cpp; sourceTree = SOURCE_ROOT; };
+		9E53C66CC3BB4AA18C72FE88 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_reference.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range_reference.cpp; path = worksheet/range_reference.cpp; sourceTree = SOURCE_ROOT; };
+		9EBAA394A76F4990B8146946 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rich_text.cpp; path = cell/rich_text.cpp; sourceTree = SOURCE_ROOT; };
+		9ED16E97A5D3484AB6BF6AFE /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_crypto_producer.cpp; path = detail/cryptography/xlsx_crypto_producer.cpp; sourceTree = SOURCE_ROOT; };
+		A066C7D428AE4A4CB4913631 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = zstream.hpp; path = detail/serialization/zstream.hpp; sourceTree = SOURCE_ROOT; };
+		A5BD7906A6A542EBBFE27126 /* /Users/sunjm/Downloads/xlnt-master/source/styles/protection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protection.cpp; path = styles/protection.cpp; sourceTree = SOURCE_ROOT; };
+		A7649416A85D4C1E823D8508 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector_streambuf.cpp; path = detail/serialization/vector_streambuf.cpp; sourceTree = SOURCE_ROOT; };
+		A930CF4C3E6B4FB58A019398 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = base64.hpp; path = detail/cryptography/base64.hpp; sourceTree = SOURCE_ROOT; };
+		A946D34D3CEA42C2AA3ED177 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlrole.h; path = "../third-party/libstudxml/xml/details/expat/xmlrole.h"; sourceTree = SOURCE_ROOT; };
+		A9EE0626AF9F46848EB8E1BC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = custom_value_traits.hpp; path = detail/serialization/custom_value_traits.hpp; sourceTree = SOURCE_ROOT; };
+		AA051B629C35433F8460A420 /* /Users/sunjm/Downloads/xlnt-master/source/styles/font.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = font.cpp; path = styles/font.cpp; sourceTree = SOURCE_ROOT; };
+		AB3C70A5B3C94F6685DC0C39 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = number_formatter.hpp; path = detail/number_format/number_formatter.hpp; sourceTree = SOURCE_ROOT; };
+		AEDDF2A7D6C04B4A87543D2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/column_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = column_properties.hpp; path = ../include/xlnt/worksheet/column_properties.hpp; sourceTree = SOURCE_ROOT; };
+		AF5D4B7C69514106AC6068CD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sha1.c; path = detail/cryptography/sha1.c; sourceTree = SOURCE_ROOT; };
+		AFF34581C4344A12B7CB7411 /* /Users/sunjm/Downloads/xlnt-master/source/utils/date.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = date.cpp; path = utils/date.cpp; sourceTree = SOURCE_ROOT; };
+		B322A57BF55546BAA1EAA4D5 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = encryption_info.hpp; path = detail/cryptography/encryption_info.hpp; sourceTree = SOURCE_ROOT; };
+		B3582C4D9A7E4D6C9590EE8D /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = detail/cryptography/base64.cpp; sourceTree = SOURCE_ROOT; };
+		B835C726362F4439B60CC701 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_iterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = range_iterator.cpp; path = worksheet/range_iterator.cpp; sourceTree = SOURCE_ROOT; };
+		B853153AEDF84BB79102B8DC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = open_stream.cpp; path = detail/serialization/open_stream.cpp; sourceTree = SOURCE_ROOT; };
+		B99A7AB3239441DFB462332A /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xlsx_crypto_consumer.cpp; path = detail/cryptography/xlsx_crypto_consumer.cpp; sourceTree = SOURCE_ROOT; };
+		BA302F859FFB41AEB685A73F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = latin1tab.h; path = "../third-party/libstudxml/xml/details/expat/latin1tab.h"; sourceTree = SOURCE_ROOT; };
+		BB94225CD8A84B2D8F12F836 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = zstream.cpp; path = detail/serialization/zstream.cpp; sourceTree = SOURCE_ROOT; };
+		BC05D567BED0416E853BF649 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sha.hpp; path = detail/cryptography/sha.hpp; sourceTree = SOURCE_ROOT; };
+		BC3E1AB358EC40F8943362D7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = miniz.hpp; path = detail/serialization/miniz.hpp; sourceTree = SOURCE_ROOT; };
+		BCAEB56521614E9EB783BC85 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/worksheet_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet_impl.hpp; path = detail/implementations/worksheet_impl.hpp; sourceTree = SOURCE_ROOT; };
+		C09298031253414B8A79E814 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/ext_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ext_list.hpp; path = ../include/xlnt/packaging/ext_list.hpp; sourceTree = SOURCE_ROOT; };
+		C42E0CA6BA364DEFB0E09F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hash.cpp; path = detail/cryptography/hash.cpp; sourceTree = SOURCE_ROOT; };
+		C5AA10F0021F47D0A73413B9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = genx.c; path = "../third-party/libstudxml/xml/details/genx/genx.c"; sourceTree = SOURCE_ROOT; };
+		C5D7E014AABE4E25976DA496 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../third-party/libstudxml/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		C622EFC2BEC34D6489C9F143 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_setup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_setup.cpp; path = worksheet/page_setup.cpp; sourceTree = SOURCE_ROOT; };
+		C7968B942B2C494AB77850C2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_reference.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cell_reference.hpp; path = ../include/xlnt/cell/cell_reference.hpp; sourceTree = SOURCE_ROOT; };
+		C7B8AE3739944C2CA73D5E2B /* /Users/sunjm/Downloads/xlnt-master/source/styles/alignment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = alignment.cpp; path = styles/alignment.cpp; sourceTree = SOURCE_ROOT; };
+		C7C938E8F54B43408B3F5DDF /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = include_windows.hpp; path = detail/external/include_windows.hpp; sourceTree = SOURCE_ROOT; };
+		C7D537E99BD84633B6DC80E1 /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell.cpp; path = cell/cell.cpp; sourceTree = SOURCE_ROOT; };
+		C9075E2DE2FB4EDE91C0F91C /* /Users/sunjm/Downloads/xlnt-master/source/cell/hyperlink.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hyperlink.cpp; path = cell/hyperlink.cpp; sourceTree = SOURCE_ROOT; };
+		C99A09083AFF42F2A834E563 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/manifest.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = manifest.hpp; path = ../include/xlnt/packaging/manifest.hpp; sourceTree = SOURCE_ROOT; };
+		CBE7539681BB4491BCF9A184 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat.h; path = "../third-party/libstudxml/xml/details/expat/expat.h"; sourceTree = SOURCE_ROOT; };
+		CC1F2DB539054948BD10580C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_pr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_pr.hpp; path = ../include/xlnt/worksheet/sheet_pr.hpp; sourceTree = SOURCE_ROOT; };
+		CD08BC26AF50426AB15DE898 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/phonetic_pr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = phonetic_pr.cpp; path = worksheet/phonetic_pr.cpp; sourceTree = SOURCE_ROOT; };
+		CE8DC4B69403468BA1201784 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = workbook.hpp; path = ../include/xlnt/workbook/workbook.hpp; sourceTree = SOURCE_ROOT; };
+		CF814C6F9277469DB2CBB835 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/relationship.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = relationship.hpp; path = ../include/xlnt/packaging/relationship.hpp; sourceTree = SOURCE_ROOT; };
+		D117D95F510344D99E13B3F8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/document_security.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = document_security.hpp; path = ../include/xlnt/workbook/document_security.hpp; sourceTree = SOURCE_ROOT; };
+		D192A491F7274E55BBB1EF82 /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D1942086DCCD4DC0B982078E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/hyperlink.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hyperlink.hpp; path = ../include/xlnt/cell/hyperlink.hpp; sourceTree = SOURCE_ROOT; };
+		D2666E7980264E1C95306710 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/scoped_enum_hash.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scoped_enum_hash.hpp; path = ../include/xlnt/utils/scoped_enum_hash.hpp; sourceTree = SOURCE_ROOT; };
+		D3E7DC8A8D1A4FDA87041A11 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "value-traits"; path = "../third-party/libstudxml/xml/value-traits"; sourceTree = SOURCE_ROOT; };
+		D434BCDB98EE4A0297A82DEA /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell_reference.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_reference.cpp; path = cell/cell_reference.cpp; sourceTree = SOURCE_ROOT; };
+		D61298641D8D4E33BDE5D130 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/row_properties.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = row_properties.hpp; path = ../include/xlnt/worksheet/row_properties.hpp; sourceTree = SOURCE_ROOT; };
+		D680B7C850364DBBB51D830A /* /Users/sunjm/Downloads/xlnt-master/source/packaging/manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = manifest.cpp; path = packaging/manifest.cpp; sourceTree = SOURCE_ROOT; };
+		D74208E187AF4A9980089C4A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/optional.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = optional.hpp; path = ../include/xlnt/utils/optional.hpp; sourceTree = SOURCE_ROOT; };
+		D7F55798727B4F4AB8CEA7F0 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/value_traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = value_traits.hpp; path = detail/cryptography/value_traits.hpp; sourceTree = SOURCE_ROOT; };
+		D9CBF6B890C543539D97677B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = aes.cpp; path = detail/cryptography/aes.cpp; sourceTree = SOURCE_ROOT; };
+		D9EDA77FC7BA494EBCACC823 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ascii.h; path = "../third-party/libstudxml/xml/details/expat/ascii.h"; sourceTree = SOURCE_ROOT; };
+		DC14F6F4D5804F87884AE883 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = exception; path = "../third-party/libstudxml/xml/exception"; sourceTree = SOURCE_ROOT; };
+		DF5584B364CA45A3949AAE68 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iasciitab.h; path = "../third-party/libstudxml/xml/details/expat/iasciitab.h"; sourceTree = SOURCE_ROOT; };
+		E181BADE71CA49ECBAD26F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/excel_thumbnail.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = excel_thumbnail.hpp; path = detail/serialization/excel_thumbnail.hpp; sourceTree = SOURCE_ROOT; };
+		E47FAA119BF849CA8342A201 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/named_range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = named_range.hpp; path = ../include/xlnt/workbook/named_range.hpp; sourceTree = SOURCE_ROOT; };
+		E4EB64C4338C46668FA5BB05 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/font.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = font.hpp; path = ../include/xlnt/styles/font.hpp; sourceTree = SOURCE_ROOT; };
+		E56CC110F6D34C5F85A22118 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_vector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cell_vector.cpp; path = worksheet/cell_vector.cpp; sourceTree = SOURCE_ROOT; };
+		E78EE8B33B3A4E769CBCB76D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/worksheet_iterator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = worksheet_iterator.hpp; path = ../include/xlnt/workbook/worksheet_iterator.hpp; sourceTree = SOURCE_ROOT; };
+		E96393B514F649E3B2E6A63F /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/calendar.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = calendar.hpp; path = ../include/xlnt/utils/calendar.hpp; sourceTree = SOURCE_ROOT; };
+		E9B853D4410142368DFB57D4 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constants.hpp; path = detail/constants.hpp; sourceTree = SOURCE_ROOT; };
+		EDF1F6844C1244879F0B2316 /* /Users/sunjm/Downloads/xlnt-master/source/styles/format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = format.cpp; path = styles/format.cpp; sourceTree = SOURCE_ROOT; };
+		EE74D25AFD984F53A5C1016A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text_run.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rich_text_run.hpp; path = ../include/xlnt/cell/rich_text_run.hpp; sourceTree = SOURCE_ROOT; };
+		EF0424DED88F41BFBF8887C9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = content; path = "../third-party/libstudxml/xml/content"; sourceTree = SOURCE_ROOT; };
+		F0DD15B2FAD847EFA35F560C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_external.h; path = "../third-party/libstudxml/xml/details/expat/expat_external.h"; sourceTree = SOURCE_ROOT; };
+		F13B843783734585947BD506 /* /Users/sunjm/Downloads/xlnt-master/source/utils/time.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = time.cpp; path = utils/time.cpp; sourceTree = SOURCE_ROOT; };
+		F1C3BB64AB0D4E91893B56BD /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_margins.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = page_margins.cpp; path = worksheet/page_margins.cpp; sourceTree = SOURCE_ROOT; };
+		F252BC12B8BD4320A26F212A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = format.hpp; path = ../include/xlnt/styles/format.hpp; sourceTree = SOURCE_ROOT; };
+		F7808513EF714203BC0C8653 /* /Users/sunjm/Downloads/xlnt-master/source/cell/comment.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = comment.cpp; path = cell/comment.cpp; sourceTree = SOURCE_ROOT; };
+		F7A156BA9DCB4781AC9FD33E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/number_format.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = number_format.hpp; path = ../include/xlnt/styles/number_format.hpp; sourceTree = SOURCE_ROOT; };
+		F847E853279F4DBB86AE8896 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_writer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = streaming_workbook_writer.hpp; path = ../include/xlnt/workbook/streaming_workbook_writer.hpp; sourceTree = SOURCE_ROOT; };
+		F883671932824008BDAD6017 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_setup.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = page_setup.hpp; path = ../include/xlnt/worksheet/page_setup.hpp; sourceTree = SOURCE_ROOT; };
+		F91F149453F4484483A9C24E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_protection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sheet_protection.hpp; path = ../include/xlnt/worksheet/sheet_protection.hpp; sourceTree = SOURCE_ROOT; };
+		F9A8F212C0FF45B7B3E37C50 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/named_range.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = named_range.cpp; path = workbook/named_range.cpp; sourceTree = SOURCE_ROOT; };
+		FBCEE513F4A14FC4B96CEAE5 /* /Users/sunjm/Downloads/xlnt-master/source/styles/style.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = style.cpp; path = styles/style.cpp; sourceTree = SOURCE_ROOT; };
+		FBCF63EAE7F4479181430AE7 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/color.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = color.hpp; path = ../include/xlnt/styles/color.hpp; sourceTree = SOURCE_ROOT; };
+		FD9C3A2C606E4A4E84221D1F /* /Users/sunjm/Downloads/xlnt-master/source/utils/path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = utils/path.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D0E6306A84546E6B88D03D1 /* serialization */ = {
+			isa = PBXGroup;
+			children = (
+				5B2461C5D6B64AF2A9B6FB8B /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.cpp */,
+				A9EE0626AF9F46848EB8E1BC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.hpp */,
+				E181BADE71CA49ECBAD26F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/excel_thumbnail.hpp */,
+				9A5A82CFF0B946EA921DBE26 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.cpp */,
+				BC3E1AB358EC40F8943362D7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.hpp */,
+				B853153AEDF84BB79102B8DC /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.cpp */,
+				00EFB47BD90648D8BEB9DB7A /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.hpp */,
+				A7649416A85D4C1E823D8508 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.cpp */,
+				09D7F28F9CA543B6B5AB4A68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.hpp */,
+				70448109A8714511BCE51050 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.cpp */,
+				47DA734E471949539BDAE103 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.hpp */,
+				6481CC8475744BA2B79B578F /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.cpp */,
+				2C48513AFED24CF9B3B52425 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.hpp */,
+				BB94225CD8A84B2D8F12F836 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.cpp */,
+				A066C7D428AE4A4CB4913631 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.hpp */,
+			);
+			name = serialization;
+			sourceTree = "<group>";
+		};
+		142F308EC09B4686B7109514 /* libstudxml */ = {
+			isa = PBXGroup;
+			children = (
+				434A7086B8EF482CAD446A43 /* Source Files */,
+				C4AE31AA9F51448592251046 /* Header Files */,
+				C5D7E014AABE4E25976DA496 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */,
+				EF0424DED88F41BFBF8887C9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */,
+				DC14F6F4D5804F87884AE883 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */,
+				6E4788AD88FE45D4A2AD7D36 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */,
+				05401CA7085442D9B9C03FC6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */,
+				10EEE78490FA478ABBCF88E8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */,
+				42CC072F40424C8786EA3EA3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */,
+				D3E7DC8A8D1A4FDA87041A11 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */,
+			);
+			name = libstudxml;
+			sourceTree = "<group>";
+		};
+		14455BF73FE24EEC9339D9C2 /* workbook */ = {
+			isa = PBXGroup;
+			children = (
+				9BA8FABFA4814BB9B387945C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/calculation_properties.hpp */,
+				D117D95F510344D99E13B3F8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/document_security.hpp */,
+				66A5B73F0EF0462EB3C0A45B /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/external_book.hpp */,
+				1748EAA103EE4648B76B0800 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/metadata_property.hpp */,
+				E47FAA119BF849CA8342A201 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/named_range.hpp */,
+				571E8B1964814423BACB23C0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_reader.hpp */,
+				F847E853279F4DBB86AE8896 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/streaming_workbook_writer.hpp */,
+				49480ABC8D3C4A38A7326E39 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/theme.hpp */,
+				CE8DC4B69403468BA1201784 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook.hpp */,
+				6934B7570A6448699FBE5FA8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/workbook_view.hpp */,
+				E78EE8B33B3A4E769CBCB76D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/workbook/worksheet_iterator.hpp */,
+				F9A8F212C0FF45B7B3E37C50 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/named_range.cpp */,
+				4F21761747CF4FAB8F5E3F96 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_reader.cpp */,
+				7099877AD0594BD08E4E0540 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_writer.cpp */,
+				26CE8DABF492440A9D0BC412 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/workbook.cpp */,
+				727129EC2C8C4F7684DFDCD3 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/worksheet_iterator.cpp */,
+			);
+			name = workbook;
+			sourceTree = "<group>";
+		};
+		20436D23E81F4B6DAA34571D /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				295977A1BB8E409582204F21 /* CMake Rules */,
+				D192A491F7274E55BBB1EF82 /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		295977A1BB8E409582204F21 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		30731F61666E4BD6B8569130 /* header_footer */ = {
+			isa = PBXGroup;
+			children = (
+				771439AC9A844DB197B99BC1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.cpp */,
+				6527FD9253964696A2BA82D1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.hpp */,
+			);
+			name = header_footer;
+			sourceTree = "<group>";
+		};
+		30E6C5E338BE43A384C5D5BB /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				85AFFA5506264CFBA0EADF8C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/alignment.hpp */,
+				856A1EC05A174D54852F5A33 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/border.hpp */,
+				FBCF63EAE7F4479181430AE7 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/color.hpp */,
+				207169FA83174F69BA4B7AD9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/conditional_format.hpp */,
+				93B84E14794541419A1B20A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/fill.hpp */,
+				E4EB64C4338C46668FA5BB05 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/font.hpp */,
+				F252BC12B8BD4320A26F212A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/format.hpp */,
+				F7A156BA9DCB4781AC9FD33E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/number_format.hpp */,
+				1592F030DAFB42D0B0135C90 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/protection.hpp */,
+				6FDB741EDB1744A8941B1015 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/styles/style.hpp */,
+				C7B8AE3739944C2CA73D5E2B /* /Users/sunjm/Downloads/xlnt-master/source/styles/alignment.cpp */,
+				4C90D5E8BA34413B86AA302D /* /Users/sunjm/Downloads/xlnt-master/source/styles/border.cpp */,
+				023A8F77983A4777BAB41E67 /* /Users/sunjm/Downloads/xlnt-master/source/styles/color.cpp */,
+				1489440BC96546369535B936 /* /Users/sunjm/Downloads/xlnt-master/source/styles/conditional_format.cpp */,
+				4334288477104B6096E23CF8 /* /Users/sunjm/Downloads/xlnt-master/source/styles/fill.cpp */,
+				AA051B629C35433F8460A420 /* /Users/sunjm/Downloads/xlnt-master/source/styles/font.cpp */,
+				EDF1F6844C1244879F0B2316 /* /Users/sunjm/Downloads/xlnt-master/source/styles/format.cpp */,
+				9D7996A98D9B470D8A74AC1F /* /Users/sunjm/Downloads/xlnt-master/source/styles/number_format.cpp */,
+				A5BD7906A6A542EBBFE27126 /* /Users/sunjm/Downloads/xlnt-master/source/styles/protection.cpp */,
+				FBCEE513F4A14FC4B96CEAE5 /* /Users/sunjm/Downloads/xlnt-master/source/styles/style.cpp */,
+			);
+			name = styles;
+			sourceTree = "<group>";
+		};
+		39DB094CBE0E4BF194EE0D8C /* external */ = {
+			isa = PBXGroup;
+			children = (
+				1C6D6AFE50604CA5AC39A027 /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_libstudxml.hpp */,
+				C7C938E8F54B43408B3F5DDF /* /Users/sunjm/Downloads/xlnt-master/source/detail/external/include_windows.hpp */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		43150CB5E8B249BC9466D126 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E96393B514F649E3B2E6A63F /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/calendar.hpp */,
+				84BC3FD3FDD84095A44A6AA2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/date.hpp */,
+				2DE17192641F4A1FB8E2A462 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/datetime.hpp */,
+				428D0F76DEDE46D2894EFEE3 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/exceptions.hpp */,
+				D74208E187AF4A9980089C4A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/optional.hpp */,
+				97CC8F8DE2F6415CA2D8342E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/path.hpp */,
+				D2666E7980264E1C95306710 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/scoped_enum_hash.hpp */,
+				4626001665234190979E80B8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/serialisation_utils.hpp */,
+				4731371CBBC04B438F52EB2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/time.hpp */,
+				5D567AC9A13C48A29F342584 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/timedelta.hpp */,
+				6E41393479E3420EBAA93934 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/utils/variant.hpp */,
+				AFF34581C4344A12B7CB7411 /* /Users/sunjm/Downloads/xlnt-master/source/utils/date.cpp */,
+				61189C513CFF4A7DAEFAF396 /* /Users/sunjm/Downloads/xlnt-master/source/utils/datetime.cpp */,
+				1DFC03ED06A947469483AE54 /* /Users/sunjm/Downloads/xlnt-master/source/utils/exceptions.cpp */,
+				FD9C3A2C606E4A4E84221D1F /* /Users/sunjm/Downloads/xlnt-master/source/utils/path.cpp */,
+				F13B843783734585947BD506 /* /Users/sunjm/Downloads/xlnt-master/source/utils/time.cpp */,
+				0BB7B1634FC24F99BC5C8C98 /* /Users/sunjm/Downloads/xlnt-master/source/utils/timedelta.cpp */,
+				801E495CB12243129728F4A7 /* /Users/sunjm/Downloads/xlnt-master/source/utils/variant.cpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		434A7086B8EF482CAD446A43 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BA77413CE21478EAA748D67 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */,
+				3DD45D7AD78A43628BAE1426 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */,
+				1975E3389F3546BAA6C57B8B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */,
+				75F1C59861AD4572A0CAE79E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */,
+				C5AA10F0021F47D0A73413B9 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */,
+				6E51E9241BF843A98B81000E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */,
+				13E5CF26854B45CEA400A46D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */,
+				2ECAF8C071C54DEE98FD2A2E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */,
+				7F38109259A14843BD72C8AA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67C79E4E374949FCA9521EE2 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1B01FDA3E464448C861B8D1D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell.hpp */,
+				C7968B942B2C494AB77850C2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_reference.hpp */,
+				793E8E2617D24D6E9DE170CC /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/cell_type.hpp */,
+				61C8D4C760974B40A34E3BB5 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/comment.hpp */,
+				D1942086DCCD4DC0B982078E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/hyperlink.hpp */,
+				205B15D5A00E47EABD9330B2 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/index_types.hpp */,
+				5B0D4CA96267451EA8902560 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text.hpp */,
+				EE74D25AFD984F53A5C1016A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/cell/rich_text_run.hpp */,
+				C7D537E99BD84633B6DC80E1 /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell.cpp */,
+				D434BCDB98EE4A0297A82DEA /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell_reference.cpp */,
+				F7808513EF714203BC0C8653 /* /Users/sunjm/Downloads/xlnt-master/source/cell/comment.cpp */,
+				C9075E2DE2FB4EDE91C0F91C /* /Users/sunjm/Downloads/xlnt-master/source/cell/hyperlink.cpp */,
+				71D82A7BC2DA4C9E908BBACD /* /Users/sunjm/Downloads/xlnt-master/source/cell/index_types.cpp */,
+				9EBAA394A76F4990B8146946 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text.cpp */,
+				74215A8175494368BBCB2BB9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text_run.cpp */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		69DCA65160634BA4AFB768D2 /* cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				D9CBF6B890C543539D97677B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.cpp */,
+				1E0A4128082347CB925DBD05 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.hpp */,
+				B3582C4D9A7E4D6C9590EE8D /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.cpp */,
+				A930CF4C3E6B4FB58A019398 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.hpp */,
+				35B7EFAF90564BD687B9227B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/cipher.hpp */,
+				6CCEFD02E7DE49349F8B9A77 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.cpp */,
+				4527D99E9FF941249332EB68 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.hpp */,
+				97D95546FB4B45DBBD2B600E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.cpp */,
+				B322A57BF55546BAA1EAA4D5 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.hpp */,
+				C42E0CA6BA364DEFB0E09F82 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.cpp */,
+				710FF6F2A2A34EE699FFDDBD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.hpp */,
+				9C513709262140A3B1E47742 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.cpp */,
+				BC05D567BED0416E853BF649 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.hpp */,
+				AF5D4B7C69514106AC6068CD /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha1.c */,
+				0831C06847D849DF94FDDC9B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha512.c */,
+				D7F55798727B4F4AB8CEA7F0 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/value_traits.hpp */,
+				B99A7AB3239441DFB462332A /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.cpp */,
+				0BB720BD62CF45EF82188F6E /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.hpp */,
+				9ED16E97A5D3484AB6BF6AFE /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.cpp */,
+				11181ADDB98D4703BF38B97C /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.hpp */,
+			);
+			name = cryptography;
+			sourceTree = "<group>";
+		};
+		78454DE9AEFE4AC2BDEAABD7 /* number_format */ = {
+			isa = PBXGroup;
+			children = (
+				09AA99C1CFBE4C7D9DF94265 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.cpp */,
+				AB3C70A5B3C94F6685DC0C39 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.hpp */,
+			);
+			name = number_format;
+			sourceTree = "<group>";
+		};
+		87C2D844BD0B44B99AE6A8C5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D42C5C72A73A4AF29309E0C1 /* CMake Rules */,
+				8156E3E751624E0397EBA7F2 /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8F5598217E7E4AB3A4F23F08 /* implementations */ = {
+			isa = PBXGroup;
+			children = (
+				802726BD62CC4D55A8D3F86E /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.cpp */,
+				68A43DA8E12A47B493BC3AFB /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.hpp */,
+				8D7DF89F48184EEEA13A741F /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/conditional_format_impl.hpp */,
+				6A6D878033CD47609D141B99 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/format_impl.hpp */,
+				92BC729FB72442CC97B30E74 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/formatting_record.hpp */,
+				50674A67FD494B34BE301CFF /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/hyperlink_impl.hpp */,
+				7DF406E38AFE49879B719882 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/style_impl.hpp */,
+				0A7C8C7547874524B06A577C /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/stylesheet.hpp */,
+				3934111C682948E8B53478DA /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/workbook_impl.hpp */,
+				BCAEB56521614E9EB783BC85 /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/worksheet_impl.hpp */,
+			);
+			name = implementations;
+			sourceTree = "<group>";
+		};
+		94D32772DA664E16B460F299 = {
+			isa = PBXGroup;
+			children = (
+				20436D23E81F4B6DAA34571D /* uninstall */,
+				B9E893689DEE441389CDE509 /* xlnt */,
+				87C2D844BD0B44B99AE6A8C5 /* ALL_BUILD */,
+				142F308EC09B4686B7109514 /* libstudxml */,
+				E169BD1C6FA344C0851BE8B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6B5758F0644481DA28C5C10 /* xlnt */ = {
+			isa = PBXGroup;
+			children = (
+				368CEA37403E4A35AD0A153A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt.hpp */,
+				41AC78F30AE840A589B098A6 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/xlnt_config.hpp */,
+			);
+			name = xlnt;
+			sourceTree = "<group>";
+		};
+		B9E893689DEE441389CDE509 /* xlnt */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5758F0644481DA28C5C10 /* xlnt */,
+				67C79E4E374949FCA9521EE2 /* cell */,
+				E7FCB968B4A442A88832E469 /* packaging */,
+				30E6C5E338BE43A384C5D5BB /* styles */,
+				43150CB5E8B249BC9466D126 /* utils */,
+				14455BF73FE24EEC9339D9C2 /* workbook */,
+				DE255D7F494943E889425E3A /* worksheet */,
+				FC11F3DB8D0541318FD2AD35 /* detail */,
+				6CB9BD4BC44C49C0B823A8CC /* /Users/sunjm/Downloads/xlnt-master/source/CMakeLists.txt */,
+			);
+			name = xlnt;
+			sourceTree = "<group>";
+		};
+		C4AE31AA9F51448592251046 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDA77FC7BA494EBCACC823 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */,
+				6D2C5A42682743869D219B6E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */,
+				39A7C49919B84EE187E5CBC7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */,
+				CBE7539681BB4491BCF9A184 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */,
+				F0DD15B2FAD847EFA35F560C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */,
+				DF5584B364CA45A3949AAE68 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */,
+				8933EC0B155D460096B16F60 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */,
+				BA302F859FFB41AEB685A73F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */,
+				404698D28C254C4DBC8F53ED /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */,
+				6A02EB4BC4634F4487088B7A /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */,
+				A946D34D3CEA42C2AA3ED177 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */,
+				19C0C05BD3A54F9490673FA6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */,
+				2815F70287A54E9DBB881945 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */,
+				9CBF3ABBB2E44D54857A8751 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D42C5C72A73A4AF29309E0C1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DE255D7F494943E889425E3A /* worksheet */ = {
+			isa = PBXGroup;
+			children = (
+				95817914B9224086A9763512 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_iterator.hpp */,
+				8557E3DB4DE44C31808542FE /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/cell_vector.hpp */,
+				AEDDF2A7D6C04B4A87543D2E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/column_properties.hpp */,
+				99EA52C57A754E42A30E89DD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/header_footer.hpp */,
+				139A8BB6971E4AD69FCED92D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/major_order.hpp */,
+				30DA4C5802B7435AAADC5E8A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_margins.hpp */,
+				F883671932824008BDAD6017 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/page_setup.hpp */,
+				00E5326E044F4A8B8B7582AD /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/pane.hpp */,
+				20A48AC6EA4A4F8EBC7B56A0 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/phonetic_pr.hpp */,
+				940C6A5EA04647179DDBF997 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/print_options.hpp */,
+				527C684E78944CE0974D1E0A /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range.hpp */,
+				4305A282D90C4A548701C1A9 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_iterator.hpp */,
+				7B4906ACE6F5476FAAA1CD60 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/range_reference.hpp */,
+				D61298641D8D4E33BDE5D130 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/row_properties.hpp */,
+				1E45CA698C4446389D7EE170 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/selection.hpp */,
+				9D671BB50D8F4A258D511265 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_format_properties.hpp */,
+				CC1F2DB539054948BD10580C /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_pr.hpp */,
+				F91F149453F4484483A9C24E /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_protection.hpp */,
+				766E084E96694C3D914EED9D /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/sheet_view.hpp */,
+				000B483DD5974349BF23C031 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/worksheet/worksheet.hpp */,
+				1FE1845E72504ED1ADBAECDB /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_iterator.cpp */,
+				E56CC110F6D34C5F85A22118 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_vector.cpp */,
+				63AA08A95AA74039AE658056 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/header_footer.cpp */,
+				F1C3BB64AB0D4E91893B56BD /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_margins.cpp */,
+				C622EFC2BEC34D6489C9F143 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_setup.cpp */,
+				CD08BC26AF50426AB15DE898 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/phonetic_pr.cpp */,
+				7056E0AA5CD9488DA8ECB358 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range.cpp */,
+				B835C726362F4439B60CC701 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_iterator.cpp */,
+				9E53C66CC3BB4AA18C72FE88 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_reference.cpp */,
+				97059940CBDB4F2F886986A8 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/sheet_protection.cpp */,
+				60358B4FFE51459E8CDBE6F4 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/worksheet.cpp */,
+			);
+			name = worksheet;
+			sourceTree = "<group>";
+		};
+		E169BD1C6FA344C0851BE8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8BA5E69AAB4040970EF9EC /* libstudxml */,
+				297FD549B9BE4A68A019FCE1 /* xlnt */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7FCB968B4A442A88832E469 /* packaging */ = {
+			isa = PBXGroup;
+			children = (
+				C09298031253414B8A79E814 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/ext_list.hpp */,
+				C99A09083AFF42F2A834E563 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/manifest.hpp */,
+				CF814C6F9277469DB2CBB835 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/relationship.hpp */,
+				6446ECFB585F47F6A5051DD8 /* /Users/sunjm/Downloads/xlnt-master/include/xlnt/packaging/uri.hpp */,
+				7AD14F0E536E4F2BA8023381 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/ext_list.cpp */,
+				D680B7C850364DBBB51D830A /* /Users/sunjm/Downloads/xlnt-master/source/packaging/manifest.cpp */,
+				8017EFC12DC44C7F8A1005EB /* /Users/sunjm/Downloads/xlnt-master/source/packaging/relationship.cpp */,
+				1480B24CC2C549E5A75DA144 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/uri.cpp */,
+			);
+			name = packaging;
+			sourceTree = "<group>";
+		};
+		FC11F3DB8D0541318FD2AD35 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				69DCA65160634BA4AFB768D2 /* cryptography */,
+				39DB094CBE0E4BF194EE0D8C /* external */,
+				30731F61666E4BD6B8569130 /* header_footer */,
+				8F5598217E7E4AB3A4F23F08 /* implementations */,
+				78454DE9AEFE4AC2BDEAABD7 /* number_format */,
+				0D0E6306A84546E6B88D03D1 /* serialization */,
+				5F3B4983FDD14FFEB2DC5017 /* /Users/sunjm/Downloads/xlnt-master/source/detail/binary.hpp */,
+				9C01AA6AB8C74162AF00DF72 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.cpp */,
+				E9B853D4410142368DFB57D4 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.hpp */,
+				3983326B05D44A98B658D331 /* /Users/sunjm/Downloads/xlnt-master/source/detail/default_case.hpp */,
+				49371EB3B37A48C4877E9039 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.cpp */,
+				5D207DA18AFD4CABBD67AB75 /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.hpp */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095250720946479E8C03FC95 /* xlnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1325DAF195ED431F88DE008D /* Build configuration list for PBXNativeTarget "xlnt" */;
+			buildPhases = (
+				0DB62BC18B95487580515661 /* Sources */,
+				088AC168D764406CA4FC8834 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1FF331C2604296B4D6CC83 /* PBXTargetDependency */,
+				56F6C27D7EEF43C2B31B44F2 /* PBXTargetDependency */,
+			);
+			name = xlnt;
+			productName = xlnt;
+			productReference = 297FD549B9BE4A68A019FCE1 /* xlnt */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		480582607EB24ECFB5AC8DD3 /* libstudxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802F768C66DA4CFF9564B7EE /* Build configuration list for PBXNativeTarget "libstudxml" */;
+			buildPhases = (
+				088ACE942757401E8684DA2A /* Sources */,
+				1CF2C985D7D5445081731DA9 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libstudxml;
+			productName = libstudxml;
+			productReference = 5C8BA5E69AAB4040970EF9EC /* libstudxml */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784BF95F838F431A8458F2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 5E30F17FCE2F43E39285CC52 /* Build configuration list for PBXProject "xlnt" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A070C987E79F496FAF7A9ABA /* Debug */,
+				50131BCF965842469C74B4DF /* Release */,
+				A73B7A033B7A4B5C95D15720 /* MinSizeRel */,
+				887A0F36408D4DBA9D9AC82D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 94D32772DA664E16B460F299;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				53D9598D94AE468C9314000D /* ALL_BUILD */,
+				0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */,
+				540E4F2C1CF340A4AFF2A002 /* install */,
+				480582607EB24ECFB5AC8DD3 /* libstudxml */,
+				FA6933F407BA4DB990D81D4A /* uninstall */,
+				095250720946479E8C03FC95 /* xlnt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		088AC168D764406CA4FC8834 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source -f /Users/sunjm/Downloads/xlnt-master/source/CMakeScripts/xlnt_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		1A5BA89548814E1096F6A15C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source -f /Users/sunjm/Downloads/xlnt-master/source/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		1CF2C985D7D5445081731DA9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/CMakeScripts/libstudxml_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4AA02A4BEB994A6D9995473F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		51E1001D64D642B0AEBA91C9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source -f /Users/sunjm/Downloads/xlnt-master/source/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		5F423F6FEF08423892866D2E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		95C80DE8D060411C8C031169 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source -f /Users/sunjm/Downloads/xlnt-master/source/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9851E499322F4C63AC82D539 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AC9FE057723545C792E016A4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CC22EEA22C2E4CFFB9FBF0BF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source -f /Users/sunjm/Downloads/xlnt-master/source/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088ACE942757401E8684DA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF3A451D39844CCB6F07C02 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */,
+				6A3E4289C24D4C4F8AB157CB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */,
+				07A6F6C7CC294A8990F69E78 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */,
+				6399BF5C272944ECB77917F5 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */,
+				D41A1129BEEA4FCC830478AD /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */,
+				74319E1DC79B4993BE0A683B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */,
+				7C9344896F7F4A948AE40D23 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */,
+				DB9620B0979A4008A78EC260 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */,
+				B3C950466E804E67A556959E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB62BC18B95487580515661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D576E32B6B40E4B967A37A /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell.cpp */,
+				26DA8D5806734434A5B5BAE9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/cell_reference.cpp */,
+				AE57E3FA529440ADA085858A /* /Users/sunjm/Downloads/xlnt-master/source/cell/comment.cpp */,
+				615976E46B3E48E9B26C9A14 /* /Users/sunjm/Downloads/xlnt-master/source/cell/hyperlink.cpp */,
+				BA4DD92ABD7D47FB8B091393 /* /Users/sunjm/Downloads/xlnt-master/source/cell/index_types.cpp */,
+				342C8105FEC843D1BB177554 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text.cpp */,
+				AAD7F1BE355541ACB49CD0A9 /* /Users/sunjm/Downloads/xlnt-master/source/cell/rich_text_run.cpp */,
+				1FDD450CC0F94EA3B3D4CA95 /* /Users/sunjm/Downloads/xlnt-master/source/detail/constants.cpp */,
+				12A259BF7DAB413FBF8E4116 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/aes.cpp */,
+				2D67ACF5DF1947B483281293 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/base64.cpp */,
+				EE75E57486C942AB992E59C6 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/compound_document.cpp */,
+				5CBF3941BACD49B89875918C /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/encryption_info.cpp */,
+				04794D50A30F448F9B557505 /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/hash.cpp */,
+				C5B1A9FFF61A4DCA8DBE375F /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha.cpp */,
+				1B1E495611FF4DD9AC5948DA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha1.c */,
+				B5C483697298470C9921A4AA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/sha512.c */,
+				114C47963B6340D882DF430B /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_consumer.cpp */,
+				AFFF9DCE3DC147F487B720CA /* /Users/sunjm/Downloads/xlnt-master/source/detail/cryptography/xlsx_crypto_producer.cpp */,
+				1C5AFB0837EE43A5BEFBD0C1 /* /Users/sunjm/Downloads/xlnt-master/source/detail/header_footer/header_footer_code.cpp */,
+				78A14DAC27A74A63A1491DDB /* /Users/sunjm/Downloads/xlnt-master/source/detail/implementations/cell_impl.cpp */,
+				E35C117781D6477A8D1ADF33 /* /Users/sunjm/Downloads/xlnt-master/source/detail/number_format/number_formatter.cpp */,
+				528AFF3BD8BA4AD5AE3C3598 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/custom_value_traits.cpp */,
+				73F463DB4210442C9652DE04 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/miniz.cpp */,
+				571F04A92B9844458F66D2AF /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/open_stream.cpp */,
+				2F0FC2C532CD4A9EA611B19E /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/vector_streambuf.cpp */,
+				BB61B35280D6433EB5E52A23 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_consumer.cpp */,
+				B36F1AAE95184339AB7F91AD /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/xlsx_producer.cpp */,
+				1A1FA1C1E2A3445EB2D8BFE7 /* /Users/sunjm/Downloads/xlnt-master/source/detail/serialization/zstream.cpp */,
+				5070E66F633C4803B79F7A6F /* /Users/sunjm/Downloads/xlnt-master/source/detail/unicode.cpp */,
+				EB53781ECA7447929570CBDF /* /Users/sunjm/Downloads/xlnt-master/source/packaging/ext_list.cpp */,
+				F978B6A0DC8D48FA9867A515 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/manifest.cpp */,
+				39829E0265C349509B4019D8 /* /Users/sunjm/Downloads/xlnt-master/source/packaging/relationship.cpp */,
+				35D1E0FFD22D4B5BAA4487FA /* /Users/sunjm/Downloads/xlnt-master/source/packaging/uri.cpp */,
+				0881C0638A42400381AF1FD0 /* /Users/sunjm/Downloads/xlnt-master/source/styles/alignment.cpp */,
+				5BA6DCB42C36415894861119 /* /Users/sunjm/Downloads/xlnt-master/source/styles/border.cpp */,
+				29BFE73E2749454CA8409EC6 /* /Users/sunjm/Downloads/xlnt-master/source/styles/color.cpp */,
+				2632C291F3E84F43B9C8CE7D /* /Users/sunjm/Downloads/xlnt-master/source/styles/conditional_format.cpp */,
+				DF9D8B3990294873B81AF77A /* /Users/sunjm/Downloads/xlnt-master/source/styles/fill.cpp */,
+				CF936E35525E4BCAA6A4F2BA /* /Users/sunjm/Downloads/xlnt-master/source/styles/font.cpp */,
+				5E51531C688748A293FFC73C /* /Users/sunjm/Downloads/xlnt-master/source/styles/format.cpp */,
+				6E3F0ED3D14F44DEB4DCB73B /* /Users/sunjm/Downloads/xlnt-master/source/styles/number_format.cpp */,
+				4C4B4F3D913244AA9A24914E /* /Users/sunjm/Downloads/xlnt-master/source/styles/protection.cpp */,
+				4CBE089D19B4480AB30CBB7D /* /Users/sunjm/Downloads/xlnt-master/source/styles/style.cpp */,
+				589B38A8D6FB46AEAEF9E5CE /* /Users/sunjm/Downloads/xlnt-master/source/utils/date.cpp */,
+				6D48F4BF5188462C89801929 /* /Users/sunjm/Downloads/xlnt-master/source/utils/datetime.cpp */,
+				ACE1CECB6F05466190416861 /* /Users/sunjm/Downloads/xlnt-master/source/utils/exceptions.cpp */,
+				6C6BC89786CE45B8AD449BA6 /* /Users/sunjm/Downloads/xlnt-master/source/utils/path.cpp */,
+				6686922AF7E34EC69BBEF2D9 /* /Users/sunjm/Downloads/xlnt-master/source/utils/time.cpp */,
+				5B077A89AA1442C099E17289 /* /Users/sunjm/Downloads/xlnt-master/source/utils/timedelta.cpp */,
+				9ED826F2843B49479CE1B82B /* /Users/sunjm/Downloads/xlnt-master/source/utils/variant.cpp */,
+				07F3CF226D9B44E0B85FABFC /* /Users/sunjm/Downloads/xlnt-master/source/workbook/named_range.cpp */,
+				7FA9F42CB02646CBB2FA4594 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_reader.cpp */,
+				0BDD1F44D63844E98EDF6E5F /* /Users/sunjm/Downloads/xlnt-master/source/workbook/streaming_workbook_writer.cpp */,
+				5CC7DC364F9F4DA4A724E6CE /* /Users/sunjm/Downloads/xlnt-master/source/workbook/workbook.cpp */,
+				ED5FB94B15D945F09E967148 /* /Users/sunjm/Downloads/xlnt-master/source/workbook/worksheet_iterator.cpp */,
+				8A62C35E2A04461A9EFC6C60 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_iterator.cpp */,
+				4450398BD6DF428C903187CD /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/cell_vector.cpp */,
+				6C898D2251844A6BB2526EE8 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/header_footer.cpp */,
+				B40FA00E869E4041BF3F4587 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_margins.cpp */,
+				B8DCADF805124192954B2DE5 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/page_setup.cpp */,
+				E533D216CF9C4C7D93C1CFBC /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/phonetic_pr.cpp */,
+				8FD1A7F698FF48A2A8C0C557 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range.cpp */,
+				1E989B24958A444C8ACD9127 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_iterator.cpp */,
+				6CE9657472F449A6B1BBB74F /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/range_reference.cpp */,
+				D1F882F58C41418C95E02A33 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/sheet_protection.cpp */,
+				92013730C7A645FFAA97FC75 /* /Users/sunjm/Downloads/xlnt-master/source/worksheet/worksheet.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2906AB7CF90B46D8AFEA0B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */;
+			targetProxy = D67795A4213D4FDEAD6DFC73 /* PBXContainerItemProxy */;
+		};
+		31894016C30048FA8281306D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095250720946479E8C03FC95 /* xlnt */;
+			targetProxy = 68E8BCE666BF4493ACAEEF67 /* PBXContainerItemProxy */;
+		};
+		39DC802527D648498349F92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D9598D94AE468C9314000D /* ALL_BUILD */;
+			targetProxy = CA99992743004F6A8489A245 /* PBXContainerItemProxy */;
+		};
+		53A17E4D025E49F68BF79D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */;
+			targetProxy = 4C2DE9F6046F47BFAF8BCA88 /* PBXContainerItemProxy */;
+		};
+		56F6C27D7EEF43C2B31B44F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */;
+			targetProxy = 576B024C11104ED18CCAA259 /* PBXContainerItemProxy */;
+		};
+		9A1FF331C2604296B4D6CC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480582607EB24ECFB5AC8DD3 /* libstudxml */;
+			targetProxy = 6541BD85E8564E1F845E7AD9 /* PBXContainerItemProxy */;
+		};
+		A155C8C641C74B348C5DDFC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480582607EB24ECFB5AC8DD3 /* libstudxml */;
+			targetProxy = 07ADE918781445F0B12D52EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0727982FACF24B69A28ACFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		08AD3B15FC9B41FBB727157A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		0E2BFAE12A1A4C0786F17C74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/xlnt.build/RelWithDebInfo/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		13FA0EEC9A4B440296BFE440 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1AA89D3677B3433E867E058E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22415F5B0EA1432FB24561A4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/build";
+			};
+			name = MinSizeRel;
+		};
+		331FD2E6561C45D4AEC0999B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/build";
+			};
+			name = Debug;
+		};
+		3360FBB2896644EABE4B39D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3B1FAC6BDE1F4416809EDC40 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5F3F3D0F17E94EA28970C0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6133B6B1CE614B53BC42021A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlnt_EXPORTS,"'XLNT_SHARED=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/source/../include","/Users/sunjm/Downloads/xlnt-master/source/../source","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-float-equal -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		64F03E0C1E01432C8E505E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlnt_EXPORTS,"'XLNT_SHARED=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/source/../include","/Users/sunjm/Downloads/xlnt-master/source/../source","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-float-equal -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces     -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6B29278CF01145C591069E2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C21639C32A34E869A1581CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/xlnt.build/Release/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A4E8871E70724B1C97CB5DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A573897131DE4AFA96A66583 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A594228C4546429686D1E039 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC4B5810FB6B4397834902A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlnt_EXPORTS,"'XLNT_SHARED=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/source/../include","/Users/sunjm/Downloads/xlnt-master/source/../source","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-float-equal -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces        -DNDEBUG -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlnt.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B4A1978B44944E14BB381B9C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/xlnt.build/MinSizeRel/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C078AA2E9F1C43AAA85E9DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.2.0;
+				DYLIB_CURRENT_VERSION = 1.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",xlnt_EXPORTS,"'XLNT_SHARED=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/source/../include","/Users/sunjm/Downloads/xlnt-master/source/../source","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml","/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = " -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-padded -Wno-documentation-unknown-command -Wno-unknown-pragmas -Wno-unknown-warning-option -Wno-float-equal -Wno-newline-eof -Wno-covered-switch-default -Wno-exit-time-destructors -Wno-missing-braces    -fPIC '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/parser.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/qname.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/serializer.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/value-traits.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/char-props.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/genx.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlparse.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmlrole.o /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/$(PROJECT_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/libstudxml.build/$(OBJECT_FILE_DIR_normal:base)/x86_64/xmltok.o ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xlntd.1.2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C60E3F8DCF7146FAB03295E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C69701BE92B24C3CA5366801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/xlnt.build/Debug/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		CD7EA316831B4B728C8A92B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D5DE318A807645BB921AF6D3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DA3F6E710AAB4740968B426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DB869EF645FE4AB0B137E8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB3E041D68914CDC883780E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/build";
+			};
+			name = Release;
+		};
+		F137DC911F004189A3F1467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1325DAF195ED431F88DE008D /* Build configuration list for PBXNativeTarget "xlnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C078AA2E9F1C43AAA85E9DDE /* Debug */,
+				64F03E0C1E01432C8E505E92 /* Release */,
+				6133B6B1CE614B53BC42021A /* MinSizeRel */,
+				AC4B5810FB6B4397834902A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		24BD8FFCFD4E426392C7A099 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F137DC911F004189A3F1467F /* Debug */,
+				A4E8871E70724B1C97CB5DEC /* Release */,
+				6B29278CF01145C591069E2A /* MinSizeRel */,
+				A573897131DE4AFA96A66583 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5B97694DC3FA43B48C2014F2 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3F3D0F17E94EA28970C0CC /* Debug */,
+				DA3F6E710AAB4740968B426A /* Release */,
+				A594228C4546429686D1E039 /* MinSizeRel */,
+				3360FBB2896644EABE4B39D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E30F17FCE2F43E39285CC52 /* Build configuration list for PBXProject "xlnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331FD2E6561C45D4AEC0999B /* Debug */,
+				EB3E041D68914CDC883780E2 /* Release */,
+				22415F5B0EA1432FB24561A4 /* MinSizeRel */,
+				D5DE318A807645BB921AF6D3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		773A38AFEA8A4B2CAD53A715 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB869EF645FE4AB0B137E8B0 /* Debug */,
+				0727982FACF24B69A28ACFB5 /* Release */,
+				1AA89D3677B3433E867E058E /* MinSizeRel */,
+				3B1FAC6BDE1F4416809EDC40 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		802F768C66DA4CFF9564B7EE /* Build configuration list for PBXNativeTarget "libstudxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C69701BE92B24C3CA5366801 /* Debug */,
+				6C21639C32A34E869A1581CF /* Release */,
+				B4A1978B44944E14BB381B9C /* MinSizeRel */,
+				0E2BFAE12A1A4C0786F17C74 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97A592DB3ECE49F0B1F8C6C8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AD3B15FC9B41FBB727157A /* Debug */,
+				CD7EA316831B4B728C8A92B9 /* Release */,
+				C60E3F8DCF7146FAB03295E1 /* MinSizeRel */,
+				13FA0EEC9A4B440296BFE440 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784BF95F838F431A8458F2C0 /* Project object */;
+}

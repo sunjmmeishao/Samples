@@ -1,0 +1,13 @@
+G:/Downloads/xlnt-master/vs/CMakeFiles/INSTALL.dir
+G:/Downloads/xlnt-master/vs/CMakeFiles/ALL_BUILD.dir
+G:/Downloads/xlnt-master/vs/CMakeFiles/ZERO_CHECK.dir
+G:/Downloads/xlnt-master/vs/tests/CMakeFiles/xlnt.test.dir
+G:/Downloads/xlnt-master/vs/tests/CMakeFiles/INSTALL.dir
+G:/Downloads/xlnt-master/vs/tests/CMakeFiles/ALL_BUILD.dir
+G:/Downloads/xlnt-master/vs/source/CMakeFiles/xlnt.dir
+G:/Downloads/xlnt-master/vs/source/CMakeFiles/uninstall.dir
+G:/Downloads/xlnt-master/vs/source/CMakeFiles/INSTALL.dir
+G:/Downloads/xlnt-master/vs/source/CMakeFiles/ALL_BUILD.dir
+G:/Downloads/xlnt-master/vs/source/third-party/libstudxml/CMakeFiles/libstudxml.dir
+G:/Downloads/xlnt-master/vs/source/third-party/libstudxml/CMakeFiles/INSTALL.dir
+G:/Downloads/xlnt-master/vs/source/third-party/libstudxml/CMakeFiles/ALL_BUILD.dir

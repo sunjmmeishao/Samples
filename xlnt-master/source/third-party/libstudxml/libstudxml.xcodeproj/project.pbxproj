@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E24438E9D8CB46C0B6F362CC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2A9B130CCF2A48A0885A0FBF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		53D9598D94AE468C9314000D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4E99037040A441208A71BF65 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				61F6B62FF02147ED880D9198 /* CMake Rules */,
+			);
+			dependencies = (
+				C8CA8364AA4748268EE2924B /* PBXTargetDependency */,
+				7FC8736078CB4C45934A8BA6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		540E4F2C1CF340A4AFF2A002 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5C15FF7E68684D2FA56F9570 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				846ABC5F200D43458B1B36D7 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				48416F18FCD84D819558364D /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		087CA5C1F74946D3930D6B18 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */ = {isa = PBXBuildFile; fileRef = FF8ADADF951E423C929142C7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */; };
+		0E622F7B64EB46FFBF820C71 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */ = {isa = PBXBuildFile; fileRef = 56EC094831C543D5B1AB7ADB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */; };
+		0E9F7B98C8BD4711BE3D2773 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */ = {isa = PBXBuildFile; fileRef = 273E0901AA4B4A3CA32B6A5E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */; };
+		127B8F835A48448CAE144882 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */ = {isa = PBXBuildFile; fileRef = 65D219BCB0C746809164855F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */; };
+		133019AA50234045BCB74294 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */ = {isa = PBXBuildFile; fileRef = A0FB7F7BEFB74EF5999E9641 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */; };
+		13C41BDA66734D6AAAA76F6D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */ = {isa = PBXBuildFile; fileRef = 7233281E5FBA4E81A3B8659B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */; };
+		238482FCD2B84C3A832A2B7A /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */ = {isa = PBXBuildFile; fileRef = 218C7367E83E452099AD9970 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */; };
+		286A935AAED348E4B6AD7A72 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */ = {isa = PBXBuildFile; fileRef = D458B7BA0C764E3A8A79C6DC /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */; };
+		31C4F24F2E4E47D6B850E34C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */ = {isa = PBXBuildFile; fileRef = BC685A5D97CB4A25A45B7B24 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */; };
+		3FB85AEA69004A6CA943D1E3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */ = {isa = PBXBuildFile; fileRef = FF1D174133144E02A0C2F78D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */; };
+		4379890D625D42FDA6128B3C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */ = {isa = PBXBuildFile; fileRef = 1DD644B0CA444BB3885CFFCB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */; };
+		5253D070164B4E8E98B85A9B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */ = {isa = PBXBuildFile; fileRef = 3DDE236A423842F79E471335 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */; };
+		57E401494F1546A39D487328 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */ = {isa = PBXBuildFile; fileRef = CD990A6A34F74CE68E467E89 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */; };
+		66DFDD6836FB4AC89BF20AB5 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */ = {isa = PBXBuildFile; fileRef = 037A51B49D944DDC961DB1B4 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */; };
+		746F759B584C4ABB9BF7CD74 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F351C38E6A60472CAC737016 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */; };
+		817EFBB8245346EEA1C9C3D2 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */ = {isa = PBXBuildFile; fileRef = 62D86E46D370415FB03D2AC1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */; };
+		8F05132691DF408E8FB5F34D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */ = {isa = PBXBuildFile; fileRef = C83A65B3C2684B6EA4ABD6B3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */; };
+		9810A8DFA2F140679CBD2870 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */ = {isa = PBXBuildFile; fileRef = 7A786ECED90D4C4D80D2D1BB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */; };
+		AA2EEF9D86A54307AFD1D965 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */ = {isa = PBXBuildFile; fileRef = BCD1B84E8E164BD2BD86CEEB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */; };
+		AF9D9EBCC2B94C22BC432FD4 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */ = {isa = PBXBuildFile; fileRef = AD542F9D21D544C094AB58E1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */; };
+		B70E7DEB558C4A0FA88ED9FD /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */ = {isa = PBXBuildFile; fileRef = E7EB9193818B45E08D152D10 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */; };
+		BED43372FE584752A5E8AD4C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */ = {isa = PBXBuildFile; fileRef = 9C30F2D319614CF3BC28641C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */; };
+		CFA2F2C94C2E427CA48005B6 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */ = {isa = PBXBuildFile; fileRef = 0D58CE29C72743DC815B491E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */; };
+		D20547CA8253442EB72ECC92 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */ = {isa = PBXBuildFile; fileRef = F86E2FB289BB4FADB4520C15 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */; };
+		D321B4DFC93440E49F4C778D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */ = {isa = PBXBuildFile; fileRef = 8920B9C5830F4613A8FBF023 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */; };
+		DAB9C62EAE1F4174BC11E132 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */ = {isa = PBXBuildFile; fileRef = 3FE243A238214AF59BE90DD8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */; };
+		E56C756A495347B085CEC5DA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */ = {isa = PBXBuildFile; fileRef = 0572A58CB8EF4A34B82E95F0 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */; };
+		E8A3144D779643D381CCECCA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */ = {isa = PBXBuildFile; fileRef = C1D139570A9346738F308411 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */; };
+		F10E36B485BC40F1B8D68111 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */ = {isa = PBXBuildFile; fileRef = C4F9A8DD2304403DAB50B144 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */; };
+		F113FEFE1249478DB79EC3D1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */ = {isa = PBXBuildFile; fileRef = 3C0671958DE241CF8715B647 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */; };
+		FCA7D3C2F9B444DA82164A09 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */ = {isa = PBXBuildFile; fileRef = B545C75A1DE04C908323749E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		60396D5BB16740C48E3F41D1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6DFEEF706F384419A2B5954E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BDF2B2C87D064746BD970F84 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C675CAB8103B431F9EA872AB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		131C5F3BF55248F9BFD2A67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4108B03C095C4ACCA60B403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D9598D94AE468C9314000D;
+			remoteInfo = ALL_BUILD;
+		};
+		429809C7B10D4CF3B49B137C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4108B03C095C4ACCA60B403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAD7BD0DEB84E5984397990;
+			remoteInfo = ZERO_CHECK;
+		};
+		72964362560F484EAB6998F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4108B03C095C4ACCA60B403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480582607EB24ECFB5AC8DD3;
+			remoteInfo = libstudxml;
+		};
+		D62F1B70D2504E7BB595E908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4108B03C095C4ACCA60B403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAD7BD0DEB84E5984397990;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037A51B49D944DDC961DB1B4 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asciitab.h; path = xml/details/expat/asciitab.h; sourceTree = SOURCE_ROOT; };
+		0572A58CB8EF4A34B82E95F0 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = genx.h; path = xml/details/genx/genx.h; sourceTree = SOURCE_ROOT; };
+		0D58CE29C72743DC815B491E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmlrole.h; path = xml/details/expat/xmlrole.h; sourceTree = SOURCE_ROOT; };
+		0F5C1FE7E86B468B88AE53CF /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1DD644B0CA444BB3885CFFCB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cxx; path = xml/serializer.cxx; sourceTree = SOURCE_ROOT; };
+		218C7367E83E452099AD9970 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = utf8tab.h; path = xml/details/expat/utf8tab.h; sourceTree = SOURCE_ROOT; };
+		273E0901AA4B4A3CA32B6A5E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = serializer; path = xml/serializer; sourceTree = SOURCE_ROOT; };
+		3C0671958DE241CF8715B647 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok.h; path = xml/details/expat/xmltok.h; sourceTree = SOURCE_ROOT; };
+		3DDE236A423842F79E471335 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = genx.c; path = xml/details/genx/genx.c; sourceTree = SOURCE_ROOT; };
+		3FE243A238214AF59BE90DD8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmltok_impl.h; path = xml/details/expat/xmltok_impl.h; sourceTree = SOURCE_ROOT; };
+		56EC094831C543D5B1AB7ADB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = xml/details/expat/config.h; sourceTree = SOURCE_ROOT; };
+		62D86E46D370415FB03D2AC1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nametab.h; path = xml/details/expat/nametab.h; sourceTree = SOURCE_ROOT; };
+		65D219BCB0C746809164855F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "value-traits.cxx"; path = "xml/value-traits.cxx"; sourceTree = SOURCE_ROOT; };
+		7233281E5FBA4E81A3B8659B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = xml/details/expat/internal.h; sourceTree = SOURCE_ROOT; };
+		7A786ECED90D4C4D80D2D1BB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = parser; path = xml/parser; sourceTree = SOURCE_ROOT; };
+		8920B9C5830F4613A8FBF023 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ascii.h; path = xml/details/expat/ascii.h; sourceTree = SOURCE_ROOT; };
+		9C30F2D319614CF3BC28641C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmltok.c; path = xml/details/expat/xmltok.c; sourceTree = SOURCE_ROOT; };
+		A0FB7F7BEFB74EF5999E9641 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = latin1tab.h; path = xml/details/expat/latin1tab.h; sourceTree = SOURCE_ROOT; };
+		AD542F9D21D544C094AB58E1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlrole.c; path = xml/details/expat/xmlrole.c; sourceTree = SOURCE_ROOT; };
+		B545C75A1DE04C908323749E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat.h; path = xml/details/expat/expat.h; sourceTree = SOURCE_ROOT; };
+		BC685A5D97CB4A25A45B7B24 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = "value-traits"; path = "xml/value-traits"; sourceTree = SOURCE_ROOT; };
+		BCD1B84E8E164BD2BD86CEEB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = content; path = xml/content; sourceTree = SOURCE_ROOT; };
+		C1D139570A9346738F308411 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "char-props.c"; path = "xml/details/genx/char-props.c"; sourceTree = SOURCE_ROOT; };
+		C4F9A8DD2304403DAB50B144 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xmlparse.c; path = xml/details/expat/xmlparse.c; sourceTree = SOURCE_ROOT; };
+		C83A65B3C2684B6EA4ABD6B3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = forward; path = xml/forward; sourceTree = SOURCE_ROOT; };
+		CD990A6A34F74CE68E467E89 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parser.cxx; path = xml/parser.cxx; sourceTree = SOURCE_ROOT; };
+		D458B7BA0C764E3A8A79C6DC /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = qname; path = xml/qname; sourceTree = SOURCE_ROOT; };
+		E7EB9193818B45E08D152D10 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = expat_external.h; path = xml/details/expat/expat_external.h; sourceTree = SOURCE_ROOT; };
+		EDDAEDFD4C1840AABF661E54 /* libstudxml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibstudxml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F351C38E6A60472CAC737016 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F86E2FB289BB4FADB4520C15 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qname.cxx; path = xml/qname.cxx; sourceTree = SOURCE_ROOT; };
+		FF1D174133144E02A0C2F78D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = exception; path = xml/exception; sourceTree = SOURCE_ROOT; };
+		FF8ADADF951E423C929142C7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iasciitab.h; path = xml/details/expat/iasciitab.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		098B139618A240D1B38281A8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8920B9C5830F4613A8FBF023 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/ascii.h */,
+				037A51B49D944DDC961DB1B4 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/asciitab.h */,
+				56EC094831C543D5B1AB7ADB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/config.h */,
+				B545C75A1DE04C908323749E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat.h */,
+				E7EB9193818B45E08D152D10 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/expat_external.h */,
+				FF8ADADF951E423C929142C7 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/iasciitab.h */,
+				7233281E5FBA4E81A3B8659B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/internal.h */,
+				A0FB7F7BEFB74EF5999E9641 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/latin1tab.h */,
+				62D86E46D370415FB03D2AC1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/nametab.h */,
+				218C7367E83E452099AD9970 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/utf8tab.h */,
+				0D58CE29C72743DC815B491E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.h */,
+				3C0671958DE241CF8715B647 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.h */,
+				3FE243A238214AF59BE90DD8 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok_impl.h */,
+				0572A58CB8EF4A34B82E95F0 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2466D7E5BF1842989FD8B233 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3EEE2789E00F41728F6689F0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2466D7E5BF1842989FD8B233 /* CMake Rules */,
+				0F5C1FE7E86B468B88AE53CF /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4118FDC0E16E4613A7AEFA42 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F9A8DD2304403DAB50B144 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */,
+				AD542F9D21D544C094AB58E1 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */,
+				9C30F2D319614CF3BC28641C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */,
+				C1D139570A9346738F308411 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */,
+				3DDE236A423842F79E471335 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */,
+				CD990A6A34F74CE68E467E89 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */,
+				F86E2FB289BB4FADB4520C15 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */,
+				1DD644B0CA444BB3885CFFCB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */,
+				65D219BCB0C746809164855F /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4C09E9153D144DB9ADAFFC55 /* libstudxml */ = {
+			isa = PBXGroup;
+			children = (
+				4118FDC0E16E4613A7AEFA42 /* Source Files */,
+				098B139618A240D1B38281A8 /* Header Files */,
+				F351C38E6A60472CAC737016 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/CMakeLists.txt */,
+				BCD1B84E8E164BD2BD86CEEB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/content */,
+				FF1D174133144E02A0C2F78D /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/exception */,
+				C83A65B3C2684B6EA4ABD6B3 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/forward */,
+				7A786ECED90D4C4D80D2D1BB /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser */,
+				D458B7BA0C764E3A8A79C6DC /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname */,
+				273E0901AA4B4A3CA32B6A5E /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer */,
+				BC685A5D97CB4A25A45B7B24 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits */,
+			);
+			name = libstudxml;
+			sourceTree = "<group>";
+		};
+		819863AF124241A0B47BD735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDAEDFD4C1840AABF661E54 /* libstudxml */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F689E0C6DF4D4BF29833E0E0 = {
+			isa = PBXGroup;
+			children = (
+				4C09E9153D144DB9ADAFFC55 /* libstudxml */,
+				3EEE2789E00F41728F6689F0 /* ALL_BUILD */,
+				819863AF124241A0B47BD735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480582607EB24ECFB5AC8DD3 /* libstudxml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AB5BB7045D44CD8E769CA5 /* Build configuration list for PBXNativeTarget "libstudxml" */;
+			buildPhases = (
+				6F79441F00824826A8B141F3 /* Sources */,
+				61BCE9B9CC194BF8A1D0D8F4 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE6D897500747F3BA97E0DF /* PBXTargetDependency */,
+			);
+			name = libstudxml;
+			productName = libstudxml;
+			productReference = EDDAEDFD4C1840AABF661E54 /* libstudxml */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4108B03C095C4ACCA60B403B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 76F6CE54B3A446B9ACB8CB2C /* Build configuration list for PBXProject "libstudxml" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6DFEEF706F384419A2B5954E /* Debug */,
+				BDF2B2C87D064746BD970F84 /* Release */,
+				60396D5BB16740C48E3F41D1 /* MinSizeRel */,
+				C675CAB8103B431F9EA872AB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F689E0C6DF4D4BF29833E0E0;
+			projectDirPath = "../../../third-party/libstudxml";
+			projectRoot = "";
+			targets = (
+				53D9598D94AE468C9314000D /* ALL_BUILD */,
+				0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */,
+				540E4F2C1CF340A4AFF2A002 /* install */,
+				480582607EB24ECFB5AC8DD3 /* libstudxml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F199C335A774D40BF1964CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2A9B130CCF2A48A0885A0FBF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		61BCE9B9CC194BF8A1D0D8F4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/CMakeScripts/libstudxml_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		61F6B62FF02147ED880D9198 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		64A130B39C454C3B84A78501 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		846ABC5F200D43458B1B36D7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DA8EFC814C2448D29A9BB9FA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F79441F00824826A8B141F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10E36B485BC40F1B8D68111 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlparse.c */,
+				AF9D9EBCC2B94C22BC432FD4 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmlrole.c */,
+				BED43372FE584752A5E8AD4C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/expat/xmltok.c */,
+				E8A3144D779643D381CCECCA /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/char-props.c */,
+				5253D070164B4E8E98B85A9B /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/details/genx/genx.c */,
+				57E401494F1546A39D487328 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/parser.cxx */,
+				D20547CA8253442EB72ECC92 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/qname.cxx */,
+				4379890D625D42FDA6128B3C /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/serializer.cxx */,
+				127B8F835A48448CAE144882 /* /Users/sunjm/Downloads/xlnt-master/third-party/libstudxml/xml/value-traits.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48416F18FCD84D819558364D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D9598D94AE468C9314000D /* ALL_BUILD */;
+			targetProxy = 131C5F3BF55248F9BFD2A67D /* PBXContainerItemProxy */;
+		};
+		7FC8736078CB4C45934A8BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */;
+			targetProxy = D62F1B70D2504E7BB595E908 /* PBXContainerItemProxy */;
+		};
+		9FE6D897500747F3BA97E0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAD7BD0DEB84E5984397990 /* ZERO_CHECK */;
+			targetProxy = 429809C7B10D4CF3B49B137C /* PBXContainerItemProxy */;
+		};
+		C8CA8364AA4748268EE2924B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480582607EB24ECFB5AC8DD3 /* libstudxml */;
+			targetProxy = 72964362560F484EAB6998F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11906AA0C6F0487BBFD062F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		135245AA565B43EDAC610A47 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/libstudxml.build/MinSizeRel/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		13E091A6838D41579F89B76D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4246E4636C2E4CF7B963E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/build";
+			};
+			name = Release;
+		};
+		4EE00E0A864848B294019AA9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5ED93A9CB6CA488EBF918AF9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/build";
+			};
+			name = RelWithDebInfo;
+		};
+		636DEFD2A0A3463599548D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		79218B554BE140C7895AFEE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7BF6A9F4EC3C4DDF88130A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8458DEA0D045473AA0638D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		87D240C010C14CADAD4D2A83 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9EAF6DEEB03A48B3B0D3ACFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/libstudxml.build/Release/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A5CDD3C108494355A4D275C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A9C2C0BD80DD420C9EAC55DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC760335CE2641639E3762C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/libstudxml.build/Debug/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C3E3F805ACEB408B8F940A1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C61586281CD34BD68F376539 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/libstudxml.build/RelWithDebInfo/libstudxml.build/";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'LIBSTUDXML_STATIC_LIB=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = libstudxml;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD22EFB0F2DA4CD0B705A8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/build";
+			};
+			name = Debug;
+		};
+		D8F46AE874DB4C6DB25CA4A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml/build";
+			};
+			name = MinSizeRel;
+		};
+		E0D9301F984B4FBE8E2537D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/source/third-party/libstudxml";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E99037040A441208A71BF65 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11906AA0C6F0487BBFD062F0 /* Debug */,
+				8458DEA0D045473AA0638D49 /* Release */,
+				79218B554BE140C7895AFEE2 /* MinSizeRel */,
+				A9C2C0BD80DD420C9EAC55DE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C15FF7E68684D2FA56F9570 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636DEFD2A0A3463599548D25 /* Debug */,
+				E0D9301F984B4FBE8E2537D1 /* Release */,
+				C3E3F805ACEB408B8F940A1C /* MinSizeRel */,
+				4EE00E0A864848B294019AA9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68AB5BB7045D44CD8E769CA5 /* Build configuration list for PBXNativeTarget "libstudxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC760335CE2641639E3762C4 /* Debug */,
+				9EAF6DEEB03A48B3B0D3ACFE /* Release */,
+				135245AA565B43EDAC610A47 /* MinSizeRel */,
+				C61586281CD34BD68F376539 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76F6CE54B3A446B9ACB8CB2C /* Build configuration list for PBXProject "libstudxml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD22EFB0F2DA4CD0B705A8A6 /* Debug */,
+				4246E4636C2E4CF7B963E693 /* Release */,
+				D8F46AE874DB4C6DB25CA4A0 /* MinSizeRel */,
+				5ED93A9CB6CA488EBF918AF9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E24438E9D8CB46C0B6F362CC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E091A6838D41579F89B76D /* Debug */,
+				7BF6A9F4EC3C4DDF88130A42 /* Release */,
+				87D240C010C14CADAD4D2A83 /* MinSizeRel */,
+				A5CDD3C108494355A4D275C6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4108B03C095C4ACCA60B403B /* Project object */;
+}

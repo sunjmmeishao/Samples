@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\runner.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\cell\cell_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\cell\index_types_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\cell\rich_text_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\alignment_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\color_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\conditional_format_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\fill_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\number_format_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\protection_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\styles\style_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\datetime_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\helper_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\optional_tests.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\path_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\timedelta_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\utils\variant_tests.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\workbook\named_range_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\workbook\serialization_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\workbook\workbook_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\worksheet\page_setup_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\worksheet\range_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\worksheet\worksheet_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\tests\helpers\test_suite.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\assertions.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\path_helper.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\temporary_directory.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\temporary_file.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\test_suite.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\timing.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\tests\helpers\xml_helper.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Downloads\xlnt-master\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\qname.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\serializer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\value-traits.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\char-props.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\genx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlparse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlrole.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmltok.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{3A23320C-C06E-3209-842F-F27D1BC1320D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{2C30FC90-2BA5-37C3-8C7B-62CA03AD6306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runner">
+      <UniqueIdentifier>{DDA8768F-A667-3358-B828-5BA2598D1139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{9C44529B-2D52-3FF8-8848-0192D247B397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\cell">
+      <UniqueIdentifier>{D5479B63-6E01-32A5-9D10-C27034359ABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\styles">
+      <UniqueIdentifier>{4C3B060B-27FA-35B9-8418-BA3B615D2FDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\utils">
+      <UniqueIdentifier>{9C192CCE-9CE6-34E4-AC53-7A7EC4E6A167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\workbook">
+      <UniqueIdentifier>{C5799041-5AA9-3C10-9EBC-5928E08A0CCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\worksheet">
+      <UniqueIdentifier>{8795C1A3-3455-352B-B83D-A4CEB8C42FDE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

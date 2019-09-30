@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\cell_reference.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\comment.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\hyperlink.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\index_types.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\rich_text.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\cell\rich_text_run.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\packaging\ext_list.cpp">
+      <Filter>packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\packaging\manifest.cpp">
+      <Filter>packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\packaging\relationship.cpp">
+      <Filter>packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\packaging\uri.cpp">
+      <Filter>packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\alignment.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\border.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\color.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\conditional_format.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\fill.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\font.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\format.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\number_format.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\protection.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\styles\style.cpp">
+      <Filter>styles</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\date.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\datetime.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\exceptions.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\path.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\time.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\timedelta.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\utils\variant.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\workbook\named_range.cpp">
+      <Filter>workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\workbook\streaming_workbook_reader.cpp">
+      <Filter>workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\workbook\streaming_workbook_writer.cpp">
+      <Filter>workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\workbook\workbook.cpp">
+      <Filter>workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\workbook\worksheet_iterator.cpp">
+      <Filter>workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\cell_iterator.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\cell_vector.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\header_footer.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\page_margins.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\page_setup.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\phonetic_pr.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\range.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\range_iterator.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\range_reference.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\sheet_protection.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\worksheet\worksheet.cpp">
+      <Filter>worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\constants.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\unicode.cpp">
+      <Filter>detail</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\aes.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\base64.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\compound_document.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\encryption_info.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\hash.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\sha.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\sha1.c">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\sha512.c">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\xlsx_crypto_consumer.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\cryptography\xlsx_crypto_producer.cpp">
+      <Filter>detail\cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\header_footer\header_footer_code.cpp">
+      <Filter>detail\header_footer</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\implementations\cell_impl.cpp">
+      <Filter>detail\implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\number_format\number_formatter.cpp">
+      <Filter>detail\number_format</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\custom_value_traits.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\miniz.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\open_stream.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\vector_streambuf.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\xlsx_consumer.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\xlsx_producer.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\Downloads\xlnt-master\source\detail\serialization\zstream.cpp">
+      <Filter>detail\serialization</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\xlnt.hpp">
+      <Filter>xlnt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\xlnt_config.hpp">
+      <Filter>xlnt</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\cell.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\cell_reference.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\cell_type.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\comment.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\hyperlink.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\index_types.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\rich_text.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\cell\rich_text_run.hpp">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\packaging\ext_list.hpp">
+      <Filter>packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\packaging\manifest.hpp">
+      <Filter>packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\packaging\relationship.hpp">
+      <Filter>packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\packaging\uri.hpp">
+      <Filter>packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\alignment.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\border.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\color.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\conditional_format.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\fill.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\font.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\format.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\number_format.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\protection.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\styles\style.hpp">
+      <Filter>styles</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\calendar.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\date.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\datetime.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\exceptions.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\optional.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\path.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\scoped_enum_hash.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\serialisation_utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\time.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\timedelta.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\utils\variant.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\calculation_properties.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\document_security.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\external_book.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\metadata_property.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\named_range.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\streaming_workbook_reader.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\streaming_workbook_writer.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\theme.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\workbook.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\workbook_view.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\workbook\worksheet_iterator.hpp">
+      <Filter>workbook</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\cell_iterator.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\cell_vector.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\column_properties.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\header_footer.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\major_order.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\page_margins.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\page_setup.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\pane.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\phonetic_pr.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\print_options.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\range.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\range_iterator.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\range_reference.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\row_properties.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\selection.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\sheet_format_properties.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\sheet_pr.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\sheet_protection.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\sheet_view.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\include\xlnt\worksheet\worksheet.hpp">
+      <Filter>worksheet</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\binary.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\constants.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\default_case.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\unicode.hpp">
+      <Filter>detail</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\aes.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\base64.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\cipher.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\compound_document.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\encryption_info.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\hash.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\sha.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\value_traits.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\xlsx_crypto_consumer.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\cryptography\xlsx_crypto_producer.hpp">
+      <Filter>detail\cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\external\include_libstudxml.hpp">
+      <Filter>detail\external</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\external\include_windows.hpp">
+      <Filter>detail\external</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\header_footer\header_footer_code.hpp">
+      <Filter>detail\header_footer</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\cell_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\conditional_format_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\format_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\formatting_record.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\hyperlink_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\style_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\stylesheet.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\workbook_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\implementations\worksheet_impl.hpp">
+      <Filter>detail\implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\number_format\number_formatter.hpp">
+      <Filter>detail\number_format</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\custom_value_traits.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\excel_thumbnail.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\miniz.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\open_stream.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\vector_streambuf.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\xlsx_consumer.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\xlsx_producer.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\Downloads\xlnt-master\source\detail\serialization\zstream.hpp">
+      <Filter>detail\serialization</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\Downloads\xlnt-master\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\qname.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\serializer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\value-traits.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\char-props.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\genx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlparse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlrole.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="G:\Downloads\xlnt-master\vs\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmltok.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{3A23320C-C06E-3209-842F-F27D1BC1320D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell">
+      <UniqueIdentifier>{0097D289-B765-393A-8E82-FA2C3B39A236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail">
+      <UniqueIdentifier>{5B72624E-244C-3FBA-91AC-649D98708357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\cryptography">
+      <UniqueIdentifier>{79C22709-7BB7-3EFD-8D07-2EB6E7072E66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\external">
+      <UniqueIdentifier>{1287C273-1C75-3182-9A74-82692D2F03A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\header_footer">
+      <UniqueIdentifier>{3FD8A05A-C9A4-326C-A380-EFBBAC7F283D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\implementations">
+      <UniqueIdentifier>{4D4F60DD-B092-3AE8-AE8B-A09AC1F39B57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\number_format">
+      <UniqueIdentifier>{02979EE1-5D88-390C-BF9E-8F579EBD56D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detail\serialization">
+      <UniqueIdentifier>{4AF63F6B-D06A-30B2-8F47-508C62AD5D4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packaging">
+      <UniqueIdentifier>{F3C7B08C-7C4E-38BA-AD82-1561FA19AEFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="styles">
+      <UniqueIdentifier>{BC2851E8-F3F0-3958-B517-FF9E1407F682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{39382A3E-5999-3DE1-8FA4-06019D0499B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workbook">
+      <UniqueIdentifier>{270AA84D-61AB-35F5-8DB5-FCB9DB8F7914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worksheet">
+      <UniqueIdentifier>{AEF72510-B315-3271-8612-3243EEE1E099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlnt">
+      <UniqueIdentifier>{1E5844B8-A734-36BB-B17B-D2749BBCA099}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
