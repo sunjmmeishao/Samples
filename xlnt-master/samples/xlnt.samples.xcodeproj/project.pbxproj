@@ -18,7 +18,6 @@
 				BA55DE48EF4A41A58389F047 /* PBXTargetDependency */,
 				AB78BACF60054389BD4994A8 /* PBXTargetDependency */,
 				9280F8B2F6DC421FB7E03F42 /* PBXTargetDependency */,
-				D8E398327168468D8367ECA7 /* PBXTargetDependency */,
 				C40F1F2F1AD34CED99CE9F83 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
@@ -34,17 +33,6 @@
 			);
 			name = uninstall;
 			productName = uninstall;
-		};
-		5EBD18E1233E4703B97C449B /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 667FC205BEED4F50B9E28515 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				6A4A7532DFFE43AC942ACD12 /* CMake Rules */,
-			);
-			dependencies = (
-			);
-			name = ZERO_CHECK;
-			productName = ZERO_CHECK;
 		};
 		945FD071E24E4FB7BA674FDF /* install */ = {
 			isa = PBXAggregateTarget;
@@ -149,13 +137,6 @@
 			remoteGlobalIDString = A5965E0DB8AA400F9A9E4FE9;
 			remoteInfo = "sample-decrypt";
 		};
-		49AF28EA743D4FC3A0C007B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
-			remoteInfo = ZERO_CHECK;
-		};
 		4A730F1EE57045849CCDD761 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
@@ -184,26 +165,12 @@
 			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
 			remoteInfo = xlnt;
 		};
-		A9651C43AC7B49F6985DE661 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
-			remoteInfo = ZERO_CHECK;
-		};
 		B2C8C7078EE34DBEBC8300E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D8FA949897644AE2B52B0E92;
 			remoteInfo = libstudxml;
-		};
-		C561BE9B208F494299E74CD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
-			remoteInfo = ZERO_CHECK;
 		};
 		D8F2ED4C9A874441A6D5B9D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -218,13 +185,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0C3BA624625E4A97AF0B2D61;
 			remoteInfo = xlnt;
-		};
-		E81C5E02FEEE44A39DDF00E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5FD982A35884726905A7D24 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5EBD18E1233E4703B97C449B;
-			remoteInfo = ZERO_CHECK;
 		};
 		F23EA2D5B40942CDAB42D344 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -916,7 +876,6 @@
 			buildConfigurationList = BB5A66D8E1DC4681B8C0E11F /* Build configuration list for PBXNativeTarget "xlnt" */;
 			buildPhases = (
 				FC211C2EA89444808810B93F /* Sources */,
-				156CBE18090C4ACC9C08627E /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -938,7 +897,6 @@
 			);
 			dependencies = (
 				D4311242CAE54A15B24B211B /* PBXTargetDependency */,
-				EF3B70B860DC408A941E2447 /* PBXTargetDependency */,
 			);
 			name = "sample-img2xlsx";
 			productName = "sample-img2xlsx";
@@ -955,7 +913,6 @@
 			);
 			dependencies = (
 				C2895876AB444E28AA1A7B89 /* PBXTargetDependency */,
-				D7D1BE2CA9A949D5AC55BDA1 /* PBXTargetDependency */,
 			);
 			name = "sample-decrypt";
 			productName = "sample-decrypt";
@@ -967,7 +924,6 @@
 			buildConfigurationList = 4AEB8C98D2044E92AACC42A1 /* Build configuration list for PBXNativeTarget "libstudxml" */;
 			buildPhases = (
 				CA265038DE8F45A1A755FC1A /* Sources */,
-				89186F81ABD04DB19ECEA1DD /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
@@ -988,7 +944,6 @@
 			);
 			dependencies = (
 				305CAA4E45B447E3A68ABCB3 /* PBXTargetDependency */,
-				32C14C9B64BF435D90AD239A /* PBXTargetDependency */,
 			);
 			name = "sample-sample";
 			productName = "sample-sample";
@@ -1016,7 +971,6 @@
 			projectRoot = "";
 			targets = (
 				1BF977B402474BD88F408BF9 /* ALL_BUILD */,
-				5EBD18E1233E4703B97C449B /* ZERO_CHECK */,
 				945FD071E24E4FB7BA674FDF /* install */,
 				D8FA949897644AE2B52B0E92 /* libstudxml */,
 				A5965E0DB8AA400F9A9E4FE9 /* sample-decrypt */,
@@ -1040,17 +994,6 @@
 			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source -f /Users/sunjm/Downloads/xlnt-master/samples/source/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		156CBE18090C4ACC9C08627E /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source -f /Users/sunjm/Downloads/xlnt-master/samples/source/CMakeScripts/xlnt_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
 		55DC4CEED5604D1886EE8E36 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1062,17 +1005,6 @@
 			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		6A4A7532DFFE43AC942ACD12 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
 		7B3F6E67A03643BEAFFDB583 /* CMake PostBuild Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1082,17 +1014,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples -f /Users/sunjm/Downloads/xlnt-master/samples/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		89186F81ABD04DB19ECEA1DD /* CMake PostBuild Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake PostBuild Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml -f /Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/CMakeScripts/libstudxml_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1224,11 +1145,6 @@
 			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
 			targetProxy = D8F2ED4C9A874441A6D5B9D1 /* PBXContainerItemProxy */;
 		};
-		32C14C9B64BF435D90AD239A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
-			targetProxy = C561BE9B208F494299E74CD9 /* PBXContainerItemProxy */;
-		};
 		57DF42F3B3D24866A32826E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FEB594D7AF864187B6598087 /* sample-sample */;
@@ -1269,21 +1185,6 @@
 			target = 0C3BA624625E4A97AF0B2D61 /* xlnt */;
 			targetProxy = 90D6AAE52E954B93BA52364D /* PBXContainerItemProxy */;
 		};
-		D7D1BE2CA9A949D5AC55BDA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
-			targetProxy = 49AF28EA743D4FC3A0C007B8 /* PBXContainerItemProxy */;
-		};
-		D8E398327168468D8367ECA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
-			targetProxy = E81C5E02FEEE44A39DDF00E1 /* PBXContainerItemProxy */;
-		};
-		EF3B70B860DC408A941E2447 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5EBD18E1233E4703B97C449B /* ZERO_CHECK */;
-			targetProxy = A9651C43AC7B49F6985DE661 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -1292,7 +1193,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+				SYMROOT = "$(PROJECT_DIR)/build";
 			};
 			name = RelWithDebInfo;
 		};
@@ -1300,7 +1201,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/Release/libstudxml.build/";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_DIR)/build";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
@@ -1309,9 +1211,10 @@
 					"'LIBSTUDXML_STATIC_LIB=1'",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../third-party/libstudxml";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
+				OBJROOT = "$(PROJECT_DIR)/build";
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
 					"-fPIC",
@@ -1325,7 +1228,8 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libstudxml;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/source/third-party/libstudxml";
+				SYMROOT = "$(PROJECT_DIR)/build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1381,10 +1285,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+					"$(SRCROOT)/../include",
+					"$(PROJECT_DIR)/../third-party/libstudxml",
+					"$(SRCROOT)/../third-party/utfcpp",
+					"$(SRCROOT)/../source/",
 				);
 				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = "";
@@ -1571,10 +1475,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+					"$(SRCROOT)/../include",
+					"$(PROJECT_DIR)/../third-party/libstudxml",
+					"$(SRCROOT)/../third-party/utfcpp",
+					"$(SRCROOT)/../source/",
 				);
 				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = "";
@@ -1685,8 +1589,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"$(SRCROOT)/../tests",
+					"$(SRCROOT)/../include",
 				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Debug";
@@ -1741,7 +1645,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+				SYMROOT = "$(PROJECT_DIR)/build";
 			};
 			name = MinSizeRel;
 		};
@@ -1809,10 +1713,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+					"$(SRCROOT)/../include",
+					"$(PROJECT_DIR)/../third-party/libstudxml",
+					"$(SRCROOT)/../third-party/utfcpp",
+					"$(SRCROOT)/../source/",
 				);
 				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = "";
@@ -1859,31 +1763,6 @@
 				);
 			};
 			name = Debug;
-		};
-		68A1AEA9369B4BCEBCA4D08C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
 		};
 		84EB8C9BC7E84890A0508037 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
@@ -1941,7 +1820,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/Debug/libstudxml.build/";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_DIR)/build";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1950,9 +1830,10 @@
 					"'LIBSTUDXML_STATIC_LIB=1'",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../third-party/libstudxml";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
+				OBJROOT = "$(PROJECT_DIR)/build";
 				OTHER_CFLAGS = "   -fPIC  ";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-fPIC",
@@ -1962,7 +1843,8 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libstudxml;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/source/third-party/libstudxml";
+				SYMROOT = "$(PROJECT_DIR)/build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1977,7 +1859,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/MinSizeRel/libstudxml.build/";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_DIR)/build";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -1986,9 +1869,10 @@
 					"'LIBSTUDXML_STATIC_LIB=1'",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../third-party/libstudxml";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
+				OBJROOT = "$(PROJECT_DIR)/build";
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
 					"-fPIC",
@@ -2002,7 +1886,8 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libstudxml;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/source/third-party/libstudxml";
+				SYMROOT = "$(PROJECT_DIR)/build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -2012,31 +1897,6 @@
 				);
 			};
 			name = MinSizeRel;
-		};
-		88F79D2E17E24E46A5D75B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
 		};
 		8FFBB602D3824EE8B2C8B596 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2088,31 +1948,6 @@
 			};
 			name = Debug;
 		};
-		97AC34CB058D459993E1748B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
 		A19C8AF927624414B7CABC17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2159,7 +1994,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+				SYMROOT = "$(PROJECT_DIR)/build";
 			};
 			name = Release;
 		};
@@ -2187,31 +2022,6 @@
 				);
 			};
 			name = Release;
-		};
-		ABB1E481FF28405DB3DF7B9C /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
 		};
 		AD03ADD759D240FC987C5445 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2283,7 +2093,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml/xlnt.samples.build/RelWithDebInfo/libstudxml.build/";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_DIR)/build";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
@@ -2292,9 +2103,10 @@
 					"'LIBSTUDXML_STATIC_LIB=1'",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/third-party/libstudxml";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../third-party/libstudxml";
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
+				OBJROOT = "$(PROJECT_DIR)/build";
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
 					"-fPIC",
@@ -2308,7 +2120,8 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = libstudxml;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/source/third-party/libstudxml";
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/source/third-party/libstudxml";
+				SYMROOT = "$(PROJECT_DIR)/build";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -2430,8 +2243,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"$(SRCROOT)/../tests",
+					"$(SRCROOT)/../include",
 				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/RelWithDebInfo";
@@ -2508,7 +2321,7 @@
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = "/Users/sunjm/Downloads/xlnt-master/samples/build";
+				SYMROOT = "$(PROJECT_DIR)/build";
 			};
 			name = Debug;
 		};
@@ -2559,10 +2372,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/libstudxml",
-					"/Users/sunjm/Downloads/xlnt-master/source/../source/../third-party/utfcpp",
+					"$(SRCROOT)/../include",
+					"$(PROJECT_DIR)/../third-party/libstudxml",
+					"$(SRCROOT)/../third-party/utfcpp",
+					"$(SRCROOT)/../source/",
 				);
 				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = "";
@@ -2629,8 +2442,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"$(SRCROOT)/../tests",
+					"$(SRCROOT)/../include",
 				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/MinSizeRel";
@@ -2673,8 +2486,8 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/sunjm/Downloads/xlnt-master/samples/../tests",
-					"/Users/sunjm/Downloads/xlnt-master/source/../include",
+					"$(SRCROOT)/../tests",
+					"$(SRCROOT)/../include",
 				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/Users/sunjm/Downloads/xlnt-master/samples/source/Release";
@@ -2734,17 +2547,6 @@
 				155564CDF39A48E084067E93 /* Release */,
 				88D8F457AABE46FD829E1CB3 /* MinSizeRel */,
 				B5C604B565F142349DFC8078 /* RelWithDebInfo */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		667FC205BEED4F50B9E28515 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				88F79D2E17E24E46A5D75B83 /* Debug */,
-				97AC34CB058D459993E1748B /* Release */,
-				ABB1E481FF28405DB3DF7B9C /* MinSizeRel */,
-				68A1AEA9369B4BCEBCA4D08C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

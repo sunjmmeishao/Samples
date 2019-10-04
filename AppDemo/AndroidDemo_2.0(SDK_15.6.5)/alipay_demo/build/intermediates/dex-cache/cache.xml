@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/f7340ea697641e017351baa25bfd982937b23cd9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="376a25a3bdce5133262368e85d430aae5bb80c28">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_d1ea36e68552fb30ddc61bb054f9bd3c0125a630.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/1e606f997f2f51ac1516dea116e9cdad358b800f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="be31b531309a9196873ba4ac96ea9484ca0ecad6">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_3dd0f130083defb6f5cee0a5fbc79b699bb11a7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/8c2d763a652999ce13b06868cc1a64b09142099e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="41b8c7e99024d4288d7dfc709bb72fdaa5fdc32f">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_cdc86b54f1ea7f564a711f59d5cbc4ee4b7c2ef2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/c13c5f4049cc2f7481b9a65ee184acdf6d552ad8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="70bf65523dc3db43f6c3749931976585a8f4dd20">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_fce585bfddf321c275e44b417ed16267558b5c2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/e26c250d0e75037142f5e5e60e890898eb3bd012/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="fad505737146925636e28753e26523c3a8a03e48">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_648cdae19ba1dbebdbc08d5930af9499e7787d87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="207a6efae6a3555e326de41f76bdadd9a239cbce">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/common-1.1.1_238fb0a07d60d3a220ed7eee3d69bb4144edc588.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/7d58271e4f911435dab1f259165b27c32379e322/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e9b03dd36d3c106574e2cdeb8edd543bd5e51d0e">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_119311efa1c2e7c4680a38a0305c956bcd23f000.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/d042471ed73727c43174d5b45603ef469e9b23df/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="0246b27b4f76a126b398d53ed171a1061863ae39">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_ad711e060a79498fad7a7b7c53a9c883b4ce500b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/support-annotations-28.0.0_a73809bb99d4d7aad4aefb831d26b7e423e5e6c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/8d7f937fbfffd3bb2dbc3840bc4edd1f86559a83/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="afb9ac89f722ac83466f1bb5f2135010b7f05f32">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_3bb1bf829aa02cddffea09c7bbbab044f8726a6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/5b962f5cf6cf5163b753473874312eef05541095/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="925ec89d545e33030131b9470db85e701a8c61a4">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_5d3fd088b0db9f4b50381ebe98ea7e3ad6913888.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/b52714761daeb3addada1f9719f4803bdc653c53/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a69067467c7e4d5c810ea19ee43cbfab00a292b4">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_9fc89e744faa7af9cb74e76bf03413cca898ebe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c1bcdade4d3cc2836130424a3f3e4182c666a745">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/collections-28.0.0_aec2c7589d31b29397c83a915e6ced8a72719cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/51e5e680d90f13a9d69ab80e97164f364d1887a8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9335f203759bfcda4b6ea729dddcf06c07150d3f">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_229912699d3e9a07f09f600eb100d8564800e1e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/14c50bbf6d142fa3a35de1e3f84521dc5f9e3c19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b05ce31f5d87a7f16cdbdbc5e3a7cf2190bf0118">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_8f64d5d83c8273fe9bebaad5f347fe3f9f587e7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/1608b2785a145b862909167c617e8bd7d85e1231/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b99e6cdcb85894164e1a06145a5f6b78e3cb7270">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_e7dfe601fa50ecdaffc3e1ea4d15c8140d89e35d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/6cc2af9bbfdfb9730544e159c422c55ef843dcb8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5b049b5525643f62ebe162013dae975c7e74dcc5">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_4b4fda7dd4d3d52dde2429a67e135f29c5a4e163.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/4ef259dd2fba3fd429454e841ba1571a5ae97908/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="19e63f5c3afd0a4379bfb830816bb8a9661aba75">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_df69bf0f25ef914980aced026156955a86642022.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/86d368fce08148ee379afd623f55c34298497167/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="49b8af59d5819c80792707bdda93a5c9a917e24c">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_861b0b2316b27902b074d25fb693dd074ecee7cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/07e8cd429e92ecb693ef01087ae27b2721f6f1fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b1173d9f45ae18f2e0dc8ec42d15fa5b95c391d1">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_b91dc4706e446e0ec0c5c8034f5385e37d643e16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/bd6efa203dc570d501ee1fe407cc29c70cf3915b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="234e706c7aea09f97738c7830d144d50d240079e">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_bde5264b05df501dc42e6c5128367e2b523695e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/0b622ce741189bad9c5f48b0e65d78ebeae7339a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7b15ada2209f82b0249f331cb7ec70394dc2e828">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_a785a7cdfa397c56190b864fddac664b687cda3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/ffa2478d54075e54343e4cfa44f713b4af17462a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="de467de1baba33a922246561f87c0a910206d1ff">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_963cc540d9403d99d160c32d90ab670425d9cdb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/66f2441772465bce192baa8e24a14aea0a0ae3c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f77c6cfaee7ee7c8844d5340e47a38c3fdea7060">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_1de4e4d032bfee8253e7c607d782613108d751d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/f2c0180900c21bff7d445964f0cb71021c742080/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ba4c894fd0a3d36e8f06f4947ab639140e668088">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_01301c641dfa403792aeecabc15ec7c696245472.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/9556423435cfe504bb3546a102ff52f6541fd2ca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ddfc0d219f43bf3c1e357a55284cbd1000e461bf">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_4f0794fd1f06e2d54eb8d8fff892342c526eae08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/2d7c95977f06daacdc0868b8177c4c78278abab5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8510837b7e70ee5f12cf2a20dd0a1b3d23a0cdeb">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_148270bbdb38199e71d08e9de77ec8a98460a71c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/ae3ae2e3764d3977211e6a5b1cd669e399539d75/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ada02cfa6d6403e90138de411c67d8f6763b3018">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_a51bce05505c57fcf811e1653b94106cbf204476.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/common-1.1.1_5ee582e5027281d4af9bc1e07b89069f8c121fac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/4d668e238c9b7f870b8e9cc147e70c82dfc131f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b9aff7eec7a0b091e460e44b8bb0bf64cadc0844">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_a8d9a77158dcf7163da07398a721e2d4988c4554.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/c4fbe0269d927d20364320d1eeeaac26169214d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a6d4c3181151ffbcd67897e94c688f6c200c5bec">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_704d0b5115fe462c0bbe89b2fe9f878ca364c6aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sunjm/.android/build-cache/4bbee8a81ed67c3e1ecd7ab63a22ce2c79956c91/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2e85417e7990657be8fe07d63fd5278d82eb960e">
+        <dex dex="/Users/sunjm/Samples/WS_APP_PAY_SDK_BASE/Demo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/pre-dexed/debug/classes_3fe987e5c8a09b3bf31df5a4b05738dd6994822a.jar" />
+    </item>
+
+</items>

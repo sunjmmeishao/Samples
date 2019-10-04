@@ -1,0 +1,1507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/sunjm/Samples/QXlsx-master/HelloWorld -f HelloWorld.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		B402547FD5F7CBEB20C7989E = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxabstractooxmlfile.cpp";
+			name = "xlsxabstractooxmlfile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		82E0B0BD692BE849BABD7116 = {
+			fileRef = "B402547FD5F7CBEB20C7989E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FD0A647B727582C68157E144 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxabstractsheet.cpp";
+			name = "xlsxabstractsheet.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		67F0E45D8A636524B709D38C = {
+			fileRef = "FD0A647B727582C68157E144";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7F19C6B3D684ED3720D2BBBA = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcell.cpp";
+			name = "xlsxcell.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5C97B7B1FCD2E69AB7066EC3 = {
+			fileRef = "7F19C6B3D684ED3720D2BBBA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9EFEBAB1DFFEA4D85BBE0B6F = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcellformula.cpp";
+			name = "xlsxcellformula.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D52620E8C597B0BB85D62842 = {
+			fileRef = "9EFEBAB1DFFEA4D85BBE0B6F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ACC8946468DC0E07DC446216 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcellrange.cpp";
+			name = "xlsxcellrange.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2ECF3324327BE5BDB4148B29 = {
+			fileRef = "ACC8946468DC0E07DC446216";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		104FBE9681C18BF61EAC26E6 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcellreference.cpp";
+			name = "xlsxcellreference.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		67ACBC101EE2522B82377EAB = {
+			fileRef = "104FBE9681C18BF61EAC26E6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B8384225019AFEA2FF3AC8A9 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxchart.cpp";
+			name = "xlsxchart.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		D2A2CEA405A8297145D13ADB = {
+			fileRef = "B8384225019AFEA2FF3AC8A9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		059F322CD143BCAFE237899F = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxchartsheet.cpp";
+			name = "xlsxchartsheet.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2C6D217950FB57D2BB16858E = {
+			fileRef = "059F322CD143BCAFE237899F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		17000D37D4F9702EED8B643E = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcolor.cpp";
+			name = "xlsxcolor.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5CA7C0ED6855394EBC1B4E75 = {
+			fileRef = "17000D37D4F9702EED8B643E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F963E106CEFC8F2E90E37C3D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxconditionalformatting.cpp";
+			name = "xlsxconditionalformatting.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3E82198E2568E161276E1AA6 = {
+			fileRef = "F963E106CEFC8F2E90E37C3D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		80DF2CFA79C175F0BD641C97 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcontenttypes.cpp";
+			name = "xlsxcontenttypes.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5D710C13FA6D2840B2C962B0 = {
+			fileRef = "80DF2CFA79C175F0BD641C97";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		34DB714E8FDFB7DD72F9491B = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdatavalidation.cpp";
+			name = "xlsxdatavalidation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		EB449AE9B82B42CC41A60B64 = {
+			fileRef = "34DB714E8FDFB7DD72F9491B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0E0D6DB2B372689E9E9C8EC7 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdocpropsapp.cpp";
+			name = "xlsxdocpropsapp.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9FFC8BEAA9843A391A6EF0C1 = {
+			fileRef = "0E0D6DB2B372689E9E9C8EC7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4AC73CFEA7DCDB235A5016EA = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdocpropscore.cpp";
+			name = "xlsxdocpropscore.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DA65484D18891CCD68A15C61 = {
+			fileRef = "4AC73CFEA7DCDB235A5016EA";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0DE600DD8EFB6C9720F71C68 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdocument.cpp";
+			name = "xlsxdocument.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CE62F705C299DA2929BE4FE2 = {
+			fileRef = "0DE600DD8EFB6C9720F71C68";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DA2659730ED264B09CAEC94E = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdrawing.cpp";
+			name = "xlsxdrawing.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1F8F477FB6DF8D1ABF09B567 = {
+			fileRef = "DA2659730ED264B09CAEC94E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6CF2556ACE107163B8CCD1A1 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdrawinganchor.cpp";
+			name = "xlsxdrawinganchor.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DE76D91C687628CEAF559361 = {
+			fileRef = "6CF2556ACE107163B8CCD1A1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		02CD113FC6F1797D84A08E21 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxformat.cpp";
+			name = "xlsxformat.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A1E53EB896980191C3FC8665 = {
+			fileRef = "02CD113FC6F1797D84A08E21";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9969B4E1CB6BF7DADED5676A = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxmediafile.cpp";
+			name = "xlsxmediafile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		577F2094382FEEE8E28162C9 = {
+			fileRef = "9969B4E1CB6BF7DADED5676A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4ED9D4127E9104EC72EDBBD3 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxnumformatparser.cpp";
+			name = "xlsxnumformatparser.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7ADF568DE583697651BB3A97 = {
+			fileRef = "4ED9D4127E9104EC72EDBBD3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		19E06F900C27855127F3F180 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxrelationships.cpp";
+			name = "xlsxrelationships.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		062E2053D8913C1D1C8803A5 = {
+			fileRef = "19E06F900C27855127F3F180";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4F68918CDD2917B4B4248D5D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxrichstring.cpp";
+			name = "xlsxrichstring.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3F913AF6B8E3B9C5D7C23B56 = {
+			fileRef = "4F68918CDD2917B4B4248D5D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A253A076CD0AD4FED639E72D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxsharedstrings.cpp";
+			name = "xlsxsharedstrings.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		60AE8629C3F22177E0CCBDC5 = {
+			fileRef = "A253A076CD0AD4FED639E72D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		FF979F6785392B00E17293EC = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxsimpleooxmlfile.cpp";
+			name = "xlsxsimpleooxmlfile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E6FE8E4A3A0FA0858B7833D0 = {
+			fileRef = "FF979F6785392B00E17293EC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		152A1777B9534174AC2A9FDC = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxstyles.cpp";
+			name = "xlsxstyles.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		51DA127A6AED657BE0CF07A4 = {
+			fileRef = "152A1777B9534174AC2A9FDC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A9F436A3C35584C0B5F79906 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxtheme.cpp";
+			name = "xlsxtheme.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3EED2746D353DC16C48FFAAF = {
+			fileRef = "A9F436A3C35584C0B5F79906";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		673091D1204BC56C1CC4EF01 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxutility.cpp";
+			name = "xlsxutility.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		78BF48D6F644F845FB275753 = {
+			fileRef = "673091D1204BC56C1CC4EF01";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		34C86FD9773261BAC7AC0A62 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxworkbook.cpp";
+			name = "xlsxworkbook.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		80E65535831C0B92632E0856 = {
+			fileRef = "34C86FD9773261BAC7AC0A62";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ABDDACFCB94280823ECF6002 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxworksheet.cpp";
+			name = "xlsxworksheet.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		330AB0730E203CD06584B3E4 = {
+			fileRef = "ABDDACFCB94280823ECF6002";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5DBA5B493985EE989430C228 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxzipreader.cpp";
+			name = "xlsxzipreader.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		911B86AF4518AC95204C0834 = {
+			fileRef = "5DBA5B493985EE989430C228";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C072BBF437AF550CFFAA4B27 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxzipwriter.cpp";
+			name = "xlsxzipwriter.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8B7AAC9A4C41DE272D5F886C = {
+			fileRef = "C072BBF437AF550CFFAA4B27";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		37573900F21F3934BF918421 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxcelllocation.cpp";
+			name = "xlsxcelllocation.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6BFE89948DD65322E1F3CAC0 = {
+			fileRef = "37573900F21F3934BF918421";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7961C448DDF8EFC3A06AE5E4 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/source/xlsxdatetype.cpp";
+			name = "xlsxdatetype.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		50B4D6C20773DF5E390D203E = {
+			fileRef = "7961C448DDF8EFC3A06AE5E4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0FFA2E5DC2020D4488982542 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AC806EE1C26DFF4113C3EA55 = {
+			fileRef = "0FFA2E5DC2020D4488982542";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		674D9820B397F18F65BE8D69 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/mainwindow.cpp";
+			name = "mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B6ED40B6706C465F3596C585 = {
+			fileRef = "674D9820B397F18F65BE8D69";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		13BF89ED3372CFD0E4749211 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/moc_xlsxdocument.cpp";
+			name = "moc_xlsxdocument.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6590EBE9D51337A3D2D46FBD = {
+			fileRef = "13BF89ED3372CFD0E4749211";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		19D2B570CC73D716B7DA3FF1 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/moc_mainwindow.cpp";
+			name = "moc_mainwindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0EECD9D00611536670E83F88 = {
+			fileRef = "19D2B570CC73D716B7DA3FF1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		725F3CB9599ED550E815164E = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxabstractooxmlfile.h";
+			name = "xlsxabstractooxmlfile.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		54553D65A8BD5EF483FEF84D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxabstractooxmlfile_p.h";
+			name = "xlsxabstractooxmlfile_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		43EB1B62B78EB02AA0C6AE23 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxabstractsheet.h";
+			name = "xlsxabstractsheet.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F120F4654349D907DF24801C = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxabstractsheet_p.h";
+			name = "xlsxabstractsheet_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3A31565D0B198F27CFA8A950 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcell.h";
+			name = "xlsxcell.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		208CF28EA0A77014717B24DE = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcellformula.h";
+			name = "xlsxcellformula.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		188039862FEF9F4997FAC375 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcellformula_p.h";
+			name = "xlsxcellformula_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		401E6228CE29C3F0AF42156D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcellrange.h";
+			name = "xlsxcellrange.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E51E97A942ECF0C61384E25B = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcellreference.h";
+			name = "xlsxcellreference.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		41CF649DBB20BC58D8D148F3 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcell_p.h";
+			name = "xlsxcell_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DD3C8DA374220627CB1F4B63 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxchart.h";
+			name = "xlsxchart.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9300AEF1E8DCAF823994178F = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxchartsheet.h";
+			name = "xlsxchartsheet.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		14AA2D392CD56AFFBE827E07 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxchartsheet_p.h";
+			name = "xlsxchartsheet_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CD2E2D16F6973BB5B89E957E = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxchart_p.h";
+			name = "xlsxchart_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A005C5DB2FBD2CD08C1951DF = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcolor_p.h";
+			name = "xlsxcolor_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D38C4CE4270F3865FDEB7F63 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxconditionalformatting.h";
+			name = "xlsxconditionalformatting.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5236EDF91477DCAC5C566A1A = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxconditionalformatting_p.h";
+			name = "xlsxconditionalformatting_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0531C2D8C1C7B64BE77ABA54 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcontenttypes_p.h";
+			name = "xlsxcontenttypes_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B53D103A699EC3FD400F9447 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdatavalidation.h";
+			name = "xlsxdatavalidation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D2BE77DB64E049CAD67FCF61 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdatavalidation_p.h";
+			name = "xlsxdatavalidation_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F64A098579F90CC30A640A8D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdocpropsapp_p.h";
+			name = "xlsxdocpropsapp_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F9AB45C83320F085807343C1 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdocpropscore_p.h";
+			name = "xlsxdocpropscore_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B57BB114860401748570094D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdocument.h";
+			name = "xlsxdocument.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		421A999A9AA3AF999BEE2E2B = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdocument_p.h";
+			name = "xlsxdocument_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0EC3F3870D24A61C26673B41 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdrawinganchor_p.h";
+			name = "xlsxdrawinganchor_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7DD8A1E02D33CF953FF246FD = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdrawing_p.h";
+			name = "xlsxdrawing_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C6608FFE299ECDBD493251EB = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxformat.h";
+			name = "xlsxformat.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9486D2E33AB94BDBDB76B813 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxformat_p.h";
+			name = "xlsxformat_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9E0862A9F44836AFFA8D9CE5 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxglobal.h";
+			name = "xlsxglobal.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8CA5571ADE9A0ADE75029A13 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxmediafile_p.h";
+			name = "xlsxmediafile_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A153740673A03B06B1989ED5 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxnumformatparser_p.h";
+			name = "xlsxnumformatparser_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E1F6F4015C6BCC969A7BC93D = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxrelationships_p.h";
+			name = "xlsxrelationships_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		46A83BA61F764A3293F9B79C = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxrichstring.h";
+			name = "xlsxrichstring.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6A8999CEB8B49E11F3F59F25 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxrichstring_p.h";
+			name = "xlsxrichstring_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7D449B9A27FDFBBC2B0A42EE = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxsharedstrings_p.h";
+			name = "xlsxsharedstrings_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FFB40ECCB4D9417E5DF3107F = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxsimpleooxmlfile_p.h";
+			name = "xlsxsimpleooxmlfile_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3DDC1DE8CD92B09C6E63AFA0 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxstyles_p.h";
+			name = "xlsxstyles_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1E4DAD5C76A66789E3DBF99B = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxtheme_p.h";
+			name = "xlsxtheme_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		10BC3C2E35B398BB999BF235 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxutility_p.h";
+			name = "xlsxutility_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		59E5F68C5FBD1D963BA81DBC = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxworkbook.h";
+			name = "xlsxworkbook.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		85B9C30AC903C0EBD8501466 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxworkbook_p.h";
+			name = "xlsxworkbook_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CA92E39E89AB2C7A9E28DEBB = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxworksheet.h";
+			name = "xlsxworksheet.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		45AC63DED2C504EDAF2F33C9 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxworksheet_p.h";
+			name = "xlsxworksheet_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FCEB101E97F9D3B451B1E6E4 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxzipreader_p.h";
+			name = "xlsxzipreader_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		461421348DBB9BDFD4E81F79 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxzipwriter_p.h";
+			name = "xlsxzipwriter_p.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EC3A40BF4692E0A053F90B98 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxcelllocation.h";
+			name = "xlsxcelllocation.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B8CC9EDE6B4A9C5E544AAB59 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/header/xlsxdatetype.h";
+			name = "xlsxdatetype.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		28A7463D8D4D7CCDF1799A64 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/mainwindow.h";
+			name = "mainwindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F37EE312EE1AFE42678E07C6 = {
+			isa = PBXFileReference;
+			path = "/usr/local/Cellar/qt/5.13.1/mkspecs/features/data/dummy.cpp";
+			name = "dummy.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1C0E1817C634AD3030657517 = {
+			fileRef = "F37EE312EE1AFE42678E07C6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C25A8F97A4E9895E983609D4 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/HelloWorld.pro";
+			name = "HelloWorld.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		C8D3421C54E81D0F6035E2C4 = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		65AEC3AD34AC801CC1669AAE = {
+			isa = PBXFileReference;
+			path = "/Users/sunjm/Samples/QXlsx-master/QXlsx/QXlsx.pri";
+			name = "QXlsx.pri";
+			sourceTree = "<absolute>";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"13BF89ED3372CFD0E4749211",
+				"19D2B570CC73D716B7DA3FF1");
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"B402547FD5F7CBEB20C7989E",
+				"FD0A647B727582C68157E144",
+				"7F19C6B3D684ED3720D2BBBA",
+				"9EFEBAB1DFFEA4D85BBE0B6F",
+				"ACC8946468DC0E07DC446216",
+				"104FBE9681C18BF61EAC26E6",
+				"B8384225019AFEA2FF3AC8A9",
+				"059F322CD143BCAFE237899F",
+				"17000D37D4F9702EED8B643E",
+				"F963E106CEFC8F2E90E37C3D",
+				"80DF2CFA79C175F0BD641C97",
+				"34DB714E8FDFB7DD72F9491B",
+				"0E0D6DB2B372689E9E9C8EC7",
+				"4AC73CFEA7DCDB235A5016EA",
+				"0DE600DD8EFB6C9720F71C68",
+				"DA2659730ED264B09CAEC94E",
+				"6CF2556ACE107163B8CCD1A1",
+				"02CD113FC6F1797D84A08E21",
+				"9969B4E1CB6BF7DADED5676A",
+				"4ED9D4127E9104EC72EDBBD3",
+				"19E06F900C27855127F3F180",
+				"4F68918CDD2917B4B4248D5D",
+				"A253A076CD0AD4FED639E72D",
+				"FF979F6785392B00E17293EC",
+				"152A1777B9534174AC2A9FDC",
+				"A9F436A3C35584C0B5F79906",
+				"673091D1204BC56C1CC4EF01",
+				"34C86FD9773261BAC7AC0A62",
+				"ABDDACFCB94280823ECF6002",
+				"5DBA5B493985EE989430C228",
+				"C072BBF437AF550CFFAA4B27",
+				"37573900F21F3934BF918421",
+				"7961C448DDF8EFC3A06AE5E4",
+				"0FFA2E5DC2020D4488982542",
+				"674D9820B397F18F65BE8D69",
+				"725F3CB9599ED550E815164E",
+				"54553D65A8BD5EF483FEF84D",
+				"43EB1B62B78EB02AA0C6AE23",
+				"F120F4654349D907DF24801C",
+				"3A31565D0B198F27CFA8A950",
+				"208CF28EA0A77014717B24DE",
+				"188039862FEF9F4997FAC375",
+				"401E6228CE29C3F0AF42156D",
+				"E51E97A942ECF0C61384E25B",
+				"41CF649DBB20BC58D8D148F3",
+				"DD3C8DA374220627CB1F4B63",
+				"9300AEF1E8DCAF823994178F",
+				"14AA2D392CD56AFFBE827E07",
+				"CD2E2D16F6973BB5B89E957E",
+				"A005C5DB2FBD2CD08C1951DF",
+				"D38C4CE4270F3865FDEB7F63",
+				"5236EDF91477DCAC5C566A1A",
+				"0531C2D8C1C7B64BE77ABA54",
+				"B53D103A699EC3FD400F9447",
+				"D2BE77DB64E049CAD67FCF61",
+				"F64A098579F90CC30A640A8D",
+				"F9AB45C83320F085807343C1",
+				"B57BB114860401748570094D",
+				"421A999A9AA3AF999BEE2E2B",
+				"0EC3F3870D24A61C26673B41",
+				"7DD8A1E02D33CF953FF246FD",
+				"C6608FFE299ECDBD493251EB",
+				"9486D2E33AB94BDBDB76B813",
+				"9E0862A9F44836AFFA8D9CE5",
+				"8CA5571ADE9A0ADE75029A13",
+				"A153740673A03B06B1989ED5",
+				"E1F6F4015C6BCC969A7BC93D",
+				"46A83BA61F764A3293F9B79C",
+				"6A8999CEB8B49E11F3F59F25",
+				"7D449B9A27FDFBBC2B0A42EE",
+				"FFB40ECCB4D9417E5DF3107F",
+				"3DDC1DE8CD92B09C6E63AFA0",
+				"1E4DAD5C76A66789E3DBF99B",
+				"10BC3C2E35B398BB999BF235",
+				"59E5F68C5FBD1D963BA81DBC",
+				"85B9C30AC903C0EBD8501466",
+				"CA92E39E89AB2C7A9E28DEBB",
+				"45AC63DED2C504EDAF2F33C9",
+				"FCEB101E97F9D3B451B1E6E4",
+				"461421348DBB9BDFD4E81F79",
+				"EC3A40BF4692E0A053F90B98",
+				"B8CC9EDE6B4A9C5E544AAB59",
+				"28A7463D8D4D7CCDF1799A64");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 = {
+			isa = PBXGroup;
+			children = (
+				"F37EE312EE1AFE42678E07C6");
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"C25A8F97A4E9895E983609D4",
+				"C8D3421C54E81D0F6035E2C4",
+				"65AEC3AD34AC801CC1669AAE");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/sunjm/Samples/QXlsx-master/HelloWorld -f HelloWorld.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"82E0B0BD692BE849BABD7116",
+				"67F0E45D8A636524B709D38C",
+				"5C97B7B1FCD2E69AB7066EC3",
+				"D52620E8C597B0BB85D62842",
+				"2ECF3324327BE5BDB4148B29",
+				"67ACBC101EE2522B82377EAB",
+				"D2A2CEA405A8297145D13ADB",
+				"2C6D217950FB57D2BB16858E",
+				"5CA7C0ED6855394EBC1B4E75",
+				"3E82198E2568E161276E1AA6",
+				"5D710C13FA6D2840B2C962B0",
+				"EB449AE9B82B42CC41A60B64",
+				"9FFC8BEAA9843A391A6EF0C1",
+				"DA65484D18891CCD68A15C61",
+				"CE62F705C299DA2929BE4FE2",
+				"1F8F477FB6DF8D1ABF09B567",
+				"DE76D91C687628CEAF559361",
+				"A1E53EB896980191C3FC8665",
+				"577F2094382FEEE8E28162C9",
+				"7ADF568DE583697651BB3A97",
+				"062E2053D8913C1D1C8803A5",
+				"3F913AF6B8E3B9C5D7C23B56",
+				"60AE8629C3F22177E0CCBDC5",
+				"E6FE8E4A3A0FA0858B7833D0",
+				"51DA127A6AED657BE0CF07A4",
+				"3EED2746D353DC16C48FFAAF",
+				"78BF48D6F644F845FB275753",
+				"80E65535831C0B92632E0856",
+				"330AB0730E203CD06584B3E4",
+				"911B86AF4518AC95204C0834",
+				"8B7AAC9A4C41DE272D5F886C",
+				"6BFE89948DD65322E1F3CAC0",
+				"50B4D6C20773DF5E390D203E",
+				"AC806EE1C26DFF4113C3EA55",
+				"B6ED40B6706C465F3596C585",
+				"6590EBE9D51337A3D2D46FBD",
+				"0EECD9D00611536670E83F88",
+				"1C0E1817C634AD3030657517");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		44A8C75A1CEE00A87ED3C351 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		10891D1662BD58488372A9D2 = {
+			fileRef = "44A8C75A1CEE00A87ED3C351";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		C049B72F22C5B71ADC811825 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		4675C5BADA7B2A2D9DCD962B = {
+			fileRef = "C049B72F22C5B71ADC811825";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"44A8C75A1CEE00A87ED3C351",
+				"C049B72F22C5B71ADC811825",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"D4B32C2222F82AC56BADEB21",
+				"8D9815BDB5BD9F90D2BC05C5");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"10891D1662BD58488372A9D2",
+				"4675C5BADA7B2A2D9DCD962B",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"8771A8C96E9C391044035D99",
+				"E45E51A644D5FC9F942ECE55");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		A09F5DDCF66CF11A108AF3A7 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "compiled.mach-o.executable";
+			path = "HelloWorld";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"A09F5DDCF66CF11A108AF3A7");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"B8254625CFD509ED2A24A166",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "HelloWorld";
+			sourceTree = "<group>";
+		};
+		5811316BA364FD02AA1C6993 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		400EB167562F78E43330674E = {
+			isa = PBXTargetDependency;
+			target = "5811316BA364FD02AA1C6993";
+		};
+		3490C5A1C6179238DE557D99 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A");
+			dependencies = (
+				"400EB167562F78E43330674E");
+			productReference = "A09F5DDCF66CF11A108AF3A7";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.tool";
+			name = "HelloWorld";
+			productName = "HelloWorld";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "W62YAZN823";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "HelloWorld";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/.xcode";
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.12";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"..",
+					"../QXlsx/header",
+					"../QXlsx/header/unix-gcc",
+					"../QXlsx/header/mac",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers/5.13.1",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers/5.13.1/QtGui",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers/5.13.1",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers/5.13.1/QtCore",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/5.13.1/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.13.1/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.13.1/lib",
+					"/usr/local/Cellar/qt/5.13.1/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-F/usr/local/Cellar/qt/5.13.1/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "W62YAZN823";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "HelloWorld";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "HelloWorld";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "W62YAZN823";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "HelloWorld";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/.xcode";
+				CONFIGURATION_BUILD_DIR = "/Users/sunjm/Samples/QXlsx-master/HelloWorld/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.12";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"..",
+					"../QXlsx/header",
+					"../QXlsx/header/unix-gcc",
+					"../QXlsx/header/mac",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers/5.13.1",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers/5.13.1/QtGui",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers/5.13.1",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers/5.13.1/QtCore",
+					"/usr/local/Cellar/qt/5.13.1/lib/QtCore.framework/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/5.13.1/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.13.1/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/5.13.1/lib",
+					"/usr/local/Cellar/qt/5.13.1/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_DEPRECATED_WARNINGS",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-F/usr/local/Cellar/qt/5.13.1/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEVELOPMENT_TEAM = "W62YAZN823";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "ff.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "HelloWorld";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "HelloWorld";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"3490C5A1C6179238DE557D99",
+				"5811316BA364FD02AA1C6993");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}
