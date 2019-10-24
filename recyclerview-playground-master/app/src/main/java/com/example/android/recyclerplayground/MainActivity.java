@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements
     RecyclerFragment fragmentM;
     SimpleAdapter adapter;
     SearchResult deviceT;
+    String title;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,14 +61,23 @@ public class MainActivity extends AppCompatActivity implements
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
+        SearchRequest request = null;
+
         switch (position) {
             case 0:
                 fragmentM =  VerticalFragment.newInstance();
-
+                request = new SearchRequest.Builder()
+                        // .searchBluetoothLeDevice(3000, 3)   // 先扫BLE设备3次，每次3s
+                        .searchBluetoothClassicDevice(5000) // 再扫经典蓝牙5s
+                        .build();
+                title =   getString(R.string.title_section1);
                 break;
             case 1:
                 fragmentM = HorizontalFragment.newInstance();
-
+                request = new SearchRequest.Builder()
+                    // .searchBluetoothLeDevice(3000, 3)   // 先扫BLE设备3次，每次3s
+                    .searchBluetoothLeDevice(2000).build();      // 再扫BLE设备2s
+                title =   getString(R.string.title_section2);
                 break;
             case 2:
                 fragmentM = VerticalGridFragment.newInstance();
@@ -87,17 +97,13 @@ public class MainActivity extends AppCompatActivity implements
                 break;
         }
         ft.replace(R.id.container, fragmentM);
-        //adapter = fragmentM.getAdapter();
+
         ft.commit();
        // fragmentM.mAdapter.addItem(new SimpleAdapter.GameItem( "device.getAddress()",
        //         "beacon.toString()",10,220));
         BluetoothClient mClient = new BluetoothClient(this);
-        SearchRequest request = new SearchRequest.Builder()
-               // .searchBluetoothLeDevice(3000, 3)   // 先扫BLE设备3次，每次3s
-                .searchBluetoothClassicDevice(5000) // 再扫经典蓝牙5s
-                .searchBluetoothLeDevice(2000)      // 再扫BLE设备2s
-                .build();
 
+        if ( fragmentM.mAdapter != null) fragmentM.mAdapter.setItemCount(0);
         mClient.search(request, new SearchResponse() {
             @Override
             public void onSearchStarted() {
@@ -113,7 +119,11 @@ public class MainActivity extends AppCompatActivity implements
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
+                        ActionBar actionBar = getSupportActionBar();
+
+                        actionBar.setTitle(title );
                         Beacon beacon = new Beacon(deviceT.scanRecord);
+
                          fragmentM.mAdapter.addItem(new SimpleAdapter.GameItem( deviceT.getAddress(),
                                 beacon.toString(),0,0));
 
