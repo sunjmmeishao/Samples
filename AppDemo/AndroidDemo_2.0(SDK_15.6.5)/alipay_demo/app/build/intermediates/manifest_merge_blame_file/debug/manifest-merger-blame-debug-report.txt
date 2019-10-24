@@ -44,6 +44,103 @@
 26-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:23:9-41
 27        android:networkSecurityConfig="@xml/network_security_config"
 27-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:22:9-69
+<<<<<<< HEAD
+28        android:theme="@style/AppTheme" >
+28-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:24:9-40
+29        <activity
+29-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:25:9-34:20
+30            android:name="com.alipay.sdk.pay.demo.PayDemoActivity"
+30-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:26:13-67
+31            android:icon="@drawable/msp_icon"
+31-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:27:13-46
+32            android:label="@string/app_name" >
+32-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:28:13-45
+33            <intent-filter>
+33-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:29:13-33:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:30:17-69
+34-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:30:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:32:17-77
+36-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:32:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:35:9-40:20
+40            android:name="com.alipay.sdk.pay.demo.H5PayDemoActivity"
+40-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:36:13-69
+41            android:configChanges="orientation|keyboardHidden|navigation"
+41-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:37:13-74
+42            android:exported="false"
+42-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:38:13-37
+43            android:screenOrientation="behind" >
+43-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:39:13-47
+44        </activity>
+45
+46        <uses-library
+46-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:23:9-25:40
+47            android:name="org.apache.http.legacy"
+47-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:24:13-50
+48            android:required="false" />
+48-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:25:13-37
+49
+50        <activity
+50-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:27:9-32:20
+51            android:name="com.alipay.sdk.app.H5PayActivity"
+51-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:28:13-60
+52            android:configChanges="orientation|keyboardHidden|navigation"
+52-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:29:13-74
+53            android:exported="false"
+53-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:30:13-37
+54            android:screenOrientation="behind" >
+54-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:31:13-47
+55        </activity>
+56        <activity
+56-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:33:9-38:20
+57            android:name="com.alipay.sdk.app.H5AuthActivity"
+57-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:34:13-61
+58            android:configChanges="orientation|keyboardHidden|navigation"
+58-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:35:13-74
+59            android:exported="false"
+59-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:36:13-37
+60            android:screenOrientation="behind" >
+60-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:37:13-47
+61        </activity>
+62        <activity
+62-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:39:9-48:20
+63            android:name="com.alipay.sdk.app.PayResultActivity"
+63-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:40:13-64
+64            android:configChanges="orientation|keyboardHidden|navigation"
+64-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:41:13-74
+65            android:exported="true"
+65-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:42:13-36
+66            android:launchMode="singleInstance"
+66-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:43:13-48
+67            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+67-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:44:13-72
+68            <intent-filter>
+68-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:45:13-47:29
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:46:17-76
+69-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:46:27-73
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:49:9-54:20
+73            android:name="com.alipay.sdk.app.AlipayResultActivity"
+73-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:50:13-67
+74            android:exported="true"
+74-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:51:13-36
+75            android:launchMode="singleTask"
+75-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:52:13-44
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->[:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:53:13-72
+77        </activity>
+78    </application>
+79
+80</manifest>
+=======
 28        android:testOnly="true"
 29        android:theme="@style/AppTheme" >
 29-->/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:24:9-40
@@ -140,3 +237,4 @@
 79    </application>
 80
 81</manifest>
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9

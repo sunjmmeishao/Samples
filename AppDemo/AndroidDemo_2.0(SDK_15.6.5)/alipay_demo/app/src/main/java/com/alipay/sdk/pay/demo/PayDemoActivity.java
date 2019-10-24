@@ -14,7 +14,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+<<<<<<< HEAD
+import androidx.appcompat.app.AppCompatActivity;
+=======
 import android.support.v7.app.AppCompatActivity;
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -127,7 +131,11 @@ public class PayDemoActivity extends AppCompatActivity {
 	 */
 	public void payV2(View v) {
 		AsyncHttpClient client = new AsyncHttpClient();
+<<<<<<< HEAD
+		client.get("http://", new AsyncHttpResponseHandler() {
+=======
 		client.get("https://www.baidu.com", new AsyncHttpResponseHandler() {
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 
 			@Override
 			public void onStart() {

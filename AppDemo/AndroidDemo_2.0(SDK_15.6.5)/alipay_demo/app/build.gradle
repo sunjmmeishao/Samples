@@ -24,8 +24,19 @@ dependencies {
     //compile "com.facebook.react:react-native:+" // From node_modules.
     // 支付宝 SDK AAR 包所需的配置
     compile (name: 'alipaySdk-15.6.5-20190718211148', ext: 'aar')
+<<<<<<< HEAD
+            {
+               // exclude module: 'support-v4'
+            }
+  //  implementation 'com.android.support:support-v4:28.0.0'
+    implementation "com.android.support:appcompat-v7:28.0.0"
+    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    implementation'com.facebook.fresco:fresco:1.9.0'//强大的图片加载组件
+=======
     implementation 'com.android.support:support-v4:28.0.0'
     implementation "com.android.support:appcompat-v7:28.0.0"
 
     implementation 'com.loopj.android:android-async-http:1.4.10'
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 }

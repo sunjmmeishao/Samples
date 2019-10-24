@@ -4,7 +4,11 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
+<<<<<<< HEAD
+package androidx.lifecycle.viewmodel;
+=======
 package android.arch.lifecycle.viewmodel;
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 
 public final class R {
     private R() {}

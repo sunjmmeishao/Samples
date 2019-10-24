@@ -45,6 +45,12 @@ attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
 attr activityChooserViewStyle
+<<<<<<< HEAD
+attr actualImageResource
+attr actualImageScaleType
+attr actualImageUri
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -61,6 +67,10 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
+<<<<<<< HEAD
+attr backgroundImage
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
@@ -125,6 +135,12 @@ attr editTextColor
 attr editTextStyle
 attr elevation
 attr expandActivityOverflowButtonDrawable
+<<<<<<< HEAD
+attr fadeDuration
+attr failureImage
+attr failureImageScaleType
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -183,6 +199,10 @@ attr navigationIcon
 attr navigationMode
 attr numericModifiers
 attr overlapAnchor
+<<<<<<< HEAD
+attr overlayImage
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr paddingBottomNoButtons
 attr paddingEnd
 attr paddingStart
@@ -190,10 +210,22 @@ attr paddingTopNoTitle
 attr panelBackground
 attr panelMenuListTheme
 attr panelMenuListWidth
+<<<<<<< HEAD
+attr placeholderImage
+attr placeholderImageScaleType
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
+<<<<<<< HEAD
+attr pressedStateOverlayImage
+attr progressBarAutoRotateInterval
+attr progressBarImage
+attr progressBarImageScaleType
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr progressBarPadding
 attr progressBarStyle
 attr queryBackground
@@ -202,6 +234,25 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+<<<<<<< HEAD
+attr retryImage
+attr retryImageScaleType
+attr roundAsCircle
+attr roundBottomEnd
+attr roundBottomLeft
+attr roundBottomRight
+attr roundBottomStart
+attr roundTopEnd
+attr roundTopLeft
+attr roundTopRight
+attr roundTopStart
+attr roundWithOverlayColor
+attr roundedCornerRadius
+attr roundingBorderColor
+attr roundingBorderPadding
+attr roundingBorderWidth
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -271,6 +322,10 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
+<<<<<<< HEAD
+attr viewAspectRatio
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 attr viewInflaterClass
 attr voiceIcon
 attr windowActionBar
@@ -348,7 +403,10 @@ color material_grey_850
 color material_grey_900
 color notification_action_color_filter
 color notification_icon_bg_color
+<<<<<<< HEAD
+=======
 color notification_material_background_media_default_color
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -477,10 +535,13 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+<<<<<<< HEAD
+=======
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -595,7 +656,10 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+<<<<<<< HEAD
+=======
 id action0
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -625,8 +689,14 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+<<<<<<< HEAD
+id center
+id centerCrop
+id centerInside
+=======
 id cancel_action
 id center
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id center_horizontal
 id center_vertical
 id checkbox
@@ -643,12 +713,24 @@ id default_activity_button
 id disableHome
 id edit_query
 id end
+<<<<<<< HEAD
+=======
 id end_padder
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id expand_activities_button
 id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+<<<<<<< HEAD
+id fitBottomStart
+id fitCenter
+id fitEnd
+id fitStart
+id fitXY
+id focusCrop
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id forever
 id fragment
 id group_divider
@@ -666,7 +748,10 @@ id line1
 id line3
 id listMode
 id list_item
+<<<<<<< HEAD
+=======
 id media_actions
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id message
 id middle
 id multiply
@@ -709,7 +794,10 @@ id src_atop
 id src_in
 id src_over
 id start
+<<<<<<< HEAD
+=======
 id status_bar_latest_event_content
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 id submenuarrow
 id submit_area
 id tabMode
@@ -766,6 +854,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout notification_action
 layout notification_action_tombstone
+<<<<<<< HEAD
+layout notification_template_custom_big
+layout notification_template_icon_group
+=======
 layout notification_media_action
 layout notification_media_cancel_action
 layout notification_template_big_media
@@ -777,6 +869,7 @@ layout notification_template_icon_group
 layout notification_template_lines_media
 layout notification_template_media
 layout notification_template_media_custom
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout pay_external
@@ -1087,6 +1180,11 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+<<<<<<< HEAD
+style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Title
+=======
 style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Line2_Media
@@ -1095,6 +1193,7 @@ style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
 style TextAppearance_Compat_Notification_Title_Media
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -1224,6 +1323,10 @@ styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_a
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
+<<<<<<< HEAD
+styleable GenericDraweeHierarchy actualImageScaleType backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
@@ -1236,6 +1339,10 @@ styleable PopupWindow android_popupBackground android_popupAnimationStyle overla
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+<<<<<<< HEAD
+styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable

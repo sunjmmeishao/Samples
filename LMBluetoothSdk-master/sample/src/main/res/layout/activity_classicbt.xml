@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="co.lujun.sample.MainActivity">
+
+
+    <ListView
+        android:id="@+id/lv_devices"
+        android:layout_width="388dp"
+        android:layout_height="216dp"
+        android:background="#008D1616"
+        android:divider="?attr/actionBarDivider"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_scan_avaliable"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:singleLine="true"
+        android:text="Set Discoverable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/btn_open_bt"
+        app:layout_constraintTop_toBottomOf="@+id/lv_devices"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:text="Scan Device"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/btn_start_as_server"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scan_avaliable" />
+
+    <Button
+        android:id="@+id/btn_start_as_server"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="220dp"
+        android:singleLine="true"
+        android:text="Start As Server"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/lv_devices"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_open_bt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_open_bt"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="32dp"
+        android:singleLine="true"
+        android:text="Open Bluetooth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv_devices" />
+
+    <TextView
+        android:id="@+id/tv_bt_state"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:background="#33ff4400"
+        android:gravity="center"
+        android:padding="7dp"
+        android:singleLine="true"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_scan"
+        app:layout_constraintVertical_bias="0.488" />
+</android.support.constraint.ConstraintLayout>

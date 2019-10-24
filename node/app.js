@@ -27,6 +27,11 @@ app.use(express.static('public'));
 // 可以将一类的路由单独保存在一个文件中
 app.use('/buy', require('./buy/buyPC'));
 
+<<<<<<< HEAD
+// 可以将一类的路由单独保存在一个文件中
+app.use('/writeMessage', require('./public/writeMessage'));
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -34,8 +39,11 @@ app.use(cookieParser());
 
 
 
+<<<<<<< HEAD
+=======
 // 可以将一类的路由单独保存在一个文件中
 app.use('/todos', require('./routes/todos'));
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 //app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req, res, next) {
   // 如果任何一个路由都没有返回响应，则抛出一个 404 异常给后续的异常处理器

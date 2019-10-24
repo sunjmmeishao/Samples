@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+#Sun Oct 06 00:21:52 CST 2019
+=======
 #Fri Oct 04 21:22:08 CST 2019
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 base.0=/Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

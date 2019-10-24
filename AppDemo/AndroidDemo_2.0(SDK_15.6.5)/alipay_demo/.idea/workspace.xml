@@ -7,6 +7,801 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b37af78-7288-49ef-851b-6637f5571233" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_core_core_ktx_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_github_salomonbrys_kotson_kotson_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__com_squareup_okio_okio_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_41_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_41_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_drawee_1_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fbcore_1_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_fresco_1_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_1_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_fresco_imagepipeline_base_1_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/Samples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/asynclayoutinflater/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/compat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/compat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coordinatorlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coreui/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/coreutils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/customview/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/drawerlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/fragment/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/graphics/drawable/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/graphics/drawable/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/loader/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/mediacompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/slidingpanelayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/swiperefreshlayout/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v4/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/appcompat/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/android/support/v7/viewpager/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/com/alipay/sdk/pay/demo/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/r/com/alipay/sdk/pay/demo/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FvDcjnDlv0U93zOvyGyv1+Gc4A4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FvDcjnDlv0U93zOvyGyv1+Gc4A4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YApCnmFumZimeMdvEhoROUeGM5U=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YApCnmFumZimeMdvEhoROUeGM5U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ar9poCukf5O79_GIEb8_TnfWl5c=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ar9poCukf5O79_GIEb8_TnfWl5c=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b6dxd2Iar6kkYCI3MNLoYipeh+A=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/b6dxd2Iar6kkYCI3MNLoYipeh+A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h+cqIaBjLBEu4e6D4fqdhfgbYlQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h+cqIaBjLBEu4e6D4fqdhfgbYlQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pjaxqWAwZnRXWXsiwoj9zKLUfTk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pjaxqWAwZnRXWXsiwoj9zKLUfTk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tYFHavBY3C1w9F2owSROP0thrRA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/tYFHavBY3C1w9F2owSROP0thrRA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FvDcjnDlv0U93zOvyGyv1+Gc4A4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FvDcjnDlv0U93zOvyGyv1+Gc4A4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/YApCnmFumZimeMdvEhoROUeGM5U=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/YApCnmFumZimeMdvEhoROUeGM5U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ar9poCukf5O79_GIEb8_TnfWl5c=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ar9poCukf5O79_GIEb8_TnfWl5c=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b6dxd2Iar6kkYCI3MNLoYipeh+A=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/b6dxd2Iar6kkYCI3MNLoYipeh+A=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h+cqIaBjLBEu4e6D4fqdhfgbYlQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h+cqIaBjLBEu4e6D4fqdhfgbYlQ=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/pjaxqWAwZnRXWXsiwoj9zKLUfTk=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/pjaxqWAwZnRXWXsiwoj9zKLUfTk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tYFHavBY3C1w9F2owSROP0thrRA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tYFHavBY3C1w9F2owSROP0thrRA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+7jdPA+Xgr4hrlV9wcl5ScldBT4=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+7jdPA+Xgr4hrlV9wcl5ScldBT4=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/sugBy8Ch6t76QbFPswAqEtESkN8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/sugBy8Ch6t76QbFPswAqEtESkN8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/asynclayoutinflater/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/compat/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coordinatorlayout/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreui/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/coreutils/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/customview/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/drawerlayout/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/fragment/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/graphics/drawable/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/loader/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/mediacompat/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/slidingpanelayout/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/swiperefreshlayout/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$attr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$dimen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$id.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$layout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R$styleable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v4/R.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/appcompat/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/android/support/v7/viewpager/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/ExternalFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/ExternalFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/PayDemoActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/PayDemoActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$attr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$bool.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$bool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$dimen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$drawable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$styleable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$xml.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/alipay/sdk/pay/demo/R$xml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/asynclayoutinflater/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/compat/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coordinatorlayout/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreui/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/coreutils/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/customview/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/drawerlayout/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/fragment/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/graphics/drawable/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/loader/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/mediacompat/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/slidingpanelayout/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/swiperefreshlayout/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$attr.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$color.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$dimen.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$drawable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$id.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$integer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$layout.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$string.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$style.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R$styleable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v4/R.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$dimen.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$dimen.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/appcompat/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/android/support/v7/viewpager/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/ExternalFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/ExternalFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/PayDemoActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/PayDemoActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$attr.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$bool.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$bool.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$color.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$dimen.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$dimen.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$drawable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$integer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$styleable.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$xml.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/0/com/alipay/sdk/pay/demo/R$xml.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/PayDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/PayDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../node/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../node/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/cocos2d-js-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../node/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/00/0033217f-9f44-4d59-856f-6cb62502b06c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01364881e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/0136a318c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/013941529.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/013a50185.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/014060dfa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/0161afdd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/0164d83e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01808a2dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01a6cfad8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01caca4f8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01d4c80ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01de05aea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01e94f49d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01efa05f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/01/01fc080ea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/024147824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02483331f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/024b894d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/024c6eb59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/025808567.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/026829f59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02696b08a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/027b2a828.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/027d9e114.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02805b11a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02a4dab58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02a97710d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02accda41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/02/02fa80d84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/0330f7d80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/033839496.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/0382343b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/0388d2704.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/039a5a65e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03b525eaf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03bb2b7b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03cf10c64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03d6b0c84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03d9de7ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03dac13d1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03eec2bb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/03/03fc7b1b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/0421e7f95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/0428e8d4f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/044da1a7f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/044e75a44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/046f172c-1574-488b-bbb8-6415a9adb96d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/04758178-7b7e-478b-82ba-7bbb3354847e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/047861bf9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/04bff0bd9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/04c937509.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/04/04e33dc4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/050109113.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/050b6075-b9d6-4ccb-9828-b247f86a96b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05268ffa5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/052a0d97b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05540a19b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/0565b0881.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05673f9a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05793b4bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05b227852.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/05/05e7e2b7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/0604beb91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/06142c88e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/0644b4a12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/064c0b124.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/065bb076c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/065bcc6b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/066bb50fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/067b1960c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/06a9ce840.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/06c19a8d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/06d37e50d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/06/06f49bfab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/072a2d1bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/0776b886b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/0784915ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/07badf72b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/07c1a91f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/07ce7530a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/07/07f302833.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/0810c2634.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/084c23d07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/084cfd575.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/085fa9c7d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/087dbc049.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/08876447f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/0899d5800.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/08/08bf56efa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/090f0a650.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/0915ab01b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/09193caf0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/0919a67b5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/091f3bcd1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/094097c00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/095639958.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/09989be15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/09a1c8ff4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/09cf8e191.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/09/09f6136c0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0a0230ee8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0a0dfe12f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0a1f686d8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0a58754e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0a8f1a721.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0aa9b8ffb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0ab3d9cf4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0ab52068e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0ade62caf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0a/0ade89248.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0b/0b2a7a30b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0b/0b4995da6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0b/0b4c43ba3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0b/0bd47b80c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0b/0bd5e6641.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0c/0c0f5a82e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0c/0c42e8455.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0c/0c9877811.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0c/0caa9d224.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0c/0ce527b9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d106efd6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d2b49ea7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d3722a4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d38662f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d3c3883-6a8d-44f7-9e6d-f0753939651f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d4b8ca54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d560426e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d669730c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d68838fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d6b24d6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d70a1ce2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0d995f97-7294-4ef9-b716-d13fd06008ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0ddb49b14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0d/0dea3403e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0e/0e4bc3b03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0e/0e79b1205.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0e/0e8d414cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0e/0e9452ed1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f171ecd-c1be-443c-88c4-6e152aea4d5b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f217e5e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f259c87e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f2b3fb4f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f32ade25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f39455a9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0f7e4527e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0fa838aa5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0fb07a9aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/0f/0fbd31b1f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/12/12008053-baee-4a1c-baad-7f5ec006ace4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/1a/1a4c9585-9c4e-4d61-aa28-166b52945322.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/1c/1c4e830e-4c8d-4817-82bc-8efea33b3b4c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/1d/1d220136-6579-45a1-a022-8db3041cb984.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/1d/1db6b48c-0f64-41ba-a2e0-03c023957a86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/1d/1df13d2e-ca85-48d9-a8cc-a66476936f3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/23/23d5ff2c-5d83-4a38-a0a9-0d167ac23a17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/26/26ad11f0-a784-45b4-abcc-8fd3ba05a088.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/28/2874f8dd-416c-4440-81b7-555975426e93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/29/295cf1dc-f3ba-4d4e-b6e2-d4be6ee535aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/2a/2a296057-247c-4a1c-bbeb-0548b6c98650.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/2b/2b42fda8-12ff-4a32-a81e-da8fe0927486.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/33/33003dee-815b-4ed3-be58-8ceb6afa2e9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/33/33b6333b-c8dd-4a9d-8fdd-b54d02e73c0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/35/35a114f1-a02a-4117-90d6-619f1b190f08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/36/36cbb0aa-b03d-42b0-92bf-b1c2eeef7e3e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/39/3927e209-c758-4cac-b3d8-e3ff787c4c29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/3b/3b281dcb-3b85-41e0-a0ec-bed0670efb39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/3b/3b8c5fa1-02a4-44a7-b941-e17ed356d957.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/3b/3b9fdc83-9412-4de9-9153-3da27c0d21b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/40/400a7bd3-6e71-43e3-8610-25d364bb80f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/45/45008661-2827-4d03-96e3-93df41816c9b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/49/494a18c2-1398-43f7-b239-af2acb1f2775.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/4a/4a753426-bd33-418e-a93e-a2b46e12daca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/4b/4bb25e27-63ac-4ec7-aec9-d89d1cc5b619.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/52/52af9cc0-8d7d-481b-a67f-6d8692d6db82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/54/54188124-41d8-410a-bcd5-c45b2963fa7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/56/5694eae0-ff88-4768-93c4-ae04d43b9509.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/58/58a1eac5-b473-4c05-9dbc-7d24ef1a5082.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/5a/5aed6bd7-34a6-4e7d-aba0-90a779a0b2ea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/5b/5b9cbc23-76b3-41ff-9953-4219fdbea72c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/5f/5f1e1b36-2cb7-4fc3-928c-f0fa6dafd6b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/60/60ec0071-b137-4b7e-86e4-adc78446cb51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/62/6264eba4-f8ea-4da1-8a6e-32d4c017c1c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/64/64c3a72f-e794-432e-b770-86744e995bc2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/6d/6d91e591-4ce0-465c-809f-610ec95019c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/6f/6f801092-0c37-4f30-89ef-c8d960825b36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/71/713d2148-b1c8-41d4-a774-1ba683202182.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/73/733d5f70-b7e7-484b-ad9a-8cab345e0d5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/75/754e22f7-8239-429d-94e2-f94d244f72c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/79/7952a393-f8a2-4cb1-84fe-98b6cd9e38c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/79/79eafaef-b7ef-45d9-9c3f-591dc836fc7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/7a/7ad89ed1-e697-475e-b327-8df1db337872.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/7d/7d6430b3-ecbe-4736-bb47-6e5926ed6390.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/8a/8a54f718-534a-4d98-bc57-4e4bbc5e659b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/8c/8c3ba501-20a4-4ddb-b772-8949a459334b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/8c/8c3e9bf2-6dc5-48dc-bd6c-ce3223731a65.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/8e/8e06f071-d7d9-4799-a14c-3a312b930a2d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/93/931f5237-8a18-41b2-b8fe-0c555c579f5b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/96/96287b9d-2f30-4674-b958-c534372ed21a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/97/97133e4d-7741-463a-9c89-77c3ed685841.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/99/9942b933-ca96-47de-ab9e-bc31f27e1204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/9a/9a7ee85f-e339-4922-ba6d-fcea71317bbd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/9b/9bc80bdb-5be9-4f31-bc57-b56a7f254565.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/9f/9fc407a6-a0cc-49cb-b6e2-d9764dd8b33c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/a2/a2968b9d-92ff-4e69-9687-1710460078be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/a2/a2d1bbc7-26a4-4bfc-88bf-ed1df0d98f06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/a8/a82ac461-90a6-4f85-9a3f-288a198c4e80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/a8/a87cc147-01b2-43f8-8e42-a7ca90b0c757.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/a9/a90d7a67-b591-4ff4-8c90-3bbafe39da00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/aa/aab28a46-c32c-458c-a2e5-f389f364db40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/ae/aef9b797-e7a6-4f66-97f1-4f25156548be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/af/af5a9982-7914-44c1-a31b-2dfbc55c3691.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/b0/b091ad24-f3e8-4b60-b87e-c0b0f2a19b07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/b9/b9fae2ec-da2b-4d9a-9929-a19ebe52b759.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/bc/bcb6bb1f-c985-44c9-bd47-bfd36b95e551.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/c7/c71d7d05-1808-41b4-8955-a366c345f6f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/cb/cbb3db52-fd7a-4b8e-b127-45ef7ae8c2d4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/cd/cd67e9f0-cc2c-4fa5-a366-13e7bd5bc121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/cf/cf5fe9f5-3737-4c72-9bcb-6fc1b8d11f97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/cf/cf90973e-daac-4c91-8ea2-4f3031f48e9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/d0/d0c9311f-00cc-4cf1-9e0d-7ad2773fa660.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/d1/d1adae42-0d55-4e90-837c-8ab0c1f1546e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/d2/d2e7f3a0-dbb9-4db8-98ed-3d092f5c12d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/d5/d55b96f1-d089-47b6-a759-714b6e2ee1ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/da/dae25fe5-917a-4ee6-8b3b-73663c035720.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/db/db084b28-aeec-48dc-931d-022210dd3705.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/db/dbb2d733-7c50-4b45-b06e-cfb7411e6d4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/de/de025ce1-4c00-4253-a591-9a0b84e97f0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/e2/e24fa342-815a-4478-b9db-ed592e7c0293.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/e4/e44b6b9e-b876-4670-84fd-a3dc3ab4bda3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/e5/e51fbf1c-553e-4712-9fd1-cc61b4b81ddf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/e8/e89652f1-b010-4938-aa6c-b83ea6bca86b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/ec/eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/ed/ed3ca15a-9aed-4949-8237-c3a854864374.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/ed/eda543d9-6d93-4eb9-8e25-a9fa28808b1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/fa/fa77f794-a677-4fc3-bd5e-b633215655e4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/fb/fb01ec4d-5674-4d0b-a3ec-6bb60e142a95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/import/fc/fccbdb12-b0ee-453e-8159-76d94eb2e2c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/00/0040ef84-ea1a-47a1-ab86-27420ea7619b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/02/0275e94c-56a7-410f-bd1a-fc7483f7d14a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/02/0291c134-b3da-4098-b7b5-e397edbe947f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/03/038a47ce-d322-4654-a80d-0419c739168f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/04/0439ddbc-5893-4fd0-a233-d0f5e51ba5cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/04/046f172c-1574-488b-bbb8-6415a9adb96d.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/06/068000cd-e4ad-47b6-8634-ea4c5fe11f4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/08/08c1edea-46d4-41de-99dd-4f8b7f6b43b3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/0a/0a792e25-1cf8-45f8-9370-b7e8a38ae04a.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/12/12008053-baee-4a1c-baad-7f5ec006ace4.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/15/15ade27e-0212-4775-b5e4-8a8a258e8b63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/17/17a78670-c476-4366-be24-9cb69d187f95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/18/18041d7f-7c6a-47bd-ab6f-7a18b404a214.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/18/18c8a1b4b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/18/18eab85c-b072-4807-b924-b71937db417c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1b/1b6a0b3c-2a0e-410a-95ab-53dc9a03a360.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1c/1c211f8f-6068-423b-8de2-9c4735427d7d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1d/1d32de1f-74b3-4e2a-bdfb-39656cb91193.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1d/1d99a296-6ea0-4346-bd03-1b13c518f3aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1d/1db6b48c-0f64-41ba-a2e0-03c023957a86.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/1f/1fac28de-5b91-4e21-95dc-37c99b0b7ad4.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/22/224ce6e8-0e32-430a-9807-9452fc769ac9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/25/2584024f-936a-4325-95f4-38570796a81c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/28/2861c917-9b98-4769-b0d8-99f6f7e39d5d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/2d/2d36c0f8-75c0-4569-8c3b-6c0676340644.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/31/316905eb-3abb-4b43-a086-f9d434a0f2f2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/32/3229feab-b062-4c75-ad91-b962602def21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/35/35bf1053-d4ee-4720-956c-04169a1b9719.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/3a/3a46cb4c-2b90-46b1-8079-3465930c1de5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/3b/3b8f74c6-d8e5-4c59-9db9-53f282e451c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/40/40410085-1c9e-4ebe-b917-eb4108b0182d.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/46/46533172-baae-475f-af98-2eec76ef9acd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/4a/4a753426-bd33-418e-a93e-a2b46e12daca.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/4b/4bab67cb-18e6-4099-b840-355f0473f890.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/4e/4e02ec2c-860e-43cc-9910-8ff2aa151884.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/4e/4e65bb3e-8c57-41bb-a0da-9f6d821ef19e.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/4f/4f756f47-7966-4d12-83ad-e14bf841ea3a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/53/53e8405d-866f-4771-921d-1c059e8849ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/54/542775e5-f868-48be-b020-05466b3de40e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/54/543337ca-69e7-45fc-9674-9c6e2180a8be.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/54/54702506-a9cc-473c-9883-406779b9aa16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/56/567dcd80-8bf4-4535-8a5a-313f1caf078a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/58/58a1eac5-b473-4c05-9dbc-7d24ef1a5082.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/5b/5b8b3298-c604-480a-a3f6-c7522f98b0ff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/5b/5b9cbc23-76b3-41ff-9953-4219fdbea72c/Fontin-SmallCaps.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/5c/5c4847ba-7145-41ca-b78a-26a44dbda85b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/5d/5de7dc2b-df4c-404d-9f68-d799da224356.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/61/617323dd-11f4-4dd3-8eec-0caf6b3b45b9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/64/6452f237-e2c8-4a53-9253-f430ccae3ee3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/64/64912915-8f49-4b57-abed-8c6ea1d41ae0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/68/68a612ed-3e86-43c2-8883-535bc7711af4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/69/69eedb09-a9f2-4027-8d1d-d694f811cd82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/6b/6b4faed5-abc3-4a77-af9d-35ed67a5a48b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/6e/6e056173-d285-473c-b206-40a7fff5386e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/6e/6ee311af-2e56-480a-98dd-ee63e3d5b24c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/6f/6fd1ec90-efab-41ec-ab6b-4cd6a085951d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/70/70e86065-6677-4ab9-b63b-0117b4e60d76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/71/71561142-4c83-4933-afca-cb7a17f67053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/73/73a0903d-d80e-4e3c-aa67-f999543c08f5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/76/766560a5-e2b1-46d8-a4f5-c5ef5be6a71c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/77/770bf63f-6722-4d9a-9aa9-3009ba65be29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/79/791ab0b9-e42f-43ec-b3f3-9fd72ea55a61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/79/79b9d085-0ee7-4f1f-9ab9-41c4155625da.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/7a/7aff329d-5d53-4659-8a29-5403bcc104a0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/7b/7b31062d-9e8e-4805-b77a-739a8295d9d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/7b/7b92981b-aaea-4c77-b86d-0142991ac334.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/7d/7d44317c-27c2-4cf6-a1b8-b2258eb74322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/81/8166ce24-731d-4868-8b5e-eacb8ce12b86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/81/81c4ed24-4b23-463e-8171-ba8c7ef8de79.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/83/83e05166-d611-452a-ac2f-4cbf5c3d5a06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/86/86678c0e-f8e7-409c-9ddf-e0a9bf555269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/88/88ef086b-eac8-4c51-988f-daa12ea2123e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/8a/8a60351e-d9cc-46f4-b1d6-6cde36a5b9ad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/8a/8a6c5830-4127-4ddb-a3e6-028b3f793e83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/8e/8efde567-b6b4-467c-9eba-2eea3e856a3a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/99/99ce2773-c288-4d67-9868-27bb8d5e9ea9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/9c/9c5ee18c-5b09-4726-b23b-e46e49a1b008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/9d/9d60001f-b5f4-4726-a629-2659e3ded0b8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a1/a1ef2fc9-9c57-418a-8f69-6bed9a7a0e7f.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a2/a2959880-e4f7-44db-ac40-3827a2ec7066.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a3/a3b1dd93-0873-4fe8-af32-b347e6fe5d86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a3/a3d9e2db-49b2-4f91-ab2b-ecaa3e985fe0.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a5/a54da957-a491-4770-b70d-b683c50d30e5.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a6/a6cb3b24-cba6-489a-a9c9-32f7c999703d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a8/a8ad8b4a-fb7c-4564-b46c-12c5b61838e0.pkm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a8/a8ad8b4a-fb7c-4564-b46c-12c5b61838e0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a8/a8ad8b4a-fb7c-4564-b46c-12c5b61838e0.pvr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/a9/a91e438f-38c3-4cc9-9f86-3138b2afdafa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/aa/aab28a46-c32c-458c-a2e5-f389f364db40.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/ab/abdc7af3-8d4e-4992-98b6-09c2a5df60f5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/ae/ae8e3d60-767e-493b-8a4d-6b564e7ecab0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/b1/b11c4d7c-b15b-4eb6-883b-1697c1388e21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/b4/b43ff3c2-02bb-4874-81f7-f2dea6970f18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/bd/bd00cce1-ef0f-4097-92a3-4ff315786dc7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/bd/bd649bd0-d9a9-4e74-8289-f1ad7856efb8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/bd/bda37294-758c-4991-abe8-48deb0a0f6cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/c0/c04ffa62-4ce9-4e03-a89d-3f7602790c0a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/c0/c09681b1-0c3e-4794-b687-1756e646d970.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/c1/c1d929f9-82db-4326-9436-3c1a0cb9ba50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/c5/c5faabeb-c5b8-4134-8226-44164d39aa37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/c8/c82179a5-676d-423c-8de2-22874b5f4a6d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/cb/cbc6e018-de98-48d3-8875-c63ff9fc0744.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/cf/cfef78f1-c8df-49b7-8ed0-4c953ace2621.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/d0/d085509a-4690-4bef-94c7-36ee8e861e0f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/d2/d29077ba-1627-4a72-9579-7b56a235340c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/d6/d6d3ca85-4681-47c1-b5dd-d036a9d39ea2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/d7/d7405a36-6a69-4ff7-9518-4a4ad5366d3d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/d8/d81ec8ad-247c-4e62-aa3c-d35c4193c7af.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/da/dadab157-3ee8-4617-a29c-54d5b4fb7aa8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/df/df35553b-97fe-4b34-897f-d38153ba6958.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e2/e24fa342-815a-4478-b9db-ed592e7c0293.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e2/e2f89568-b554-41b7-a21a-b3a03b3c5431.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e4/e4e220ed-9718-4587-9b54-82ac98f477d4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e5/e51ceb1c-f6c3-43f4-813b-a8d78bb48259.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e8/e832cb5b-fd18-4945-8b55-7e620519a260.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/e8/e851e89b-faa2-4484-bea6-5c01dd9f06e2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/eb/eb06a97a-5161-4d70-bac7-8a8f885f8399.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/ed/edd215b9-2796-4a05-aaf5-81f96c9281ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/f6/f6e0bec5-d58c-4287-885c-74feecfba31e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/fc/fccbdb12-b0ee-453e-8159-76d94eb2e2c5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/fd/fdfdd4fa-43b2-4bb7-8e55-3b6b048f51fa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/res/raw-assets/ff/ffd3975b-9269-4cbd-b8e4-1aa1c5705a89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/src/assets/cases/05_scripting/11_network/socket-io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/src/assets/scripts/Init Engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/src/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/src/settings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/style-desktop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/style-mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/First/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/First/raw-assets/74/7495b357-0143-4d62-856c-c2f3d7ef9160.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/First/raw-assets/ce/cecdc0a0-006a-4872-b992-9f503bbc375b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/Second/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/Second/raw-assets/c6/c6708a64-cf21-451e-87d7-02d67047efac.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../node/public/subpackages/Second/raw-assets/d9/d9202252-809d-495f-af1d-da3eabf2c402.png" beforeDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___alipaySdk_15_6_5_20190718211148__aar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
@@ -52,6 +847,7 @@
       <change beforePath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/project.xcworkspace/xcuserdata/sunjm.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/project.xcworkspace/xcuserdata/sunjm.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/xcuserdata/sunjm.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../../xlnt-master/samples/xlnt.samples.xcodeproj/xcuserdata/sunjm.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +858,11 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="localhost:6555" />
+=======
   <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_22" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -78,6 +878,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pay_external.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pay_main.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/ExternalFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+=======
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor" />
@@ -104,6 +922,7 @@
                 <element signature="e#3942#3943#0" expanded="true" />
                 <element signature="e#3968#3969#0" expanded="true" />
               </folding>
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
             </state>
           </provider>
         </entry>
@@ -111,6 +930,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.5.8/230d19e87d7df08bca081f8720b372d0bd75a6d4/httpclient-4.5.8-sources.jar!/cz/msebera/android/httpclient/Header.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="15">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+=======
             <state relative-caret-position="30">
               <caret line="27" column="38" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="38" />
             </state>
@@ -122,10 +945,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -140,6 +971,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
             </state>
           </provider>
         </entry>
@@ -168,8 +1000,13 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/PayDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+=======
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/PayDemoActivity.java" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
       </list>
     </option>
   </component>
@@ -185,23 +1022,34 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+<<<<<<< HEAD
+=======
       <pane id="PackagesPane" />
       <pane id="Scope" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="alipay_demo" type="1abcf292:AndroidViewProjectNode" />
+<<<<<<< HEAD
+=======
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="alipay_demo" type="1abcf292:AndroidViewProjectNode" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +1150,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32956383" />
+=======
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32956383" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -310,6 +1162,17 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="0" weight="0.329927" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919224" weight="0.23941606" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50080776" side_tool="true" weight="0.23941606" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8909531" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+=======
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
@@ -319,11 +1182,16 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.8909531" weight="0.329927" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Preview" order="5" />
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,8 +1215,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
+=======
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -357,6 +1230,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/view/LayoutInflater.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+=======
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -368,6 +1247,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="27" column="38" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="38" />
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
         </state>
       </provider>
     </entry>
@@ -382,6 +1262,58 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/PayDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/H5PayDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pay_external.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pay_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/ExternalFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.5.8/230d19e87d7df08bca081f8720b372d0bd75a6d4/httpclient-4.5.8-sources.jar!/cz/msebera/android/httpclient/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+=======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alipay/sdk/pay/demo/H5PayDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -403,6 +1335,7 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
         </state>
       </provider>
     </entry>

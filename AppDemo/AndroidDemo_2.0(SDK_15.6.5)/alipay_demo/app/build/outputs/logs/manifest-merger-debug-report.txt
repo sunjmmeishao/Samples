@@ -5,10 +5,17 @@ INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_de
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:2:1-57:12
+<<<<<<< HEAD
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/30607f35da36192f0e3f4fecb4ca69c6/multidex-1.0.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/0cdcfd59050ce9461173d01d914146d8/android-async-http-1.4.10/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/af3df6fe8415ff246c624529ac240ad8/fresco-1.9.0/AndroidManifest.xml:2:1-9:12
+=======
 MERGED from [com.android.support:support-v4:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/69ee415b12564ec70670df83c9fdfa6f/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/0cdcfd59050ce9461173d01d914146d8/android-async-http-1.4.10/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/d1a6c7ee41fbe72753318d9586f1a513/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/59df75d251431efe4d450d41cc6b083b/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/45d50504f4c11c4f549bb8efafb39de8/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/ee7de4c472f1da0a0213606950b8c4e7/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -29,11 +36,23 @@ MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/sunjm/.gradle/caches/t
 MERGED from [com.android.support:documentfile:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/d86ffcf39ba8aec22a7ebfd4c1172e3f/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/7f3ed6ce49569e0dbf9accf24b63a15b/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/707c6356496c3791d321c055fe777af8/print-28.0.0/AndroidManifest.xml:17:1-22:12
+<<<<<<< HEAD
+=======
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/426821499609b124edd91485548e30d0/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/b5f1a18436322a4d6243b4d563cfece4/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/6104c576404b17797d5f42ae60105d1d/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/7c5e711cb7599bc18a19cc1df98bc8d6/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+<<<<<<< HEAD
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/b2ac26ba5c49ac32b6476a3406553c96/drawee-1.9.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/ab0905221e69f21dfc42ebbb2218cdf5/imagepipeline-1.9.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/5d6ab57e16e4eeacf87e7ab242b1372c/imagepipeline-base-1.9.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/abb2e0ebeb374c0a991bb166bdc74f13/fbcore-1.9.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8109b17ecb83558c7e873786514e245a/soloader-0.3.0/AndroidManifest.xml:2:1-13:12
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:2:1-43:12
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml:2:1-43:12
@@ -95,6 +114,11 @@ MERGED from [com.android.support:support-compat:28.0.0] /Users/sunjm/.gradle/cac
 MERGED from [com.android.support:support-compat:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8bb2478d12c0baf5b421024800cd7dbb/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+<<<<<<< HEAD
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8109b17ecb83558c7e873786514e245a/soloader-0.3.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8109b17ecb83558c7e873786514e245a/soloader-0.3.0/AndroidManifest.xml:11:5-20
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/dd1cf78f22bdd94f550130b281f27c97/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:label
@@ -139,6 +163,16 @@ INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_de
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml
 MERGED from [:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:7:5-9:41
 MERGED from [:alipaySdk-15.6.5-20190718211148:] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/4129d885667212e7ebd6212118d71659/alipaySdk-15.6.5-20190718211148/AndroidManifest.xml:7:5-9:41
+<<<<<<< HEAD
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/30607f35da36192f0e3f4fecb4ca69c6/multidex-1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/30607f35da36192f0e3f4fecb4ca69c6/multidex-1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/0cdcfd59050ce9461173d01d914146d8/android-async-http-1.4.10/AndroidManifest.xml:5:5-7:41
+MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/0cdcfd59050ce9461173d01d914146d8/android-async-http-1.4.10/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/af3df6fe8415ff246c624529ac240ad8/fresco-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/af3df6fe8415ff246c624529ac240ad8/fresco-1.9.0/AndroidManifest.xml:5:5-7:41
+=======
 MERGED from [com.android.support:support-v4:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/69ee415b12564ec70670df83c9fdfa6f/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/69ee415b12564ec70670df83c9fdfa6f/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/bbf07aa1da9ab954374e693dfcc335b9/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
@@ -147,6 +181,7 @@ MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/c
 MERGED from [com.loopj.android:android-async-http:1.4.10] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/0cdcfd59050ce9461173d01d914146d8/android-async-http-1.4.10/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/d1a6c7ee41fbe72753318d9586f1a513/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/d1a6c7ee41fbe72753318d9586f1a513/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/59df75d251431efe4d450d41cc6b083b/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/59df75d251431efe4d450d41cc6b083b/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/45d50504f4c11c4f549bb8efafb39de8/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
@@ -187,8 +222,11 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sunjm/.gra
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/7f3ed6ce49569e0dbf9accf24b63a15b/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/707c6356496c3791d321c055fe777af8/print-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/707c6356496c3791d321c055fe777af8/print-28.0.0/AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
+=======
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/426821499609b124edd91485548e30d0/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/426821499609b124edd91485548e30d0/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/b5f1a18436322a4d6243b4d563cfece4/livedata-1.1.1/AndroidManifest.xml:20:5-44
@@ -197,6 +235,21 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sunjm/.gradle/ca
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/6104c576404b17797d5f42ae60105d1d/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/7c5e711cb7599bc18a19cc1df98bc8d6/runtime-1.1.1/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/7c5e711cb7599bc18a19cc1df98bc8d6/runtime-1.1.1/AndroidManifest.xml:20:5-44
+<<<<<<< HEAD
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/525bf97e52a2b96ba94f7509a71e8a56/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/b2ac26ba5c49ac32b6476a3406553c96/drawee-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/b2ac26ba5c49ac32b6476a3406553c96/drawee-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/ab0905221e69f21dfc42ebbb2218cdf5/imagepipeline-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/ab0905221e69f21dfc42ebbb2218cdf5/imagepipeline-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/5d6ab57e16e4eeacf87e7ab242b1372c/imagepipeline-base-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/5d6ab57e16e4eeacf87e7ab242b1372c/imagepipeline-base-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/abb2e0ebeb374c0a991bb166bdc74f13/fbcore-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.9.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/abb2e0ebeb374c0a991bb166bdc74f13/fbcore-1.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8109b17ecb83558c7e873786514e245a/soloader-0.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.3.0] /Users/sunjm/.gradle/caches/transforms-2/files-2.1/8109b17ecb83558c7e873786514e245a/soloader-0.3.0/AndroidManifest.xml:7:5-9:41
+=======
+>>>>>>> 9e01dcb3e42f8809688a5de01402e85d3aaba2b9
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sunjm/Samples/AppDemo/AndroidDemo_2.0(SDK_15.6.5)/alipay_demo/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
