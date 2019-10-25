@@ -14,6 +14,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扫描"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/container" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/container" />
+
         <LinearLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
@@ -47,4 +65,5 @@
         android:layout_gravity="start"
         android:name="com.example.android.recyclerplayground.fragments.NavigationDrawerFragment"
         tools:layout="@layout/fragment_navigation_drawer" />
+
 </android.support.v4.widget.DrawerLayout>

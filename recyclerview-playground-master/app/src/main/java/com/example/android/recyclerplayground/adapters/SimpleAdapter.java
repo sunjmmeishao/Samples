@@ -1,10 +1,15 @@
 package com.example.android.recyclerplayground.adapters;
 
+//import android.annotation.Nullable;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.android.recyclerplayground.R;
@@ -18,7 +23,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
     private ArrayList<GameItem> mItems;
 
     private AdapterView.OnItemClickListener mOnItemClickListener;
-
+    private  View.OnTouchListener OnTouchListener;
     public SimpleAdapter() {
         mItems = new ArrayList<GameItem>();
     }
@@ -29,6 +34,34 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
      * the view. However, this method will not trigger any of the RecyclerView
      * animation features.
      */
+
+    public int findItem(String addr) {
+       for (int n =0; n< mItems.size();n++)
+       {
+           GameItem i = mItems.get(n);
+           if (i.addr.equals(addr) )
+           {
+               return n;
+           }
+       }
+       return -1;
+
+       // notifyDataSetChanged();
+    }
+
+    public GameItem getItem(int position) {
+        if (position <  mItems.size() && position >= 0)
+          return mItems.get(position);
+        return  null;
+
+    }
+
+    public void updateItemCount(int n,GameItem item) {
+
+        mItems.set(n,item);
+
+        notifyDataSetChanged();
+    }
     public void setItemCount(int count) {
         mItems.clear();
         mItems.addAll(generateDummyData(count));
@@ -73,6 +106,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
         LayoutInflater inflater = LayoutInflater.from(container.getContext());
         View root = inflater.inflate(R.layout.view_match_item, container, false);
 
+
         return new VerticalItemHolder(root, this);
     }
 
@@ -81,10 +115,15 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
         GameItem item = mItems.get(position);
 
         itemHolder.setAwayScore(String.valueOf(item.awayScore));
-        itemHolder.setHomeScore(String.valueOf(item.homeScore));
-
+        itemHolder.setConnectState(item.connectState);
+       // itemHolder.setAwayName(item.awayTeam);
         itemHolder.setAwayName(item.awayTeam);
-        itemHolder.setHomeName(item.homeTeam);
+        itemHolder.setHomeName(item.addr);
+
+        Button ib_image = itemHolder.itemView.findViewById(R.id.logo_connect);
+
+        ib_image.setOnTouchListener(OnTouchListener);
+        ib_image.setTag(String.valueOf(position));
     }
 
     @Override
@@ -92,6 +131,9 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
         return mItems.size();
     }
 
+    public void setOnConnectClickListener(View.OnTouchListener onItemClickListener) {
+        OnTouchListener =  onItemClickListener;
+    }
     public void setOnItemClickListener(AdapterView.OnItemClickListener onItemClickListener) {
         mOnItemClickListener = onItemClickListener;
     }
@@ -104,15 +146,15 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
     }
 
     public static class GameItem {
-        public String homeTeam;
+        public String addr;
         public String awayTeam;
-        public int homeScore;
+        public int connectState;
         public int awayScore;
 
-        public GameItem(String homeTeam, String awayTeam, int homeScore, int awayScore) {
-            this.homeTeam = homeTeam;
+        public GameItem(String addr, String awayTeam, int connectState, int awayScore) {
+            this.addr = addr;
             this.awayTeam = awayTeam;
-            this.homeScore = homeScore;
+            this.connectState = connectState;
             this.awayScore = awayScore;
         }
     }
@@ -120,7 +162,7 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
     public static class VerticalItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         private TextView mHomeScore, mAwayScore;
         private TextView mHomeName, mAwayName;
-
+        Button bt;
         private SimpleAdapter mAdapter;
 
         public VerticalItemHolder(View itemView, SimpleAdapter adapter) {
@@ -133,6 +175,9 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
             mAwayScore = (TextView) itemView.findViewById(R.id.text_score_away);
             mHomeName = (TextView) itemView.findViewById(R.id.text_team_home);
             mAwayName = (TextView) itemView.findViewById(R.id.text_team_away);
+              bt = (Button)itemView.findViewById(R.id.logo_connect);
+
+
         }
 
         @Override
@@ -140,8 +185,15 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.VerticalIt
             mAdapter.onItemHolderClick(this);
         }
 
-        public void setHomeScore(CharSequence homeScore) {
-            mHomeScore.setText(homeScore);
+        public void setConnectState(int state) {
+           if (state == 0)
+           {
+               bt.setText("已连接");
+           }
+           else
+           {
+               bt.setText("未连接");
+           }
         }
 
         public void setAwayScore(CharSequence awayScore) {
